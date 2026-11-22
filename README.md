@@ -1,44 +1,30 @@
-# 🇯🇵 JLPT N5 Studio — Portable y 100% Offline
+# JLPT N5 Quiz
 
-Aplicación web **totalmente portable y sin dependencias externas** (cero CDNs, cero instalaciones, cero servidores) para practicar el examen **JLPT N5**:
-- **644 palabras** del vocabulario N5 con lectura (hiragana + romaji), forma diccionario, forma TE y grupo verbal en verbos, y clasificación `い`/`な` en adjetivos.
-- **72 preguntas de Kanji estilo examen oficial** (*Mondai 1* de lecturas y *Mondai 2* de trampas visuales/okurigana) + **15 tarjetas de trucos** entre preguntas.
-- **⏱️ Sprint Rápido (3 / 5 / 10 min)** con temporizador y recordatorios de consejos clave para sesiones cortas de estudio.
-- **📊 Panel de Progreso** guardado en el navegador (palabras dominadas por categoría, racha diaria y precisión) + **Modo Claro / Oscuro**.
+Aplicación web portable para practicar vocabulario y kanji del examen JLPT N5. Corre directo en el navegador sin servidor, sin instalaciones y sin conexión a internet.
 
-## 🚀 Cómo usarla (funciona incluso sin internet)
-1. Descargá el repositorio (`Code` → `Download ZIP`) y descomprimilo, o clonalo con `git clone`.
-2. Hacé **doble clic en `index.html`** para abrirla en cualquier navegador. No requiere internet ni librerías externas.
+**Probar online:** https://rivaerik.github.io/jlpt-n5-quiz/ *(una vez activado GitHub Pages)*
 
-## ☁️ Cómo subirlo a tu GitHub
-```bash
-git init
-git add .
-git commit -m "Versión inicial: JLPT N5 Studio portable"
-git branch -M main
-git remote add origin https://github.com/TU-USUARIO/jlpt-n5-quiz.git
-git push -u origin main
-```
+## Qué incluye
 
-### (Opcional) Publicarlo gratis en GitHub Pages
-En tu repositorio de GitHub andá a **Settings → Pages → Build and deployment → Source: GitHub Actions**. Cada `git push` a `main` publicará la última versión automáticamente.
+- **Vocabulario (644 palabras):** práctica aleatoria con filtro por tipo (verbos, adjetivos, otros) y tema. En verbos muestra grupo, forma diccionario y forma て; en adjetivos indica si es い o な.
+- **Kanji Examen (72 preguntas):** simulacro estilo *Mondai 1* (lecturas en hiragana) y *Mondai 2* (trampas visuales y okurigana), con explicaciones y tarjetas de trucos frecuentes.
+- **Sprint por tiempo:** sesiones rápidas de 3, 5 o 10 minutos con recordatorios de examen.
+- **Progreso local:** guarda palabras dominadas, rachas y precisión en el navegador, con modo claro y oscuro.
 
-## 🛠️ Cómo meter actualizaciones
-```text
-├── index.html                           # Archivo portable 100% offline (autogenerado)
-├── src/template.html                    # Código fuente HTML/CSS/JS sin dependencias
-├── data/
-│   ├── vocabulario_n5.json              # 644 palabras (editable)
-│   ├── kanji_examen_n5.json             # 72 preguntas Kanji + 15 tips (editable)
-│   └── Vocabulario_JLPT_N5_Completo.xlsx# Excel maestro de referencia
-├── scripts/build.py                     # Recompila index.html (solo Python 3 estándar)
-└── .github/workflows/pages.yml          # Publicación automática en GitHub Pages
-```
+## Uso offline
 
-Cuando edites `data/*.json` o `src/template.html`, corré:
+1. Descargá el repositorio (`Code` → `Download ZIP`) y descomprimilo.
+2. Abrí `index.html` con doble clic en cualquier navegador.
+
+## Desarrollo y aportes
+
+Los datos y la plantilla están separados para facilitar mejoras y correcciones:
+
+- `src/template.html` — interfaz y lógica en HTML, CSS y JS puro.
+- `data/vocabulario_n5.json` y `data/kanji_examen_n5.json` — bancos de preguntas editables.
+- `scripts/build.py` — recompila `index.html` usando solo Python 3 estándar.
+
+Si modificás la plantilla o los JSON, regenerá el archivo portable con:
+
 ```bash
 python3 scripts/build.py
-git add .
-git commit -m "Actualización"
-git push
-```
