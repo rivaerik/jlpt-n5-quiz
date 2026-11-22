@@ -1,0 +1,2673 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JLPT N5 Studio — Vocabulario, Kanji Examen y Sprint 5 min</title>
+  <style>
+    :root {
+      --bg: #F5F3EC;
+      --bg-subtle: #ECE9DF;
+      --surface: #FFFFFF;
+      --surface-soft: #FAF9F5;
+      --border: #E2DDD0;
+      --border-strong: #CFC8B8;
+      --text: #1B2432;
+      --text-muted: #5B6472;
+      --text-soft: #858E9C;
+      --primary: #1B365D;
+      --primary-hover: #132744;
+      --primary-soft: #E8EEF7;
+      --primary-text: #FFFFFF;
+      --accent: #C83E3B;
+      --ok: #15803D;
+      --ok-bg: #ECFDF3;
+      --ok-border: #86EFAC;
+      --bad: #BE123C;
+      --bad-bg: #FFF1F2;
+      --bad-border: #FDA4AF;
+      --amber: #B45309;
+      --amber-bg: #FFFBEB;
+      --amber-border: #FCD34D;
+      --blue: #1D4ED8;
+      --blue-bg: #EFF6FF;
+      --blue-border: #BFDBFE;
+      --purple: #6D28D9;
+      --purple-bg: #F5F3FF;
+      --purple-border: #DDD6FE;
+      --shadow-sm: 0 2px 8px rgba(27, 36, 50, 0.05);
+      --shadow-md: 0 10px 30px rgba(27, 36, 50, 0.08);
+      --radius: 16px;
+    }
+
+    [data-theme="dark"] {
+      --bg: #0D121B;
+      --bg-subtle: #151D2B;
+      --surface: #172030;
+      --surface-soft: #1D283B;
+      --border: #28354B;
+      --border-strong: #374863;
+      --text: #F1F5F9;
+      --text-muted: #94A3B8;
+      --text-soft: #64748B;
+      --primary: #4F7DF3;
+      --primary-hover: #3B6BE6;
+      --primary-soft: rgba(79, 125, 243, 0.16);
+      --primary-text: #FFFFFF;
+      --accent: #F87171;
+      --ok: #4ADE80;
+      --ok-bg: rgba(34, 197, 94, 0.14);
+      --ok-border: rgba(74, 222, 128, 0.45);
+      --bad: #FB7185;
+      --bad-bg: rgba(244, 63, 94, 0.15);
+      --bad-border: rgba(251, 113, 133, 0.5);
+      --amber: #FBBF24;
+      --amber-bg: rgba(245, 158, 11, 0.14);
+      --amber-border: rgba(251, 191, 36, 0.4);
+      --blue: #60A5FA;
+      --blue-bg: rgba(59, 130, 246, 0.16);
+      --blue-border: rgba(96, 165, 250, 0.4);
+      --purple: #C4B5FD;
+      --purple-bg: rgba(139, 92, 246, 0.16);
+      --purple-border: rgba(196, 181, 253, 0.4);
+      --shadow-sm: 0 2px 10px rgba(0, 0, 0, 0.25);
+      --shadow-md: 0 12px 34px rgba(0, 0, 0, 0.42);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans JP", "Hiragino Sans", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      line-height: 1.45;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .jp {
+      font-family: "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+    }
+    .hidden { display: none !important; }
+
+    /* Header */
+    .topbar {
+      background: linear-gradient(135deg, #162B4D 0%, #1F3E6E 100%);
+      color: #FFFFFF;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      position: sticky;
+      top: 0;
+      z-index: 30;
+    }
+    [data-theme="dark"] .topbar {
+      background: linear-gradient(135deg, #111A2B 0%, #18253D 100%);
+      border-bottom-color: var(--border);
+    }
+    .container {
+      max-width: 820px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 16px;
+    }
+    .topbar-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      padding: 11px 16px;
+      flex-wrap: wrap;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .brand-seal {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: linear-gradient(135deg, #C83E3B 0%, #A92D2A 100%);
+      color: #FFF;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 17px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+      flex-shrink: 0;
+    }
+    .brand-title {
+      font-size: 16px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      margin: 0;
+      line-height: 1.15;
+    }
+    .brand-sub {
+      font-size: 11px;
+      color: rgba(255, 255, 255, 0.78);
+      margin: 0;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .hdr-btn {
+      background: rgba(255, 255, 255, 0.13);
+      color: #FFF;
+      border: 1px solid rgba(255, 255, 255, 0.16);
+      border-radius: 10px;
+      padding: 6px 10px;
+      font-size: 12px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: background 0.15s ease, transform 0.1s ease;
+    }
+    .hdr-btn:hover { background: rgba(255, 255, 255, 0.22); }
+    .hdr-btn:active { transform: scale(0.97); }
+    .hdr-btn-accent {
+      background: rgba(251, 191, 36, 0.2);
+      border-color: rgba(251, 191, 36, 0.42);
+      color: #FEF3C7;
+    }
+
+    /* Section Navigation */
+    .subnav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+    }
+    .subnav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 9px 16px;
+      flex-wrap: wrap;
+    }
+    .nav-tabs {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .sec-btn {
+      border: 1px solid transparent;
+      border-radius: 11px;
+      padding: 8px 13px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      background: var(--bg-subtle);
+      color: var(--text-muted);
+      transition: all 0.15s ease;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .sec-btn:hover { color: var(--text); border-color: var(--border-strong); }
+    .sec-btn.active {
+      background: var(--primary);
+      color: var(--primary-text);
+      box-shadow: 0 3px 10px rgba(27, 54, 93, 0.22);
+    }
+    .sec-btn .cnt { opacity: 0.8; font-weight: 500; font-size: 12px; }
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .pill-btn {
+      border-radius: 10px;
+      padding: 7px 11px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background: var(--surface-soft);
+      color: var(--text);
+      transition: all 0.15s ease;
+    }
+    .pill-btn:hover { border-color: var(--primary); color: var(--primary); }
+    .pill-btn-amber {
+      background: var(--amber-bg);
+      border-color: var(--amber-border);
+      color: var(--amber);
+    }
+
+    /* Main layout */
+    main {
+      flex: 1;
+      padding: 18px 16px 28px;
+    }
+    .stack {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow-sm);
+      padding: 18px;
+    }
+    .card-lg { padding: 24px; }
+    @media (max-width: 560px) {
+      .card-lg { padding: 18px 15px; }
+    }
+
+    /* Filter Bar */
+    .tab-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .mode-tab, .kmode-tab, .sprint-chip {
+      border: 1px solid var(--border);
+      background: var(--surface-soft);
+      color: var(--text-muted);
+      border-radius: 10px;
+      padding: 6px 12px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .mode-tab:hover, .kmode-tab:hover, .sprint-chip:hover {
+      border-color: var(--border-strong);
+      color: var(--text);
+    }
+    .mode-tab.active, .kmode-tab.active, .sprint-chip.active {
+      background: var(--primary);
+      border-color: var(--primary);
+      color: #FFF;
+    }
+    .controls-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .ctrl-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .ctrl-label {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+    select {
+      background: var(--surface-soft);
+      color: var(--text);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 6px 10px;
+      font-size: 13px;
+      font-family: inherit;
+      outline: none;
+      max-width: 100%;
+    }
+    select:focus { border-color: var(--primary); }
+
+    /* Buttons */
+    .btn {
+      border: none;
+      border-radius: 11px;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: transform 0.1s ease, background 0.15s ease, opacity 0.15s ease;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary { background: var(--primary); color: #FFF; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-amber { background: #D97706; color: #FFF; }
+    .btn-amber:hover { background: #B45309; }
+    .btn-ghost {
+      background: var(--bg-subtle);
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 6px 11px;
+      font-size: 12.5px;
+      border-radius: 9px;
+    }
+    .btn-ghost:hover { border-color: var(--border-strong); }
+    .btn-danger {
+      background: var(--bad-bg);
+      color: var(--bad);
+      border: 1px solid var(--bad-border);
+      padding: 8px 14px;
+      font-size: 12.5px;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 520px) {
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .stat-box {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 13px;
+      padding: 10px 12px;
+      text-align: center;
+      box-shadow: var(--shadow-sm);
+    }
+    .stat-lbl {
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-soft);
+    }
+    .stat-val {
+      font-size: 17px;
+      font-weight: 800;
+      margin-top: 2px;
+      color: var(--text);
+    }
+    .stat-val.ok { color: var(--ok); }
+    .stat-val.amber { color: var(--amber); }
+    .stat-val.primary { color: var(--primary); }
+
+    /* Progress Bar */
+    .pbar-track {
+      width: 100%;
+      height: 6px;
+      border-radius: 99px;
+      background: var(--bg-subtle);
+      overflow: hidden;
+    }
+    .pbar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, var(--primary) 0%, #3B82F6 100%);
+      border-radius: 99px;
+      transition: width 0.28s ease;
+    }
+
+    /* Badges */
+    .meta-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 14px;
+    }
+    .badge-group { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 99px;
+      font-size: 11.5px;
+      font-weight: 700;
+      background: var(--bg-subtle);
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+    }
+    .badge-id { border-radius: 7px; font-size: 11px; padding: 2px 7px; }
+    .badge-blue { background: var(--blue-bg); color: var(--blue); border-color: var(--blue-border); }
+    .badge-amber { background: var(--amber-bg); color: var(--amber); border-color: var(--amber-border); }
+    .badge-ok { background: var(--ok-bg); color: var(--ok); border-color: var(--ok-border); }
+    .badge-purple { background: var(--purple-bg); color: var(--purple); border-color: var(--purple-border); }
+
+    /* Question Display */
+    .word-stage {
+      text-align: center;
+      padding: 12px 0 16px;
+    }
+    .word-main {
+      font-size: clamp(40px, 8vw, 60px);
+      font-weight: 800;
+      letter-spacing: 0.03em;
+      line-height: 1.2;
+      color: var(--text);
+    }
+    .reading-row {
+      margin-top: 8px;
+      min-height: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 16px;
+      color: var(--text-muted);
+    }
+    .reading-hira { font-weight: 600; color: var(--text); }
+    .reading-romaji { font-style: italic; color: var(--text-muted); }
+    .peek-link {
+      background: none;
+      border: none;
+      color: var(--primary);
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 6px;
+    }
+
+    /* Verb Panel */
+    .verb-box {
+      background: var(--ok-bg);
+      border: 1px solid var(--ok-border);
+      border-radius: 13px;
+      padding: 13px 16px;
+      margin-bottom: 16px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 560px) {
+      .verb-box { grid-template-columns: 1fr; text-align: center; }
+    }
+    .verb-k {
+      font-size: 10px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 800;
+      color: var(--ok);
+    }
+    .verb-v {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 2px;
+    }
+
+    /* Kanji Exam Sentence Stage */
+    .exam-box-num {
+      width: 28px;
+      height: 28px;
+      border: 2px solid var(--text);
+      border-radius: 4px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 13px;
+    }
+    .sentence-stage {
+      background: var(--surface-soft);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px 18px;
+      text-align: center;
+      margin-bottom: 18px;
+    }
+    .sentence-jp {
+      font-size: clamp(22px, 4.5vw, 30px);
+      line-height: 1.6;
+      color: var(--text);
+      margin: 0;
+    }
+    .kanji-underline {
+      text-decoration: underline;
+      text-decoration-thickness: 2.5px;
+      text-underline-offset: 6px;
+      text-decoration-color: var(--accent);
+      font-weight: 800;
+      padding: 0 3px;
+    }
+    .sentence-es {
+      margin: 10px 0 0;
+      font-size: 13.5px;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* Options Grid */
+    .options-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+    @media (max-width: 560px) {
+      .options-grid { grid-template-columns: 1fr; }
+    }
+    .option-btn {
+      width: 100%;
+      text-align: left;
+      padding: 13px 15px;
+      border-radius: 13px;
+      border: 2px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      cursor: pointer;
+      display: flex;
+      align-items: flex-start;
+      gap: 11px;
+      font-family: inherit;
+      transition: transform 0.12s ease, border-color 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+    }
+    .option-btn:not(:disabled):hover {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-sm);
+    }
+    .option-btn:disabled { cursor: default; }
+    .opt-key {
+      flex-shrink: 0;
+      width: 24px;
+      height: 24px;
+      border-radius: 7px;
+      background: var(--bg-subtle);
+      color: var(--text-muted);
+      font-size: 12px;
+      font-weight: 800;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 1px;
+    }
+    .opt-txt { font-size: 15px; font-weight: 600; line-height: 1.35; }
+    .opt-txt-jp { font-size: 19px; font-weight: 700; }
+    .option-btn.correct {
+      border-color: var(--ok);
+      background: var(--ok-bg);
+    }
+    .option-btn.correct .opt-key { background: var(--ok); color: #FFF; }
+    .option-btn.wrong {
+      border-color: var(--bad);
+      background: var(--bad-bg);
+    }
+    .option-btn.wrong .opt-key { background: var(--bad); color: #FFF; }
+    .option-btn.dimmed { opacity: 0.45; }
+
+    /* Feedback & Tip Box */
+    .feedback-bar {
+      margin-top: 16px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .fb-ok { color: var(--ok); font-weight: 800; font-size: 14px; }
+    .fb-bad { color: var(--bad); font-weight: 800; font-size: 14px; }
+    .tip-box {
+      margin-top: 12px;
+      background: var(--amber-bg);
+      border: 1px solid var(--amber-border);
+      border-radius: 12px;
+      padding: 12px 14px;
+      font-size: 13.5px;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .tip-box strong { color: var(--amber); }
+
+    /* Interstitial Tip Card */
+    .inter-tip {
+      background: var(--surface);
+      border: 2px solid var(--amber-border);
+      border-radius: var(--radius);
+      padding: 24px;
+      box-shadow: var(--shadow-md);
+    }
+    .compare-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0;
+    }
+    .compare-pill {
+      padding: 6px 12px;
+      border-radius: 10px;
+      background: var(--amber-bg);
+      border: 1px solid var(--amber-border);
+      color: var(--text);
+      font-weight: 700;
+      font-size: 13.5px;
+    }
+
+    /* Sprint Timer Banner */
+    .sprint-timer-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: linear-gradient(135deg, var(--primary) 0%, #2B4F87 100%);
+      color: #FFF;
+      border-radius: var(--radius);
+      padding: 14px 18px;
+      box-shadow: var(--shadow-sm);
+    }
+    .sprint-clock {
+      font-size: 30px;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+      letter-spacing: 0.03em;
+    }
+    .sprint-clock.urgent { color: #FDE047; }
+    .sprint-tip-banner {
+      background: var(--amber-bg);
+      border: 1px solid var(--amber-border);
+      border-radius: 13px;
+      padding: 11px 14px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    /* Summary & Lists */
+    .sum-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin: 16px 0;
+    }
+    .sum-card {
+      border-radius: 13px;
+      padding: 14px;
+      text-align: center;
+      border: 1px solid var(--border);
+      background: var(--surface-soft);
+    }
+    .sum-num { font-size: 26px; font-weight: 800; margin-top: 2px; }
+    .mistakes-list {
+      max-height: 240px;
+      overflow-y: auto;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface-soft);
+    }
+    .mistake-item {
+      padding: 10px 14px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      font-size: 13.5px;
+    }
+    .mistake-item:last-child { border-bottom: none; }
+
+    /* Modal */
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: rgba(10, 15, 25, 0.62);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-panel {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      max-width: 680px;
+      width: 100%;
+      max-height: 86vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+    }
+    .modal-head {
+      background: var(--primary);
+      color: #FFF;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+    }
+    .modal-body {
+      padding: 16px 18px;
+      overflow-y: auto;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .prog-row {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 14px;
+    }
+    .prog-head {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    /* Toast & Confetti */
+    .toast {
+      position: fixed;
+      bottom: 18px;
+      right: 18px;
+      z-index: 60;
+      background: #0F172A;
+      color: #FFF;
+      padding: 10px 15px;
+      border-radius: 12px;
+      font-size: 12.5px;
+      font-weight: 600;
+      box-shadow: var(--shadow-md);
+      max-width: 320px;
+    }
+    #confettiCanvas {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 70;
+    }
+    .footer-hint {
+      text-align: center;
+      font-size: 11.5px;
+      color: var(--text-soft);
+      padding-top: 6px;
+    }
+    kbd {
+      padding: 2px 6px;
+      border-radius: 5px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 11px;
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .pop { animation: popIn 0.2s ease-out; }
+  </style>
+</head>
+<body>
+  <canvas id="confettiCanvas"></canvas>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <span class="brand-seal jp">五</span>
+        <div>
+          <h1 class="brand-title">JLPT N5 Studio</h1>
+          <p id="sourceSubtitle" class="brand-sub">644 palabras · 72 Kanji Examen · 100% portable y offline</p>
+        </div>
+      </div>
+
+      <div class="header-actions">
+        <button id="btnToggleReading" type="button" class="hdr-btn" title="Mostrar u ocultar Hiragana y Romaji">
+          <span class="jp">あ</span><span id="readingLabel">Lectura: ON</span>
+        </button>
+        <button id="btnToggleSound" type="button" class="hdr-btn" title="Sonido de acierto/error">
+          <span id="soundLabel">🔔 ON</span>
+        </button>
+        <button id="btnToggleTheme" type="button" class="hdr-btn" title="Cambiar entre modo claro y oscuro">
+          <span id="themeLabel">🌙 Oscuro</span>
+        </button>
+        <button id="btnImportExcel" type="button" class="hdr-btn hdr-btn-accent" title="Opcional: cargar un archivo JSON o CSV propio">
+          📂 Importar
+        </button>
+        <input id="fileInputExcel" type="file" accept=".json,.csv" class="hidden" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Section Switcher -->
+  <nav class="subnav">
+    <div class="container subnav-inner">
+      <div class="nav-tabs">
+        <button id="btnSectionVocab" type="button" class="sec-btn active">
+          📚 Vocabulario <span class="cnt">(644)</span>
+        </button>
+        <button id="btnSectionKanji" type="button" class="sec-btn">
+          漢 Kanji Examen <span id="kanjiTotalBadge" class="cnt">(72)</span>
+        </button>
+        <button id="btnSectionSprint" type="button" class="sec-btn">
+          ⏱️ Sprint 5 min
+        </button>
+      </div>
+
+      <div class="nav-right">
+        <button id="btnOpenProgress" type="button" class="pill-btn">📊 Progreso</button>
+        <button id="btnOpenTipsModal" type="button" class="pill-btn pill-btn-amber">⚡ Trampas</button>
+      </div>
+    </div>
+  </nav>
+
+  <div id="toast" class="toast hidden"></div>
+
+  <!-- Tips Modal -->
+  <div id="tipsModal" class="modal-backdrop hidden">
+    <div class="modal-panel pop">
+      <div class="modal-head">
+        <div>
+          <div style="font-size:15px;font-weight:800;">⚡ Guía Rápida de Trampas JLPT N5</div>
+          <div style="font-size:11px;opacity:.82;">Salón de la Fama visual, trampas fonéticas y okurigana</div>
+        </div>
+        <button id="btnCloseTipsModal" type="button" class="hdr-btn">✕</button>
+      </div>
+      <div id="tipsModalBody" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- Progress Dashboard Modal -->
+  <div id="progressModal" class="modal-backdrop hidden">
+    <div class="modal-panel pop">
+      <div class="modal-head">
+        <div>
+          <div style="font-size:15px;font-weight:800;">📊 Tu Progreso Local JLPT N5</div>
+          <div style="font-size:11px;opacity:.82;">Guardado automáticamente en tu navegador (sin cuentas ni servidores)</div>
+        </div>
+        <button id="btnCloseProgress" type="button" class="hdr-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-lbl">Dominadas</div>
+            <div id="pMasteredTotal" class="stat-val primary">0 / 644</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-lbl">Días seguidos</div>
+            <div id="pDailyStreak" class="stat-val amber">0 🔥</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-lbl">Mejor racha</div>
+            <div id="pBestStreak" class="stat-val ok">0</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-lbl">Precisión global</div>
+            <div id="pGlobalAcc" class="stat-val">—</div>
+          </div>
+        </div>
+
+        <div class="prog-row">
+          <div class="prog-head"><span>Vocabulario general</span><span id="pVocabTxt">0 / 644 (0%)</span></div>
+          <div class="pbar-track"><div id="pVocabBar" class="pbar-fill" style="width:0%"></div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-head"><span>Verbos (Diccionario + TE)</span><span id="pVerbsTxt">0 / 120 (0%)</span></div>
+          <div class="pbar-track"><div id="pVerbsBar" class="pbar-fill" style="width:0%"></div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-head"><span>Adjetivos (い / な)</span><span id="pAdjsTxt">0 / 84 (0%)</span></div>
+          <div class="pbar-track"><div id="pAdjsBar" class="pbar-fill" style="width:0%"></div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-head"><span>Kanji Examen (Mondai 1 y 2)</span><span id="pKanjiTxt">0 / 72 (0%)</span></div>
+          <div class="pbar-track"><div id="pKanjiBar" class="pbar-fill" style="width:0%"></div></div>
+        </div>
+
+        <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:4px;">
+          <span id="pTotalAnswered" style="font-size:12px;color:var(--text-muted);">0 respuestas registradas</span>
+          <div id="resetConfirmWrap" style="display:flex;gap:8px;align-items:center;">
+            <button id="btnAskResetProgress" type="button" class="btn btn-danger">Reiniciar progreso</button>
+            <button id="btnConfirmResetProgress" type="button" class="btn btn-danger hidden">Sí, borrar todo</button>
+            <button id="btnCancelResetProgress" type="button" class="btn btn-ghost hidden">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =================================================================== -->
+  <!-- SECTION 1: VOCABULARIO (644 palabras)                               -->
+  <!-- =================================================================== -->
+  <main id="sectionVocab" class="container stack">
+    <section class="card">
+      <div class="tab-row" role="tablist" aria-label="Modo de vocabulario">
+        <button data-mode="all" type="button" class="mode-tab active">Todo <span id="countAll">(644)</span></button>
+        <button data-mode="verbs" type="button" class="mode-tab">Verbos <span id="countVerbs">(120)</span></button>
+        <button data-mode="adjectives" type="button" class="mode-tab">Adjetivos <span id="countAdjs">(84)</span></button>
+        <button data-mode="others" type="button" class="mode-tab">Otros <span id="countOthers">(440)</span></button>
+        <button data-mode="mistakes" id="tabMistakes" type="button" class="mode-tab">Errores <span id="countMistakes">(0)</span></button>
+      </div>
+
+      <div class="controls-row">
+        <div class="ctrl-group">
+          <label for="selectTopic" class="ctrl-label">Tema:</label>
+          <select id="selectTopic"><option value="ALL">Todos los temas</option></select>
+        </div>
+        <div class="ctrl-group">
+          <label for="selectRoundSize" class="ctrl-label">Ronda:</label>
+          <select id="selectRoundSize">
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="0">Infinito</option>
+          </select>
+          <button id="btnRestart" type="button" class="btn btn-ghost">↻ Reiniciar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <div class="stat-box"><div class="stat-lbl">Progreso</div><div id="statProgress" class="stat-val primary">1 / 20</div></div>
+      <div class="stat-box"><div class="stat-lbl">Aciertos</div><div id="statScore" class="stat-val ok">0</div></div>
+      <div class="stat-box"><div class="stat-lbl">Racha</div><div id="statStreak" class="stat-val amber">0 🔥</div></div>
+      <div class="stat-box"><div class="stat-lbl">Precisión</div><div id="statAccuracy" class="stat-val">—</div></div>
+    </section>
+
+    <div class="pbar-track"><div id="progressBar" class="pbar-fill" style="width:5%"></div></div>
+
+    <section id="quizCard" class="card card-lg pop">
+      <div class="meta-row">
+        <div class="badge-group">
+          <span id="wordIdBadge" class="badge badge-id">#1</span>
+          <span id="wordTypeBadge" class="badge">Verbo</span>
+          <span id="adjBadge" class="badge hidden"></span>
+        </div>
+        <span id="wordTopicBadge" class="badge">Tema</span>
+      </div>
+
+      <div class="word-stage">
+        <div id="wordJapanese" class="word-main jp"></div>
+        <div id="readingBox" class="reading-row">
+          <span id="wordHiragana" class="reading-hira jp"></span>
+          <span id="readingDot">·</span>
+          <span id="wordRomaji" class="reading-romaji"></span>
+        </div>
+        <button id="btnPeekReading" type="button" class="peek-link hidden">Mostrar lectura (hiragana / romaji)</button>
+      </div>
+
+      <div id="verbInfoBox" class="verb-box hidden">
+        <div>
+          <div class="verb-k">Grupo Verbal</div>
+          <div id="verbGroupVal" class="verb-v"></div>
+        </div>
+        <div>
+          <div class="verb-k">Forma Diccionario</div>
+          <div id="verbDictVal" class="verb-v jp"></div>
+        </div>
+        <div>
+          <div class="verb-k">Forma TE (て)</div>
+          <div id="verbTeVal" class="verb-v jp"></div>
+        </div>
+      </div>
+
+      <div id="optionsGrid" class="options-grid"></div>
+
+      <div id="feedbackBar" class="feedback-bar hidden pop">
+        <div id="feedbackText"></div>
+        <button id="btnNext" type="button" class="btn btn-primary">Siguiente → <kbd style="background:rgba(255,255,255,0.18);color:#fff;border:none;">Enter</kbd></button>
+      </div>
+    </section>
+
+    <section id="emptyStateCard" class="card card-lg hidden" style="text-align:center;">
+      <div style="font-size:34px;">✨</div>
+      <h2 id="emptyStateTitle" style="margin:8px 0 6px;">Sin palabras en este filtro</h2>
+      <p id="emptyStateMsg" style="color:var(--text-muted);font-size:14px;margin:0 0 16px;"></p>
+      <button id="btnBackToAll" type="button" class="btn btn-primary">Volver a Todo el vocabulario</button>
+    </section>
+
+    <section id="summaryCard" class="card card-lg hidden pop">
+      <div style="text-align:center;">
+        <div id="summaryEmoji" style="font-size:40px;">🎯</div>
+        <h2 style="margin:6px 0 4px;">¡Ronda completada!</h2>
+        <p id="summarySubtitle" style="margin:0;color:var(--text-muted);font-size:14px;"></p>
+      </div>
+      <div class="sum-grid">
+        <div class="sum-card"><div class="stat-lbl">Aciertos</div><div id="sumCorrect" class="sum-num" style="color:var(--ok);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Errores</div><div id="sumWrong" class="sum-num" style="color:var(--bad);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Mejor racha</div><div id="sumBestStreak" class="sum-num" style="color:var(--amber);">0</div></div>
+      </div>
+      <div id="summaryMistakesWrap" class="hidden" style="margin-bottom:16px;">
+        <div class="stat-lbl" style="margin-bottom:8px;">Palabras para repasar</div>
+        <div id="summaryMistakesList" class="mistakes-list"></div>
+      </div>
+      <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+        <button id="btnPracticeMistakes" type="button" class="btn btn-amber hidden">Repasar mis errores</button>
+        <button id="btnNewRound" type="button" class="btn btn-primary">Nueva ronda</button>
+      </div>
+    </section>
+
+    <footer class="footer-hint">
+      Atajos: <kbd>1</kbd>–<kbd>4</kbd> para responder · <kbd>Enter</kbd> para avanzar · Mejor racha: <strong id="bestStreakGlobal">0</strong>
+    </footer>
+  </main>
+
+  <!-- =================================================================== -->
+  <!-- SECTION 2: KANJI EXAMEN N5 (Mondai 1 & 2 + Interstitial Tips)       -->
+  <!-- =================================================================== -->
+  <main id="sectionKanji" class="container stack hidden">
+    <section class="card">
+      <div class="tab-row" role="tablist" aria-label="Modo de Kanji Examen">
+        <button data-kmode="mixed" type="button" class="kmode-tab active">Mixto Examen <span id="kCountMixed">(72)</span></button>
+        <button data-kmode="m1" type="button" class="kmode-tab">Mondai 1: Lectura <span id="kCountM1">(55)</span></button>
+        <button data-kmode="m2" type="button" class="kmode-tab">Mondai 2: Trampas Visuales <span id="kCountM2">(17)</span></button>
+        <button data-kmode="mistakes" type="button" class="kmode-tab">Errores Kanji <span id="kCountMistakes">(0)</span></button>
+      </div>
+
+      <div class="controls-row">
+        <div class="ctrl-group">
+          <label for="selectKanjiCat" class="ctrl-label">Categoría:</label>
+          <select id="selectKanjiCat"><option value="ALL">Todas las categorías</option></select>
+        </div>
+        <div class="ctrl-group">
+          <button id="btnToggleInterTips" type="button" class="pill-btn pill-btn-amber">⚡ Tips: ON</button>
+          <select id="selectKanjiRound">
+            <option value="10">10</option>
+            <option value="15" selected>15</option>
+            <option value="30">30</option>
+            <option value="0">Infinito</option>
+          </select>
+          <button id="btnKanjiRestart" type="button" class="btn btn-ghost">↻ Reiniciar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <div class="stat-box"><div class="stat-lbl">Pregunta</div><div id="kStatProgress" class="stat-val primary">1 / 15</div></div>
+      <div class="stat-box"><div class="stat-lbl">Aciertos</div><div id="kStatScore" class="stat-val ok">0</div></div>
+      <div class="stat-box"><div class="stat-lbl">Racha</div><div id="kStatStreak" class="stat-val amber">0 🔥</div></div>
+      <div class="stat-box"><div class="stat-lbl">Precisión</div><div id="kStatAccuracy" class="stat-val">—</div></div>
+    </section>
+
+    <div class="pbar-track"><div id="kProgressBar" class="pbar-fill" style="width:6%"></div></div>
+
+    <section id="interTipCard" class="inter-tip hidden pop">
+      <div class="meta-row">
+        <span id="interTipTag" class="badge badge-amber">⚡ Dato Clave</span>
+        <span style="font-size:12px;color:var(--text-muted);">Pausa rápida para fijar trampas</span>
+      </div>
+      <h2 id="interTipTitle" class="jp" style="margin:0 0 8px;font-size:19px;"></h2>
+      <div id="interTipCompare" class="compare-row"></div>
+      <p id="interTipBody" class="jp" style="margin:8px 0 18px;font-size:14.5px;color:var(--text-muted);line-height:1.55;"></p>
+      <div style="display:flex;justify-content:flex-end;">
+        <button id="btnDismissInterTip" type="button" class="btn btn-primary">¡Entendido! Seguir →</button>
+      </div>
+    </section>
+
+    <section id="kanjiCard" class="card card-lg pop">
+      <div class="meta-row">
+        <div class="badge-group">
+          <span id="kBoxNum" class="exam-box-num">1</span>
+          <span id="kMondaiBadge" class="badge badge-blue">Mondai 1</span>
+        </div>
+        <span id="kCatBadge" class="badge">Categoría</span>
+      </div>
+
+      <div class="sentence-stage">
+        <p id="kSentence" class="sentence-jp jp"></p>
+        <p id="kSentenceEs" class="sentence-es hidden"></p>
+      </div>
+
+      <div id="kOptionsGrid" class="options-grid"></div>
+
+      <div id="kFeedbackArea" class="hidden pop">
+        <div class="feedback-bar">
+          <div id="kFeedbackText"></div>
+          <button id="btnKanjiNext" type="button" class="btn btn-primary">Siguiente →</button>
+        </div>
+        <div class="tip-box jp">
+          <strong>💡 Tip de examen: </strong><span id="kTipText"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="kEmptyCard" class="card card-lg hidden" style="text-align:center;">
+      <div style="font-size:34px;">✨</div>
+      <h2 id="kEmptyTitle" style="margin:8px 0 6px;">Sin preguntas en este filtro</h2>
+      <p id="kEmptyMsg" style="color:var(--text-muted);font-size:14px;margin:0 0 16px;"></p>
+      <button id="btnKanjiBackAll" type="button" class="btn btn-primary">Volver a Mixto Examen</button>
+    </section>
+
+    <section id="kSummaryCard" class="card card-lg hidden pop">
+      <div style="text-align:center;">
+        <div id="kSumEmoji" style="font-size:40px;">🏯</div>
+        <h2 style="margin:6px 0 4px;">¡Simulacro de Kanji completado!</h2>
+        <p id="kSumSubtitle" style="margin:0;color:var(--text-muted);font-size:14px;"></p>
+      </div>
+      <div class="sum-grid">
+        <div class="sum-card"><div class="stat-lbl">Aciertos</div><div id="kSumCorrect" class="sum-num" style="color:var(--ok);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Errores</div><div id="kSumWrong" class="sum-num" style="color:var(--bad);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Mejor racha</div><div id="kSumBestStreak" class="sum-num" style="color:var(--amber);">0</div></div>
+      </div>
+      <div id="kSumMistakesWrap" class="hidden" style="margin-bottom:16px;">
+        <div class="stat-lbl" style="margin-bottom:8px;">Trampas para reforzar</div>
+        <div id="kSumMistakesList" class="mistakes-list"></div>
+      </div>
+      <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+        <button id="btnKanjiPracticeMistakes" type="button" class="btn btn-amber hidden">Repasar errores de Kanji</button>
+        <button id="btnKanjiNewRound" type="button" class="btn btn-primary">Nueva ronda</button>
+      </div>
+    </section>
+
+    <footer class="footer-hint">Formato oficial JLPT N5 (Mondai 1 y 2) · Teclas <kbd>1</kbd>–<kbd>4</kbd> y <kbd>Enter</kbd></footer>
+  </main>
+
+  <!-- =================================================================== -->
+  <!-- SECTION 3: SPRINT POR TIEMPO (3 / 5 / 10 min + Consejos)            -->
+  <!-- =================================================================== -->
+  <main id="sectionSprint" class="container stack hidden">
+    <!-- Sprint Setup Card -->
+    <section id="sprintSetupCard" class="card card-lg pop">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">
+        <span style="font-size:26px;">⏱️</span>
+        <div>
+          <h2 style="margin:0;font-size:20px;">Sprint de Estudio Rápido</h2>
+          <p style="margin:2px 0 0;font-size:13px;color:var(--text-muted);">Ideal para ratos libres: practicá a contrarreloj y fijá consejos clave del examen.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="ctrl-label" style="margin-bottom:8px;">1. Elegí el tiempo disponible:</div>
+        <div class="tab-row">
+          <button data-smin="3" type="button" class="sprint-chip">3 minutos</button>
+          <button data-smin="5" type="button" class="sprint-chip active">5 minutos (recomendado)</button>
+          <button data-smin="10" type="button" class="sprint-chip">10 minutos</button>
+        </div>
+      </div>
+
+      <div style="margin-top:16px;">
+        <div class="ctrl-label" style="margin-bottom:8px;">2. ¿Qué querés practicar?</div>
+        <div class="tab-row">
+          <button data-sfocus="mixed" type="button" class="sprint-chip active">Mixto (Vocab + Kanji)</button>
+          <button data-sfocus="vocab" type="button" class="sprint-chip">Solo Vocabulario</button>
+          <button data-sfocus="verbs_adjs" type="button" class="sprint-chip">Verbos y Adjetivos</button>
+          <button data-sfocus="kanji" type="button" class="sprint-chip">Solo Kanji Examen</button>
+        </div>
+      </div>
+
+      <div class="tip-box jp" style="margin-top:18px;">
+        <strong>💡 Consejo antes de empezar: </strong><span id="sprintPreviewTip"></span>
+      </div>
+
+      <div style="margin-top:18px;display:flex;justify-content:flex-end;">
+        <button id="btnStartSprint" type="button" class="btn btn-primary">▶ Empezar Sprint</button>
+      </div>
+    </section>
+
+    <!-- Active Sprint View -->
+    <div id="sprintActiveWrap" class="stack hidden">
+      <div class="sprint-timer-bar">
+        <div>
+          <div style="font-size:11px;opacity:.8;text-transform:uppercase;letter-spacing:.06em;font-weight:700;">Tiempo restante</div>
+          <div id="sprintClock" class="sprint-clock">05:00</div>
+        </div>
+        <div style="display:flex;gap:14px;align-items:center;flex-wrap:wrap;">
+          <div style="text-align:center;">
+            <div style="font-size:10px;opacity:.78;text-transform:uppercase;font-weight:700;">Aciertos</div>
+            <div id="sprintScoreLive" style="font-size:20px;font-weight:800;">0</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="font-size:10px;opacity:.78;text-transform:uppercase;font-weight:700;">Racha</div>
+            <div id="sprintStreakLive" style="font-size:20px;font-weight:800;">0 🔥</div>
+          </div>
+          <button id="btnPauseSprint" type="button" class="hdr-btn">⏸ Pausar</button>
+          <button id="btnFinishSprintEarly" type="button" class="hdr-btn hdr-btn-accent">Terminar</button>
+        </div>
+      </div>
+
+      <div class="pbar-track"><div id="sprintTimeBar" class="pbar-fill" style="width:100%"></div></div>
+
+      <!-- Rotating Tip Strip during Sprint -->
+      <div class="sprint-tip-banner jp">
+        <div>
+          <strong style="color:var(--amber);">⚡ Recordatorio N5: </strong>
+          <span id="sprintTipText"></span>
+        </div>
+        <button id="btnNextSprintTip" type="button" class="btn btn-ghost" style="flex-shrink:0;padding:4px 9px;font-size:11.5px;">Otro tip</button>
+      </div>
+
+      <!-- Sprint Question Card -->
+      <section id="sprintQuestionCard" class="card card-lg pop">
+        <div class="meta-row">
+          <div class="badge-group">
+            <span id="sTypeBadge" class="badge badge-blue">Vocabulario</span>
+            <span id="sExtraBadge" class="badge hidden"></span>
+          </div>
+          <span id="sSubBadge" class="badge">Tema</span>
+        </div>
+
+        <div id="sVocabDisplay" class="word-stage">
+          <div id="sWordJp" class="word-main jp"></div>
+          <div id="sWordReading" class="reading-row"></div>
+        </div>
+
+        <div id="sVerbBox" class="verb-box hidden">
+          <div><div class="verb-k">Grupo</div><div id="sVerbGroup" class="verb-v"></div></div>
+          <div><div class="verb-k">Diccionario</div><div id="sVerbDict" class="verb-v jp"></div></div>
+          <div><div class="verb-k">Forma TE</div><div id="sVerbTe" class="verb-v jp"></div></div>
+        </div>
+
+        <div id="sKanjiDisplay" class="sentence-stage hidden">
+          <p id="sSentenceJp" class="sentence-jp jp"></p>
+          <p id="sSentenceEs" class="sentence-es hidden"></p>
+        </div>
+
+        <div id="sOptionsGrid" class="options-grid"></div>
+
+        <div id="sFeedbackBar" class="feedback-bar hidden pop">
+          <div id="sFeedbackText"></div>
+          <button id="btnSprintNext" type="button" class="btn btn-primary">Siguiente →</button>
+        </div>
+      </section>
+    </div>
+
+    <!-- Sprint Summary Card -->
+    <section id="sprintSummaryCard" class="card card-lg hidden pop">
+      <div style="text-align:center;">
+        <div style="font-size:42px;">⏱️✨</div>
+        <h2 style="margin:6px 0 4px;">¡Sprint completado!</h2>
+        <p id="sprintSumSub" style="margin:0;color:var(--text-muted);font-size:14px;"></p>
+      </div>
+      <div class="sum-grid">
+        <div class="sum-card"><div class="stat-lbl">Aciertos</div><div id="sSumCorrect" class="sum-num" style="color:var(--ok);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Errores</div><div id="sSumWrong" class="sum-num" style="color:var(--bad);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Precisión</div><div id="sSumAcc" class="sum-num" style="color:var(--primary);">0%</div></div>
+      </div>
+
+      <div class="tip-box jp" style="margin-bottom:14px;">
+        <strong>💡 Consejo para llevarte hoy: </strong><span id="sprintTakeawayTip"></span>
+      </div>
+
+      <div id="sSumMistakesWrap" class="hidden" style="margin-bottom:16px;">
+        <div class="stat-lbl" style="margin-bottom:8px;">Errores del sprint</div>
+        <div id="sSumMistakesList" class="mistakes-list"></div>
+      </div>
+
+      <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+        <button id="btnSprintAgain" type="button" class="btn btn-primary">Nuevo Sprint</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const DEFAULT_VOCAB = __VOCAB_JSON__;
+    const KANJI_BANK = __KANJI_JSON__;
+    const EXAM_TIPS = __TIPS_JSON__;
+
+    // Global State
+    let activeSection = 'vocab'; // 'vocab' | 'kanji' | 'sprint'
+    let soundEnabled = true;
+    let audioCtx = null;
+    let currentTheme = 'light';
+
+    // Persistent Progress Store
+    const STORAGE_KEY = 'jlpt_n5_studio_v2';
+    let progressStore = {
+      masteredVocab: [],
+      masteredKanji: [],
+      bestStreak: 0,
+      totalCorrect: 0,
+      totalWrong: 0,
+      dailyStreak: 0,
+      lastPracticeDate: ''
+    };
+
+    function loadProgress() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (raw) {
+          const parsed = JSON.parse(raw);
+          progressStore = Object.assign(progressStore, parsed);
+        }
+        const savedTheme = localStorage.getItem('jlpt_n5_theme');
+        if (savedTheme === 'dark' || savedTheme === 'light') applyTheme(savedTheme);
+      } catch (_) {}
+    }
+
+    function saveProgress() {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(progressStore));
+      } catch (_) {}
+      document.getElementById('bestStreakGlobal').textContent = String(progressStore.bestStreak);
+    }
+
+    function recordPracticeOutcome(kind, itemId, isCorrect, currentStreakVal) {
+      const today = new Date().toISOString().slice(0, 10);
+      if (progressStore.lastPracticeDate !== today) {
+        if (progressStore.lastPracticeDate) {
+          const prev = new Date(progressStore.lastPracticeDate + 'T00:00:00');
+          const cur = new Date(today + 'T00:00:00');
+          const diffDays = Math.round((cur - prev) / 86400000);
+          progressStore.dailyStreak = diffDays === 1 ? progressStore.dailyStreak + 1 : 1;
+        } else {
+          progressStore.dailyStreak = 1;
+        }
+        progressStore.lastPracticeDate = today;
+      }
+
+      if (isCorrect) {
+        progressStore.totalCorrect++;
+        if (kind === 'vocab' && !progressStore.masteredVocab.includes(itemId)) {
+          progressStore.masteredVocab.push(itemId);
+        } else if (kind === 'kanji' && !progressStore.masteredKanji.includes(itemId)) {
+          progressStore.masteredKanji.push(itemId);
+        }
+        if (currentStreakVal > progressStore.bestStreak) {
+          progressStore.bestStreak = currentStreakVal;
+        }
+        if (currentStreakVal > 0 && currentStreakVal % 10 === 0) {
+          launchConfetti();
+        }
+      } else {
+        progressStore.totalWrong++;
+      }
+      saveProgress();
+    }
+
+    function applyTheme(theme) {
+      currentTheme = theme;
+      document.documentElement.setAttribute('data-theme', theme);
+      document.getElementById('themeLabel').textContent = theme === 'dark' ? '☀️ Claro' : '🌙 Oscuro';
+      try { localStorage.setItem('jlpt_n5_theme', theme); } catch (_) {}
+    }
+
+    // Pure Vanilla Canvas Confetti (zero CDN)
+    function launchConfetti() {
+      const canvas = document.getElementById('confettiCanvas');
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+      canvas.width = window.innerWidth;
+      canvas.height = window.innerHeight;
+      const colors = ['#1B365D', '#C83E3B', '#F59E0B', '#10B981', '#3B82F6', '#EC4899'];
+      const pieces = Array.from({ length: 70 }, () => ({
+        x: Math.random() * canvas.width,
+        y: -20 - Math.random() * 120,
+        w: 6 + Math.random() * 6,
+        h: 4 + Math.random() * 4,
+        vx: (Math.random() - 0.5) * 4,
+        vy: 3 + Math.random() * 4.5,
+        rot: Math.random() * Math.PI * 2,
+        vrot: (Math.random() - 0.5) * 0.2,
+        color: colors[Math.floor(Math.random() * colors.length)]
+      }));
+      let frame = 0;
+      function tick() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        let alive = false;
+        for (const p of pieces) {
+          p.x += p.vx;
+          p.y += p.vy;
+          p.vy += 0.08;
+          p.rot += p.vrot;
+          if (p.y < canvas.height + 30) alive = true;
+          ctx.save();
+          ctx.translate(p.x, p.y);
+          ctx.rotate(p.rot);
+          ctx.fillStyle = p.color;
+          ctx.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+          ctx.restore();
+        }
+        frame++;
+        if (alive && frame < 140) {
+          requestAnimationFrame(tick);
+        } else {
+          ctx.clearRect(0, 0, canvas.width, canvas.height);
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+
+    function playTone(isCorrect) {
+      if (!soundEnabled) return;
+      try {
+        if (!audioCtx) {
+          const Ctx = window.AudioContext || window.webkitAudioContext;
+          if (!Ctx) return;
+          audioCtx = new Ctx();
+        }
+        if (audioCtx.state === 'suspended') audioCtx.resume();
+        const now = audioCtx.currentTime;
+        const osc = audioCtx.createOscillator();
+        const gain = audioCtx.createGain();
+        osc.connect(gain);
+        gain.connect(audioCtx.destination);
+        if (isCorrect) {
+          osc.type = 'sine';
+          osc.frequency.setValueAtTime(523.25, now);
+          osc.frequency.setValueAtTime(659.25, now + 0.08);
+          gain.gain.setValueAtTime(0.11, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.25);
+          osc.start(now);
+          osc.stop(now + 0.26);
+        } else {
+          osc.type = 'triangle';
+          osc.frequency.setValueAtTime(240, now);
+          osc.frequency.linearRampToValueAtTime(175, now + 0.18);
+          gain.gain.setValueAtTime(0.11, now);
+          gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
+          osc.start(now);
+          osc.stop(now + 0.24);
+        }
+      } catch (_) {}
+    }
+
+    let toastTimer = null;
+    function showToast(msg) {
+      const el = document.getElementById('toast');
+      el.textContent = msg;
+      el.classList.remove('hidden');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.add('hidden'), 3200);
+    }
+
+    function shuffle(arr) {
+      const a = arr.slice();
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;');
+    }
+
+    function isVerb(item) { return Boolean(item.df && item.df.trim()); }
+    function isAdjective(item) { return Boolean(item.at && item.at.trim()); }
+
+    // =========================================================================
+    // NAVIGATION & MODALS
+    // =========================================================================
+    function switchSection(sec) {
+      activeSection = sec;
+      const map = {
+        vocab: ['sectionVocab', 'btnSectionVocab'],
+        kanji: ['sectionKanji', 'btnSectionKanji'],
+        sprint: ['sectionSprint', 'btnSectionSprint']
+      };
+      for (const [key, [mId, bId]] of Object.entries(map)) {
+        document.getElementById(mId).classList.toggle('hidden', key !== sec);
+        document.getElementById(bId).classList.toggle('active', key === sec);
+      }
+      document.getElementById('btnToggleReading').classList.toggle('hidden', sec === 'kanji');
+      if (sec === 'kanji' && kQueue.length === 0 && !kCurrent) startKanjiRound();
+      if (sec === 'sprint' && !sprintRunning) updateSprintPreviewTip();
+    }
+
+    function renderTipsModal() {
+      const body = document.getElementById('tipsModalBody');
+      body.innerHTML = '';
+      for (const tip of EXAM_TIPS) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        const pills = tip.compare
+          .map(c => `<span class="compare-pill jp">${escapeHtml(c)}</span>`)
+          .join('');
+        card.innerHTML = `
+          <div class="stat-lbl" style="color:var(--primary);margin-bottom:4px;">${escapeHtml(tip.tag)}</div>
+          <div class="jp" style="font-weight:800;font-size:15px;">${escapeHtml(tip.title)}</div>
+          <div class="compare-row">${pills}</div>
+          <div class="jp" style="font-size:13.5px;color:var(--text-muted);">${escapeHtml(tip.body)}</div>
+        `;
+        body.appendChild(card);
+      }
+    }
+
+    function renderProgressModal() {
+      const mSet = new Set(progressStore.masteredVocab);
+      const totalV = vocab.length;
+      const mV = vocab.filter(w => mSet.has(w.id)).length;
+      const allVerbs = vocab.filter(isVerb);
+      const mVerbs = allVerbs.filter(w => mSet.has(w.id)).length;
+      const allAdjs = vocab.filter(isAdjective);
+      const mAdjs = allAdjs.filter(w => mSet.has(w.id)).length;
+      const mK = progressStore.masteredKanji.length;
+      const totK = KANJI_BANK.length;
+
+      const totAns = progressStore.totalCorrect + progressStore.totalWrong;
+      const acc = totAns > 0 ? Math.round((progressStore.totalCorrect / totAns) * 100) + '%' : '—';
+
+      document.getElementById('pMasteredTotal').textContent = `${mV} / ${totalV}`;
+      document.getElementById('pDailyStreak').textContent = `${progressStore.dailyStreak} 🔥`;
+      document.getElementById('pBestStreak').textContent = String(progressStore.bestStreak);
+      document.getElementById('pGlobalAcc').textContent = acc;
+      document.getElementById('pTotalAnswered').textContent = `${totAns} respuestas registradas en este navegador`;
+
+      const setBar = (txtId, barId, done, total) => {
+        const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+        document.getElementById(txtId).textContent = `${done} / ${total} (${pct}%)`;
+        document.getElementById(barId).style.width = `${pct}%`;
+      };
+      setBar('pVocabTxt', 'pVocabBar', mV, totalV);
+      setBar('pVerbsTxt', 'pVerbsBar', mVerbs, allVerbs.length);
+      setBar('pAdjsTxt', 'pAdjsBar', mAdjs, allAdjs.length);
+      setBar('pKanjiTxt', 'pKanjiBar', mK, totK);
+
+      document.getElementById('btnAskResetProgress').classList.remove('hidden');
+      document.getElementById('btnConfirmResetProgress').classList.add('hidden');
+      document.getElementById('btnCancelResetProgress').classList.add('hidden');
+    }
+
+    // =========================================================================
+    // SECTION 1: VOCABULARIO QUIZ
+    // =========================================================================
+    let vocab = DEFAULT_VOCAB.slice();
+    let mode = 'all';
+    let topicFilter = 'ALL';
+    let roundSize = 20;
+    let showReading = true;
+    let queue = [];
+    let currentIndex = 0;
+    let currentWord = null;
+    let currentOptions = [];
+    let answered = false;
+    let correctCount = 0;
+    let wrongCount = 0;
+    let streak = 0;
+    let roundBestStreak = 0;
+    let sessionMistakes = new Map();
+    let roundMistakes = [];
+
+    function getBaseModePool(m) {
+      if (m === 'verbs') return vocab.filter(isVerb);
+      if (m === 'adjectives') return vocab.filter(isAdjective);
+      if (m === 'others') return vocab.filter(w => !isVerb(w) && !isAdjective(w));
+      if (m === 'mistakes') return Array.from(sessionMistakes.values());
+      return vocab;
+    }
+
+    function getFilteredPool() {
+      let pool = getBaseModePool(mode);
+      if (topicFilter !== 'ALL' && mode !== 'mistakes') {
+        pool = pool.filter(w => w.tp === topicFilter);
+      }
+      return pool;
+    }
+
+    function updateCountsAndTopics() {
+      const verbsCount = vocab.filter(isVerb).length;
+      const adjsCount = vocab.filter(isAdjective).length;
+      const othersCount = vocab.length - verbsCount - adjsCount;
+      document.getElementById('countAll').textContent = `(${vocab.length})`;
+      document.getElementById('countVerbs').textContent = `(${verbsCount})`;
+      document.getElementById('countAdjs').textContent = `(${adjsCount})`;
+      document.getElementById('countOthers').textContent = `(${othersCount})`;
+      document.getElementById('countMistakes').textContent = `(${sessionMistakes.size})`;
+
+      const select = document.getElementById('selectTopic');
+      const prev = select.value;
+      const basePool = getBaseModePool(mode);
+      const topicCounts = {};
+      for (const item of basePool) {
+        const tp = item.tp || 'General';
+        topicCounts[tp] = (topicCounts[tp] || 0) + 1;
+      }
+      const sortedTopics = Object.entries(topicCounts).sort((a, b) => b[1] - a[1]);
+      select.innerHTML = `<option value="ALL">Todos los temas (${basePool.length})</option>`;
+      for (const [tp, cnt] of sortedTopics) {
+        const opt = document.createElement('option');
+        opt.value = tp;
+        opt.textContent = `${tp} (${cnt})`;
+        select.appendChild(opt);
+      }
+      if (prev && (prev === 'ALL' || topicCounts[prev])) {
+        select.value = prev;
+        topicFilter = prev;
+      } else {
+        select.value = 'ALL';
+        topicFilter = 'ALL';
+      }
+    }
+
+    function updateModeTabsUI() {
+      document.querySelectorAll('.mode-tab').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.mode === mode);
+      });
+    }
+
+    function buildVocabOptions(target) {
+      const sameType = vocab.filter(w => w.id !== target.id && w.t === target.t && w.es !== target.es);
+      const others = vocab.filter(w => w.id !== target.id && w.t !== target.t && w.es !== target.es);
+      const candidates = shuffle(sameType).concat(shuffle(others));
+      const distractors = [];
+      const seen = new Set([target.es.toLowerCase()]);
+      for (const c of candidates) {
+        const norm = c.es.toLowerCase();
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          distractors.push(c.es);
+          if (distractors.length === 3) break;
+        }
+      }
+      return shuffle([target.es, ...distractors]);
+    }
+
+    function startRound() {
+      updateModeTabsUI();
+      updateCountsAndTopics();
+      const pool = getFilteredPool();
+      correctCount = 0; wrongCount = 0; streak = 0; roundBestStreak = 0; roundMistakes = []; currentIndex = 0;
+      document.getElementById('summaryCard').classList.add('hidden');
+      if (pool.length === 0) {
+        document.getElementById('quizCard').classList.add('hidden');
+        document.getElementById('emptyStateCard').classList.remove('hidden');
+        document.getElementById('emptyStateTitle').textContent = mode === 'mistakes' ? '¡Todavía no tenés errores!' : 'Sin palabras en este filtro';
+        document.getElementById('emptyStateMsg').textContent = mode === 'mistakes'
+          ? 'Cuando falles alguna palabra, va a aparecer acá automáticamente para que puedas repasarla.'
+          : 'Probá seleccionar "Todos los temas" o cambiar de pestaña.';
+        updateStatsUI();
+        return;
+      }
+      document.getElementById('emptyStateCard').classList.add('hidden');
+      document.getElementById('quizCard').classList.remove('hidden');
+      const shuffled = shuffle(pool);
+      queue = roundSize > 0 ? shuffled.slice(0, Math.min(roundSize, shuffled.length)) : shuffled;
+      renderQuestion();
+    }
+
+    function updateStatsUI() {
+      const totalAns = correctCount + wrongCount;
+      const totalInRound = roundSize > 0 ? queue.length : 0;
+      if (queue.length === 0) {
+        document.getElementById('statProgress').textContent = '0 / 0';
+        document.getElementById('progressBar').style.width = '0%';
+      } else if (roundSize > 0) {
+        document.getElementById('statProgress').textContent = `${Math.min(currentIndex + 1, totalInRound)} / ${totalInRound}`;
+        const pct = Math.round(((answered ? currentIndex + 1 : currentIndex) / totalInRound) * 100);
+        document.getElementById('progressBar').style.width = `${Math.max(4, pct)}%`;
+      } else {
+        document.getElementById('statProgress').textContent = `#${totalAns + 1} · ∞`;
+        document.getElementById('progressBar').style.width = '100%';
+      }
+      document.getElementById('statScore').textContent = String(correctCount);
+      document.getElementById('statStreak').textContent = `${streak} 🔥`;
+      document.getElementById('statAccuracy').textContent = totalAns > 0 ? `${Math.round((correctCount / totalAns) * 100)}%` : '—';
+      document.getElementById('countMistakes').textContent = `(${sessionMistakes.size})`;
+    }
+
+    function renderReadingVisibility(forceReveal = false) {
+      const box = document.getElementById('readingBox');
+      const peek = document.getElementById('btnPeekReading');
+      if (showReading || forceReveal) {
+        box.classList.remove('hidden');
+        peek.classList.add('hidden');
+      } else {
+        box.classList.add('hidden');
+        peek.classList.remove('hidden');
+      }
+    }
+
+    function renderQuestion() {
+      if (currentIndex >= queue.length) {
+        if (roundSize === 0) {
+          queue = shuffle(getFilteredPool());
+          currentIndex = 0;
+        } else {
+          showSummary();
+          return;
+        }
+      }
+      answered = false;
+      currentWord = queue[currentIndex];
+      currentOptions = buildVocabOptions(currentWord);
+
+      document.getElementById('wordIdBadge').textContent = `#${currentWord.id}`;
+      document.getElementById('wordTypeBadge').textContent = currentWord.t;
+      document.getElementById('wordTopicBadge').textContent = currentWord.tp;
+
+      const adjBadge = document.getElementById('adjBadge');
+      if (isAdjective(currentWord)) {
+        adjBadge.textContent = currentWord.at;
+        adjBadge.className = currentWord.at.includes('い') ? 'badge badge-blue' : 'badge badge-amber';
+      } else {
+        adjBadge.className = 'badge hidden';
+      }
+
+      document.getElementById('wordJapanese').textContent = currentWord.w;
+      document.getElementById('wordHiragana').textContent = currentWord.h;
+      document.getElementById('wordRomaji').textContent = currentWord.r;
+      renderReadingVisibility(false);
+
+      const verbBox = document.getElementById('verbInfoBox');
+      if (isVerb(currentWord)) {
+        verbBox.classList.remove('hidden');
+        document.getElementById('verbGroupVal').textContent = currentWord.vg || currentWord.t;
+        document.getElementById('verbDictVal').textContent = currentWord.df;
+        document.getElementById('verbTeVal').textContent = currentWord.te;
+      } else {
+        verbBox.classList.add('hidden');
+      }
+
+      const grid = document.getElementById('optionsGrid');
+      grid.innerHTML = '';
+      currentOptions.forEach((optText, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="opt-key">${idx + 1}</span><span class="opt-txt">${escapeHtml(optText)}</span>`;
+        btn.addEventListener('click', () => handleAnswer(idx));
+        grid.appendChild(btn);
+      });
+
+      document.getElementById('feedbackBar').classList.add('hidden');
+      updateStatsUI();
+    }
+
+    function handleAnswer(selectedIdx) {
+      if (answered || !currentWord) return;
+      answered = true;
+      const isCorrect = currentOptions[selectedIdx] === currentWord.es;
+      const buttons = document.querySelectorAll('#optionsGrid button');
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (currentOptions[idx] === currentWord.es) btn.classList.add('correct');
+        else if (idx === selectedIdx && !isCorrect) btn.classList.add('wrong');
+        else btn.classList.add('dimmed');
+      });
+
+      renderReadingVisibility(true);
+      const fbBar = document.getElementById('feedbackBar');
+      const fbTxt = document.getElementById('feedbackText');
+      fbBar.classList.remove('hidden');
+
+      if (isCorrect) {
+        correctCount++;
+        streak++;
+        if (streak > roundBestStreak) roundBestStreak = streak;
+        if (mode === 'mistakes') sessionMistakes.delete(currentWord.id);
+        playTone(true);
+        fbTxt.className = 'fb-ok';
+        fbTxt.textContent = streak >= 5 ? `¡Correcto! Racha de ${streak} 🔥` : '¡Correcto!';
+      } else {
+        wrongCount++;
+        streak = 0;
+        sessionMistakes.set(currentWord.id, currentWord);
+        roundMistakes.push(currentWord);
+        playTone(false);
+        fbTxt.className = 'fb-bad';
+        fbTxt.textContent = `Incorrecto — Significado: ${currentWord.es}`;
+      }
+      recordPracticeOutcome('vocab', currentWord.id, isCorrect, streak);
+      updateStatsUI();
+    }
+
+    function goNext() {
+      if (!answered) return;
+      currentIndex++;
+      renderQuestion();
+    }
+
+    function showSummary() {
+      document.getElementById('quizCard').classList.add('hidden');
+      document.getElementById('summaryCard').classList.remove('hidden');
+      const total = correctCount + wrongCount;
+      const pct = total > 0 ? Math.round((correctCount / total) * 100) : 0;
+      if (pct >= 80 && total >= 5) launchConfetti();
+
+      document.getElementById('summaryEmoji').textContent = pct >= 90 ? '🏆' : pct >= 70 ? '🎯' : '💪';
+      document.getElementById('summarySubtitle').textContent = `Precisión del ${pct}% (${correctCount} de ${total} correctas)`;
+      document.getElementById('sumCorrect').textContent = String(correctCount);
+      document.getElementById('sumWrong').textContent = String(wrongCount);
+      document.getElementById('sumBestStreak').textContent = String(roundBestStreak);
+
+      const wrap = document.getElementById('summaryMistakesWrap');
+      const list = document.getElementById('summaryMistakesList');
+      const btnM = document.getElementById('btnPracticeMistakes');
+      if (roundMistakes.length > 0) {
+        wrap.classList.remove('hidden');
+        btnM.classList.remove('hidden');
+        btnM.textContent = `Repasar mis errores (${sessionMistakes.size})`;
+        list.innerHTML = '';
+        for (const m of roundMistakes) {
+          const row = document.createElement('div');
+          row.className = 'mistake-item';
+          const extra = isVerb(m)
+            ? `<span class="badge badge-ok jp">TE: ${escapeHtml(m.te)}</span>`
+            : isAdjective(m)
+              ? `<span class="badge ${m.at.includes('い') ? 'badge-blue' : 'badge-amber'}">${escapeHtml(m.at)}</span>`
+              : '';
+          row.innerHTML = `<div><strong class="jp" style="font-size:16px;">${escapeHtml(m.w)}</strong> <span class="jp" style="color:var(--text-muted);font-size:12px;">(${escapeHtml(m.h)})</span> ${extra}</div><div>${escapeHtml(m.es)}</div>`;
+          list.appendChild(row);
+        }
+      } else {
+        wrap.classList.add('hidden');
+        btnM.classList.add('hidden');
+      }
+      updateStatsUI();
+    }
+
+    // =========================================================================
+    // SECTION 2: KANJI EXAMEN N5
+    // =========================================================================
+    let kMode = 'mixed';
+    let kCatFilter = 'ALL';
+    let kRoundSize = 15;
+    let kShowInterTips = true;
+    let kQueue = [];
+    let kIndex = 0;
+    let kCurrent = null;
+    let kShuffledOpts = [];
+    let kCorrectOptIdx = 0;
+    let kAnswered = false;
+    let kShowingTip = false;
+    let kTipCursor = 0;
+    let kTipOrder = [];
+    let kCorrect = 0;
+    let kWrong = 0;
+    let kStreak = 0;
+    let kRoundBestStreak = 0;
+    let kSessionMistakes = new Map();
+    let kRoundMistakes = [];
+
+    function getKanjiBasePool(m) {
+      if (m === 'm1') return KANJI_BANK.filter(q => q.m === 1);
+      if (m === 'm2') return KANJI_BANK.filter(q => q.m === 2);
+      if (m === 'mistakes') return Array.from(kSessionMistakes.values());
+      return KANJI_BANK;
+    }
+
+    function getKanjiFilteredPool() {
+      let pool = getKanjiBasePool(kMode);
+      if (kCatFilter !== 'ALL' && kMode !== 'mistakes') {
+        pool = pool.filter(q => q.cat === kCatFilter);
+      }
+      return pool;
+    }
+
+    function updateKanjiCountsAndCats() {
+      const m1Cnt = KANJI_BANK.filter(q => q.m === 1).length;
+      const m2Cnt = KANJI_BANK.filter(q => q.m === 2).length;
+      document.getElementById('kanjiTotalBadge').textContent = `(${KANJI_BANK.length})`;
+      document.getElementById('kCountMixed').textContent = `(${KANJI_BANK.length})`;
+      document.getElementById('kCountM1').textContent = `(${m1Cnt})`;
+      document.getElementById('kCountM2').textContent = `(${m2Cnt})`;
+      document.getElementById('kCountMistakes').textContent = `(${kSessionMistakes.size})`;
+
+      const select = document.getElementById('selectKanjiCat');
+      const prev = select.value;
+      const basePool = getKanjiBasePool(kMode);
+      const catCounts = {};
+      for (const q of basePool) catCounts[q.cat] = (catCounts[q.cat] || 0) + 1;
+      const sortedCats = Object.entries(catCounts).sort((a, b) => b[1] - a[1]);
+      select.innerHTML = `<option value="ALL">Todas las categorías (${basePool.length})</option>`;
+      for (const [cat, cnt] of sortedCats) {
+        const opt = document.createElement('option');
+        opt.value = cat;
+        opt.textContent = `${cat} (${cnt})`;
+        select.appendChild(opt);
+      }
+      if (prev && (prev === 'ALL' || catCounts[prev])) {
+        select.value = prev;
+        kCatFilter = prev;
+      } else {
+        select.value = 'ALL';
+        kCatFilter = 'ALL';
+      }
+    }
+
+    function startKanjiRound() {
+      document.querySelectorAll('.kmode-tab').forEach(b => b.classList.toggle('active', b.dataset.kmode === kMode));
+      updateKanjiCountsAndCats();
+      const pool = getKanjiFilteredPool();
+      kCorrect = 0; kWrong = 0; kStreak = 0; kRoundBestStreak = 0; kRoundMistakes = []; kIndex = 0;
+      kShowingTip = false; kTipOrder = shuffle(EXAM_TIPS); kTipCursor = 0;
+      document.getElementById('kSummaryCard').classList.add('hidden');
+      document.getElementById('interTipCard').classList.add('hidden');
+
+      if (pool.length === 0) {
+        document.getElementById('kanjiCard').classList.add('hidden');
+        document.getElementById('kEmptyCard').classList.remove('hidden');
+        document.getElementById('kEmptyTitle').textContent = kMode === 'mistakes' ? '¡Sin errores de Kanji todavía!' : 'Sin preguntas en esta categoría';
+        document.getElementById('kEmptyMsg').textContent = kMode === 'mistakes'
+          ? 'Cada trampa o kanji que falles va a quedar guardado acá para repasarlo.'
+          : 'Probá elegir "Todas las categorías" o cambiar a Mixto Examen.';
+        updateKanjiStatsUI();
+        return;
+      }
+      document.getElementById('kEmptyCard').classList.add('hidden');
+      document.getElementById('kanjiCard').classList.remove('hidden');
+      const shuffled = shuffle(pool);
+      kQueue = kRoundSize > 0 ? shuffled.slice(0, Math.min(kRoundSize, shuffled.length)) : shuffled;
+      renderKanjiQuestion();
+    }
+
+    function updateKanjiStatsUI() {
+      const totalAns = kCorrect + kWrong;
+      const totalInRound = kRoundSize > 0 ? kQueue.length : 0;
+      if (kQueue.length === 0) {
+        document.getElementById('kStatProgress').textContent = '0 / 0';
+        document.getElementById('kProgressBar').style.width = '0%';
+      } else if (kRoundSize > 0) {
+        document.getElementById('kStatProgress').textContent = `${Math.min(kIndex + 1, totalInRound)} / ${totalInRound}`;
+        const pct = Math.round(((kAnswered ? kIndex + 1 : kIndex) / totalInRound) * 100);
+        document.getElementById('kProgressBar').style.width = `${Math.max(5, pct)}%`;
+      } else {
+        document.getElementById('kStatProgress').textContent = `#${totalAns + 1} · ∞`;
+        document.getElementById('kProgressBar').style.width = '100%';
+      }
+      document.getElementById('kStatScore').textContent = String(kCorrect);
+      document.getElementById('kStatStreak').textContent = `${kStreak} 🔥`;
+      document.getElementById('kStatAccuracy').textContent = totalAns > 0 ? `${Math.round((kCorrect / totalAns) * 100)}%` : '—';
+      document.getElementById('kCountMistakes').textContent = `(${kSessionMistakes.size})`;
+    }
+
+    function showInterstitialTip() {
+      kShowingTip = true;
+      const tip = kTipOrder[kTipCursor % kTipOrder.length];
+      kTipCursor++;
+      document.getElementById('kanjiCard').classList.add('hidden');
+      document.getElementById('interTipCard').classList.remove('hidden');
+      document.getElementById('interTipTag').textContent = `⚡ ${tip.tag}`;
+      document.getElementById('interTipTitle').textContent = tip.title;
+      document.getElementById('interTipBody').textContent = tip.body;
+      const comp = document.getElementById('interTipCompare');
+      comp.innerHTML = '';
+      for (const item of tip.compare) {
+        const pill = document.createElement('span');
+        pill.className = 'compare-pill jp';
+        pill.textContent = item;
+        comp.appendChild(pill);
+      }
+    }
+
+    function dismissInterstitialTip() {
+      if (!kShowingTip) return;
+      kShowingTip = false;
+      document.getElementById('interTipCard').classList.add('hidden');
+      document.getElementById('kanjiCard').classList.remove('hidden');
+      renderKanjiQuestion();
+    }
+
+    function renderKanjiQuestion() {
+      if (kIndex >= kQueue.length) {
+        if (kRoundSize === 0) {
+          kQueue = shuffle(getKanjiFilteredPool());
+          kIndex = 0;
+        } else {
+          showKanjiSummary();
+          return;
+        }
+      }
+      kAnswered = false;
+      kCurrent = kQueue[kIndex];
+      const correctText = kCurrent.opts[kCurrent.ans];
+      kShuffledOpts = shuffle(kCurrent.opts);
+      kCorrectOptIdx = kShuffledOpts.indexOf(correctText);
+
+      document.getElementById('kBoxNum').textContent = String(kIndex + 1);
+      document.getElementById('kCatBadge').textContent = kCurrent.cat;
+      const mBadge = document.getElementById('kMondaiBadge');
+      if (kCurrent.m === 1) {
+        mBadge.textContent = 'Mondai 1 · Elegí la lectura (ひらがな)';
+        mBadge.className = 'badge badge-blue';
+      } else {
+        mBadge.textContent = 'Mondai 2 · Elegí el Kanji / Okurigana';
+        mBadge.className = 'badge badge-purple';
+      }
+
+      document.getElementById('kSentence').innerHTML =
+        `${escapeHtml(kCurrent.pre)}<span class="kanji-underline">${escapeHtml(kCurrent.u)}</span>${escapeHtml(kCurrent.post)}`;
+      const esEl = document.getElementById('kSentenceEs');
+      esEl.textContent = `«${kCurrent.es}»`;
+      esEl.classList.add('hidden');
+
+      const grid = document.getElementById('kOptionsGrid');
+      grid.innerHTML = '';
+      kShuffledOpts.forEach((optText, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="opt-key">${idx + 1}</span><span class="opt-txt-jp jp">${escapeHtml(optText)}</span>`;
+        btn.addEventListener('click', () => handleKanjiAnswer(idx));
+        grid.appendChild(btn);
+      });
+
+      document.getElementById('kFeedbackArea').classList.add('hidden');
+      updateKanjiStatsUI();
+    }
+
+    function handleKanjiAnswer(selectedIdx) {
+      if (kAnswered || !kCurrent) return;
+      kAnswered = true;
+      const isCorrect = selectedIdx === kCorrectOptIdx;
+      const buttons = document.querySelectorAll('#kOptionsGrid button');
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === kCorrectOptIdx) btn.classList.add('correct');
+        else if (idx === selectedIdx && !isCorrect) btn.classList.add('wrong');
+        else btn.classList.add('dimmed');
+      });
+
+      document.getElementById('kSentenceEs').classList.remove('hidden');
+      document.getElementById('kFeedbackArea').classList.remove('hidden');
+      document.getElementById('kTipText').textContent = kCurrent.tip;
+      const fbText = document.getElementById('kFeedbackText');
+
+      if (isCorrect) {
+        kCorrect++;
+        kStreak++;
+        if (kStreak > kRoundBestStreak) kRoundBestStreak = kStreak;
+        if (kMode === 'mistakes') kSessionMistakes.delete(kCurrent.id);
+        playTone(true);
+        fbText.className = 'fb-ok';
+        fbText.textContent = kStreak >= 3 ? `¡Exacto! Racha de ${kStreak} 🔥` : '¡Correcto!';
+      } else {
+        kWrong++;
+        kStreak = 0;
+        kSessionMistakes.set(kCurrent.id, kCurrent);
+        kRoundMistakes.push(kCurrent);
+        playTone(false);
+        fbText.className = 'fb-bad jp';
+        fbText.textContent = `Cuidado con la trampa — Correcta: ${kShuffledOpts[kCorrectOptIdx]}`;
+      }
+      recordPracticeOutcome('kanji', kCurrent.id, isCorrect, kStreak);
+      updateKanjiStatsUI();
+    }
+
+    function goKanjiNext() {
+      if (!kAnswered) return;
+      kIndex++;
+      const hasMore = (kRoundSize === 0) || (kIndex < kQueue.length);
+      if (kShowInterTips && hasMore && kIndex > 0 && kIndex % 3 === 0) {
+        showInterstitialTip();
+      } else {
+        renderKanjiQuestion();
+      }
+    }
+
+    function showKanjiSummary() {
+      document.getElementById('kanjiCard').classList.add('hidden');
+      document.getElementById('interTipCard').classList.add('hidden');
+      document.getElementById('kSummaryCard').classList.remove('hidden');
+      const total = kCorrect + kWrong;
+      const pct = total > 0 ? Math.round((kCorrect / total) * 100) : 0;
+      if (pct >= 80 && total >= 5) launchConfetti();
+
+      document.getElementById('kSumEmoji').textContent = pct >= 90 ? '🏆' : pct >= 70 ? '🏯' : '💪';
+      document.getElementById('kSumSubtitle').textContent = `Precisión del ${pct}% (${kCorrect} de ${total} correctas)`;
+      document.getElementById('kSumCorrect').textContent = String(kCorrect);
+      document.getElementById('kSumWrong').textContent = String(kWrong);
+      document.getElementById('kSumBestStreak').textContent = String(kRoundBestStreak);
+
+      const wrap = document.getElementById('kSumMistakesWrap');
+      const list = document.getElementById('kSumMistakesList');
+      const btnM = document.getElementById('btnKanjiPracticeMistakes');
+      if (kRoundMistakes.length > 0) {
+        wrap.classList.remove('hidden');
+        btnM.classList.remove('hidden');
+        btnM.textContent = `Repasar errores de Kanji (${kSessionMistakes.size})`;
+        list.innerHTML = '';
+        for (const m of kRoundMistakes) {
+          const row = document.createElement('div');
+          row.className = 'mistake-item';
+          row.style.flexDirection = 'column';
+          row.style.alignItems = 'flex-start';
+          row.innerHTML = `
+            <div style="display:flex;justify-content:space-between;width:100%;gap:8px;flex-wrap:wrap;">
+              <strong class="jp">${escapeHtml(m.u)} → <span style="color:var(--ok);">${escapeHtml(m.opts[m.ans])}</span></strong>
+              <span style="font-size:12px;color:var(--text-muted);">${escapeHtml(m.es)}</span>
+            </div>
+            <div class="jp" style="font-size:12px;color:var(--amber);">💡 ${escapeHtml(m.tip)}</div>
+          `;
+          list.appendChild(row);
+        }
+      } else {
+        wrap.classList.add('hidden');
+        btnM.classList.add('hidden');
+      }
+      updateKanjiStatsUI();
+    }
+
+    // =========================================================================
+    // SECTION 3: SPRINT POR TIEMPO (3 / 5 / 10 min + Consejos)
+    // =========================================================================
+    let sprintMinutes = 5;
+    let sprintFocus = 'mixed';
+    let sprintRunning = false;
+    let sprintPaused = false;
+    let sprintTotalSec = 300;
+    let sprintLeftSec = 300;
+    let sprintTimerId = null;
+    let sprintPool = [];
+    let sprintCursor = 0;
+    let sprintCurrent = null;
+    let sprintOpts = [];
+    let sprintCorrectIdx = 0;
+    let sprintAnswered = false;
+    let sprintCorrect = 0;
+    let sprintWrong = 0;
+    let sprintStreak = 0;
+    let sprintMistakes = [];
+    let sprintTipIdx = 0;
+
+    function updateSprintPreviewTip() {
+      const tip = EXAM_TIPS[Math.floor(Math.random() * EXAM_TIPS.length)];
+      document.getElementById('sprintPreviewTip').textContent = `${tip.title} — ${tip.body}`;
+    }
+
+    function formatClock(sec) {
+      const m = Math.floor(sec / 60);
+      const s = sec % 60;
+      return `${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    }
+
+    function showSprintTip() {
+      const tip = EXAM_TIPS[sprintTipIdx % EXAM_TIPS.length];
+      sprintTipIdx++;
+      document.getElementById('sprintTipText').textContent = `${tip.title}: ${tip.body}`;
+    }
+
+    function buildSprintPool() {
+      const items = [];
+      if (sprintFocus === 'mixed' || sprintFocus === 'vocab') {
+        for (const w of vocab) items.push({ kind: 'vocab', data: w });
+      }
+      if (sprintFocus === 'verbs_adjs') {
+        for (const w of vocab) {
+          if (isVerb(w) || isAdjective(w)) items.push({ kind: 'vocab', data: w });
+        }
+      }
+      if (sprintFocus === 'mixed' || sprintFocus === 'kanji') {
+        for (const q of KANJI_BANK) items.push({ kind: 'kanji', data: q });
+      }
+      return shuffle(items);
+    }
+
+    function startSprint() {
+      clearInterval(sprintTimerId);
+      sprintRunning = true;
+      sprintPaused = false;
+      sprintTotalSec = sprintMinutes * 60;
+      sprintLeftSec = sprintTotalSec;
+      sprintCorrect = 0;
+      sprintWrong = 0;
+      sprintStreak = 0;
+      sprintMistakes = [];
+      sprintPool = buildSprintPool();
+      sprintCursor = 0;
+      sprintTipIdx = Math.floor(Math.random() * EXAM_TIPS.length);
+
+      document.getElementById('sprintSetupCard').classList.add('hidden');
+      document.getElementById('sprintSummaryCard').classList.add('hidden');
+      document.getElementById('sprintActiveWrap').classList.remove('hidden');
+      document.getElementById('btnPauseSprint').textContent = '⏸ Pausar';
+      document.getElementById('sprintScoreLive').textContent = '0';
+      document.getElementById('sprintStreakLive').textContent = '0 🔥';
+
+      updateSprintClockUI();
+      showSprintTip();
+      renderSprintQuestion();
+
+      sprintTimerId = setInterval(() => {
+        if (!sprintRunning || sprintPaused) return;
+        sprintLeftSec--;
+        updateSprintClockUI();
+        if (sprintLeftSec <= 0) {
+          finishSprint();
+        }
+      }, 1000);
+    }
+
+    function updateSprintClockUI() {
+      const clk = document.getElementById('sprintClock');
+      clk.textContent = formatClock(Math.max(0, sprintLeftSec));
+      clk.classList.toggle('urgent', sprintLeftSec <= 30);
+      const pct = sprintTotalSec > 0 ? Math.max(0, (sprintLeftSec / sprintTotalSec) * 100) : 0;
+      document.getElementById('sprintTimeBar').style.width = `${pct}%`;
+    }
+
+    function toggleSprintPause() {
+      if (!sprintRunning) return;
+      sprintPaused = !sprintPaused;
+      document.getElementById('btnPauseSprint').textContent = sprintPaused ? '▶ Seguir' : '⏸ Pausar';
+      document.getElementById('sprintQuestionCard').style.opacity = sprintPaused ? '0.35' : '1';
+      document.getElementById('sprintQuestionCard').style.pointerEvents = sprintPaused ? 'none' : 'auto';
+    }
+
+    function renderSprintQuestion() {
+      if (sprintCursor >= sprintPool.length) {
+        sprintPool = buildSprintPool();
+        sprintCursor = 0;
+      }
+      sprintAnswered = false;
+      sprintCurrent = sprintPool[sprintCursor];
+
+      // Rotate reminder tip every 4 questions
+      if (sprintCursor > 0 && sprintCursor % 4 === 0) showSprintTip();
+
+      const vDisp = document.getElementById('sVocabDisplay');
+      const vBox = document.getElementById('sVerbBox');
+      const kDisp = document.getElementById('sKanjiDisplay');
+      const extraBadge = document.getElementById('sExtraBadge');
+      const grid = document.getElementById('sOptionsGrid');
+      grid.innerHTML = '';
+
+      if (sprintCurrent.kind === 'vocab') {
+        const w = sprintCurrent.data;
+        vDisp.classList.remove('hidden');
+        kDisp.classList.add('hidden');
+        document.getElementById('sTypeBadge').className = 'badge badge-blue';
+        document.getElementById('sTypeBadge').textContent = `Vocabulario · ${w.t}`;
+        document.getElementById('sSubBadge').textContent = w.tp;
+
+        if (isAdjective(w)) {
+          extraBadge.textContent = w.at;
+          extraBadge.className = w.at.includes('い') ? 'badge badge-blue' : 'badge badge-amber';
+        } else {
+          extraBadge.className = 'badge hidden';
+        }
+
+        document.getElementById('sWordJp').textContent = w.w;
+        document.getElementById('sWordReading').innerHTML = showReading
+          ? `<span class="reading-hira jp">${escapeHtml(w.h)}</span><span>·</span><span class="reading-romaji">${escapeHtml(w.r)}</span>`
+          : '';
+
+        if (isVerb(w)) {
+          vBox.classList.remove('hidden');
+          document.getElementById('sVerbGroup').textContent = w.vg || w.t;
+          document.getElementById('sVerbDict').textContent = w.df;
+          document.getElementById('sVerbTe').textContent = w.te;
+        } else {
+          vBox.classList.add('hidden');
+        }
+
+        sprintOpts = buildVocabOptions(w);
+        sprintCorrectIdx = sprintOpts.indexOf(w.es);
+        sprintOpts.forEach((txt, idx) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'option-btn';
+          btn.innerHTML = `<span class="opt-key">${idx + 1}</span><span class="opt-txt">${escapeHtml(txt)}</span>`;
+          btn.addEventListener('click', () => handleSprintAnswer(idx));
+          grid.appendChild(btn);
+        });
+      } else {
+        const q = sprintCurrent.data;
+        vDisp.classList.add('hidden');
+        vBox.classList.add('hidden');
+        kDisp.classList.remove('hidden');
+        extraBadge.className = 'badge hidden';
+        document.getElementById('sTypeBadge').className = q.m === 1 ? 'badge badge-blue' : 'badge badge-purple';
+        document.getElementById('sTypeBadge').textContent = q.m === 1 ? 'Kanji · Mondai 1' : 'Kanji · Mondai 2';
+        document.getElementById('sSubBadge').textContent = q.cat;
+
+        document.getElementById('sSentenceJp').innerHTML =
+          `${escapeHtml(q.pre)}<span class="kanji-underline">${escapeHtml(q.u)}</span>${escapeHtml(q.post)}`;
+        const esEl = document.getElementById('sSentenceEs');
+        esEl.textContent = `«${q.es}»`;
+        esEl.classList.add('hidden');
+
+        const correctText = q.opts[q.ans];
+        sprintOpts = shuffle(q.opts);
+        sprintCorrectIdx = sprintOpts.indexOf(correctText);
+        sprintOpts.forEach((txt, idx) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'option-btn';
+          btn.innerHTML = `<span class="opt-key">${idx + 1}</span><span class="opt-txt-jp jp">${escapeHtml(txt)}</span>`;
+          btn.addEventListener('click', () => handleSprintAnswer(idx));
+          grid.appendChild(btn);
+        });
+      }
+
+      document.getElementById('sFeedbackBar').classList.add('hidden');
+    }
+
+    function handleSprintAnswer(selectedIdx) {
+      if (sprintAnswered || !sprintRunning || sprintPaused) return;
+      sprintAnswered = true;
+      const isCorrect = selectedIdx === sprintCorrectIdx;
+      const buttons = document.querySelectorAll('#sOptionsGrid button');
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === sprintCorrectIdx) btn.classList.add('correct');
+        else if (idx === selectedIdx && !isCorrect) btn.classList.add('wrong');
+        else btn.classList.add('dimmed');
+      });
+
+      const fbBar = document.getElementById('sFeedbackBar');
+      const fbTxt = document.getElementById('sFeedbackText');
+      fbBar.classList.remove('hidden');
+
+      if (sprintCurrent.kind === 'kanji') {
+        document.getElementById('sSentenceEs').classList.remove('hidden');
+      }
+
+      if (isCorrect) {
+        sprintCorrect++;
+        sprintStreak++;
+        playTone(true);
+        fbTxt.className = 'fb-ok';
+        fbTxt.textContent = '¡Correcto!';
+      } else {
+        sprintWrong++;
+        sprintStreak = 0;
+        sprintMistakes.push(sprintCurrent);
+        playTone(false);
+        fbTxt.className = 'fb-bad jp';
+        fbTxt.textContent = `Correcta: ${sprintOpts[sprintCorrectIdx]}`;
+      }
+
+      document.getElementById('sprintScoreLive').textContent = String(sprintCorrect);
+      document.getElementById('sprintStreakLive').textContent = `${sprintStreak} 🔥`;
+      recordPracticeOutcome(sprintCurrent.kind, sprintCurrent.data.id, isCorrect, sprintStreak);
+    }
+
+    function goSprintNext() {
+      if (!sprintAnswered || !sprintRunning || sprintPaused) return;
+      sprintCursor++;
+      renderSprintQuestion();
+    }
+
+    function finishSprint() {
+      clearInterval(sprintTimerId);
+      sprintRunning = false;
+      sprintPaused = false;
+      document.getElementById('sprintQuestionCard').style.opacity = '1';
+      document.getElementById('sprintQuestionCard').style.pointerEvents = 'auto';
+      document.getElementById('sprintActiveWrap').classList.add('hidden');
+      document.getElementById('sprintSummaryCard').classList.remove('hidden');
+
+      const total = sprintCorrect + sprintWrong;
+      const pct = total > 0 ? Math.round((sprintCorrect / total) * 100) : 0;
+      const elapsedMin = Math.max(1, Math.round((sprintTotalSec - sprintLeftSec) / 60));
+      if (pct >= 80 && total >= 5) launchConfetti();
+
+      document.getElementById('sprintSumSub').textContent =
+        `Practicaste ${total} preguntas en ~${elapsedMin} min`;
+      document.getElementById('sSumCorrect').textContent = String(sprintCorrect);
+      document.getElementById('sSumWrong').textContent = String(sprintWrong);
+      document.getElementById('sSumAcc').textContent = `${pct}%`;
+
+      const tip = EXAM_TIPS[sprintTipIdx % EXAM_TIPS.length];
+      document.getElementById('sprintTakeawayTip').textContent = `${tip.title} — ${tip.body}`;
+
+      const wrap = document.getElementById('sSumMistakesWrap');
+      const list = document.getElementById('sSumMistakesList');
+      if (sprintMistakes.length > 0) {
+        wrap.classList.remove('hidden');
+        list.innerHTML = '';
+        for (const m of sprintMistakes) {
+          const row = document.createElement('div');
+          row.className = 'mistake-item';
+          if (m.kind === 'vocab') {
+            row.innerHTML = `<div><strong class="jp">${escapeHtml(m.data.w)}</strong> <span class="jp" style="color:var(--text-muted);font-size:12px;">(${escapeHtml(m.data.h)})</span></div><div>${escapeHtml(m.data.es)}</div>`;
+          } else {
+            row.innerHTML = `<div><strong class="jp">${escapeHtml(m.data.u)} → ${escapeHtml(m.data.opts[m.data.ans])}</strong></div><div style="font-size:12px;color:var(--text-muted);">${escapeHtml(m.data.es)}</div>`;
+          }
+          list.appendChild(row);
+        }
+      } else {
+        wrap.classList.add('hidden');
+      }
+    }
+
+    // =========================================================================
+    // ZERO-DEPENDENCY LOCAL JSON / CSV IMPORTER
+    // =========================================================================
+    function handleLocalImport(event) {
+      const file = event.target.files && event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        try {
+          const text = String(e.target.result || '');
+          let parsed = [];
+          if (file.name.toLowerCase().endsWith('.json')) {
+            const raw = JSON.parse(text);
+            const arr = Array.isArray(raw) ? raw : (raw.vocab || []);
+            parsed = arr.map((r, i) => ({
+              id: Number(r.id || r.ID) || i + 1,
+              w: String(r.w || r['Palabra (Kanji/Kana)'] || r.Palabra || '').trim(),
+              h: String(r.h || r['Hiragana / Lectura'] || r.Hiragana || r.w || '').trim(),
+              r: String(r.r || r.Romaji || '').trim(),
+              t: String(r.t || r.Tipo || 'Sustantivo').trim(),
+              vg: String(r.vg || r['Grupo Verbal'] || '').trim(),
+              df: String(r.df || r['Forma Diccionario'] || '').trim(),
+              te: String(r.te || r['Forma TE'] || '').trim(),
+              at: String(r.at || r['Tipo Adjetivo'] || '').trim(),
+              es: String(r.es || r['Significado (ES)'] || r.Significado || '').trim(),
+              tp: String(r.tp || r.Tema || 'General').trim(),
+            })).filter(x => x.w && x.es);
+          } else {
+            const lines = text.split(/\r?\n/).filter(l => l.trim());
+            const sep = lines[0].includes(';') ? ';' : ',';
+            const headers = lines[0].split(sep).map(h => h.replace(/^"|"$/g, '').trim().toLowerCase());
+            for (let i = 1; i < lines.length; i++) {
+              const cols = lines[i].split(sep).map(c => c.replace(/^"|"$/g, '').trim());
+              const get = (names) => {
+                for (const n of names) {
+                  const idx = headers.indexOf(n);
+                  if (idx !== -1 && cols[idx]) return cols[idx];
+                }
+                return '';
+              };
+              const w = get(['palabra (kanji/kana)', 'palabra', 'w']);
+              const es = get(['significado (es)', 'significado', 'es']);
+              if (!w || !es) continue;
+              parsed.push({
+                id: Number(get(['id'])) || i,
+                w,
+                h: get(['hiragana / lectura', 'hiragana', 'h']) || w,
+                r: get(['romaji', 'r']),
+                t: get(['tipo', 't']) || 'Sustantivo',
+                vg: get(['grupo verbal', 'vg']),
+                df: get(['forma diccionario', 'df']),
+                te: get(['forma te', 'te']),
+                at: get(['tipo adjetivo', 'at']),
+                es,
+                tp: get(['tema', 'tp']) || 'General',
+              });
+            }
+          }
+          if (parsed.length < 4) {
+            showToast('El archivo necesita al menos 4 palabras válidas.');
+            return;
+          }
+          vocab = parsed;
+          sessionMistakes.clear();
+          document.getElementById('sourceSubtitle').textContent = `${vocab.length} palabras (${file.name}) · 100% offline`;
+          showToast(`¡Listo! Se cargaron ${vocab.length} palabras desde ${file.name}`);
+          switchSection('vocab');
+          startRound();
+        } catch (_) {
+          showToast('No se pudo leer el archivo. Usá formato .json o .csv válido.');
+        } finally {
+          event.target.value = '';
+        }
+      };
+      reader.readAsText(file, 'utf-8');
+    }
+
+    // =========================================================================
+    // EVENT WIRING
+    // =========================================================================
+    document.getElementById('btnSectionVocab').addEventListener('click', () => switchSection('vocab'));
+    document.getElementById('btnSectionKanji').addEventListener('click', () => switchSection('kanji'));
+    document.getElementById('btnSectionSprint').addEventListener('click', () => switchSection('sprint'));
+
+    document.getElementById('btnToggleTheme').addEventListener('click', () => {
+      applyTheme(currentTheme === 'dark' ? 'light' : 'dark');
+    });
+    document.getElementById('btnToggleReading').addEventListener('click', () => {
+      showReading = !showReading;
+      document.getElementById('readingLabel').textContent = showReading ? 'Lectura: ON' : 'Lectura: OFF';
+      renderReadingVisibility(answered);
+    });
+    document.getElementById('btnToggleSound').addEventListener('click', () => {
+      soundEnabled = !soundEnabled;
+      document.getElementById('soundLabel').textContent = soundEnabled ? '🔔 ON' : '🔕 OFF';
+    });
+    document.getElementById('btnImportExcel').addEventListener('click', () => {
+      document.getElementById('fileInputExcel').click();
+    });
+    document.getElementById('fileInputExcel').addEventListener('change', handleLocalImport);
+
+    // Modals
+    document.getElementById('btnOpenTipsModal').addEventListener('click', () => {
+      document.getElementById('tipsModal').classList.remove('hidden');
+    });
+    document.getElementById('btnCloseTipsModal').addEventListener('click', () => {
+      document.getElementById('tipsModal').classList.add('hidden');
+    });
+    document.getElementById('tipsModal').addEventListener('click', (e) => {
+      if (e.target.id === 'tipsModal') document.getElementById('tipsModal').classList.add('hidden');
+    });
+
+    document.getElementById('btnOpenProgress').addEventListener('click', () => {
+      renderProgressModal();
+      document.getElementById('progressModal').classList.remove('hidden');
+    });
+    document.getElementById('btnCloseProgress').addEventListener('click', () => {
+      document.getElementById('progressModal').classList.add('hidden');
+    });
+    document.getElementById('progressModal').addEventListener('click', (e) => {
+      if (e.target.id === 'progressModal') document.getElementById('progressModal').classList.add('hidden');
+    });
+
+    document.getElementById('btnAskResetProgress').addEventListener('click', () => {
+      document.getElementById('btnAskResetProgress').classList.add('hidden');
+      document.getElementById('btnConfirmResetProgress').classList.remove('hidden');
+      document.getElementById('btnCancelResetProgress').classList.remove('hidden');
+    });
+    document.getElementById('btnCancelResetProgress').addEventListener('click', () => {
+      document.getElementById('btnAskResetProgress').classList.remove('hidden');
+      document.getElementById('btnConfirmResetProgress').classList.add('hidden');
+      document.getElementById('btnCancelResetProgress').classList.add('hidden');
+    });
+    document.getElementById('btnConfirmResetProgress').addEventListener('click', () => {
+      progressStore = { masteredVocab: [], masteredKanji: [], bestStreak: 0, totalCorrect: 0, totalWrong: 0, dailyStreak: 0, lastPracticeDate: '' };
+      saveProgress();
+      renderProgressModal();
+      showToast('Progreso reiniciado.');
+    });
+
+    // Vocab controls
+    document.querySelectorAll('.mode-tab').forEach(btn => {
+      btn.addEventListener('click', () => { mode = btn.dataset.mode; topicFilter = 'ALL'; startRound(); });
+    });
+    document.getElementById('selectTopic').addEventListener('change', (e) => { topicFilter = e.target.value; startRound(); });
+    document.getElementById('selectRoundSize').addEventListener('change', (e) => { roundSize = parseInt(e.target.value, 10); startRound(); });
+    document.getElementById('btnRestart').addEventListener('click', startRound);
+    document.getElementById('btnNext').addEventListener('click', goNext);
+    document.getElementById('btnNewRound').addEventListener('click', startRound);
+    document.getElementById('btnPracticeMistakes').addEventListener('click', () => { mode = 'mistakes'; topicFilter = 'ALL'; startRound(); });
+    document.getElementById('btnBackToAll').addEventListener('click', () => { mode = 'all'; topicFilter = 'ALL'; startRound(); });
+    document.getElementById('btnPeekReading').addEventListener('click', () => renderReadingVisibility(true));
+
+    // Kanji controls
+    document.querySelectorAll('.kmode-tab').forEach(btn => {
+      btn.addEventListener('click', () => { kMode = btn.dataset.kmode; kCatFilter = 'ALL'; startKanjiRound(); });
+    });
+    document.getElementById('selectKanjiCat').addEventListener('change', (e) => { kCatFilter = e.target.value; startKanjiRound(); });
+    document.getElementById('selectKanjiRound').addEventListener('change', (e) => { kRoundSize = parseInt(e.target.value, 10); startKanjiRound(); });
+    document.getElementById('btnToggleInterTips').addEventListener('click', () => {
+      kShowInterTips = !kShowInterTips;
+      document.getElementById('btnToggleInterTips').textContent = kShowInterTips ? '⚡ Tips: ON' : '⚡ Tips: OFF';
+    });
+    document.getElementById('btnKanjiRestart').addEventListener('click', startKanjiRound);
+    document.getElementById('btnKanjiNext').addEventListener('click', goKanjiNext);
+    document.getElementById('btnDismissInterTip').addEventListener('click', dismissInterstitialTip);
+    document.getElementById('btnKanjiNewRound').addEventListener('click', startKanjiRound);
+    document.getElementById('btnKanjiPracticeMistakes').addEventListener('click', () => { kMode = 'mistakes'; kCatFilter = 'ALL'; startKanjiRound(); });
+    document.getElementById('btnKanjiBackAll').addEventListener('click', () => { kMode = 'mixed'; kCatFilter = 'ALL'; startKanjiRound(); });
+
+    // Sprint controls
+    document.querySelectorAll('[data-smin]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        sprintMinutes = parseInt(btn.dataset.smin, 10);
+        document.querySelectorAll('[data-smin]').forEach(b => b.classList.toggle('active', b === btn));
+      });
+    });
+    document.querySelectorAll('[data-sfocus]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        sprintFocus = btn.dataset.sfocus;
+        document.querySelectorAll('[data-sfocus]').forEach(b => b.classList.toggle('active', b === btn));
+      });
+    });
+    document.getElementById('btnStartSprint').addEventListener('click', startSprint);
+    document.getElementById('btnPauseSprint').addEventListener('click', toggleSprintPause);
+    document.getElementById('btnFinishSprintEarly').addEventListener('click', finishSprint);
+    document.getElementById('btnNextSprintTip').addEventListener('click', showSprintTip);
+    document.getElementById('btnSprintNext').addEventListener('click', goSprintNext);
+    document.getElementById('btnSprintAgain').addEventListener('click', () => {
+      document.getElementById('sprintSummaryCard').classList.add('hidden');
+      document.getElementById('sprintSetupCard').classList.remove('hidden');
+      updateSprintPreviewTip();
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.target && (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT')) return;
+      if (!document.getElementById('tipsModal').classList.contains('hidden')) {
+        if (e.key === 'Escape') document.getElementById('tipsModal').classList.add('hidden');
+        return;
+      }
+      if (!document.getElementById('progressModal').classList.contains('hidden')) {
+        if (e.key === 'Escape') document.getElementById('progressModal').classList.add('hidden');
+        return;
+      }
+
+      if (activeSection === 'vocab') {
+        if (document.getElementById('quizCard').classList.contains('hidden')) return;
+        if (!answered && ['1', '2', '3', '4'].includes(e.key)) {
+          e.preventDefault();
+          handleAnswer(parseInt(e.key, 10) - 1);
+        } else if (answered && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          goNext();
+        }
+      } else if (activeSection === 'kanji') {
+        if (kShowingTip && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          dismissInterstitialTip();
+          return;
+        }
+        if (document.getElementById('kanjiCard').classList.contains('hidden')) return;
+        if (!kAnswered && ['1', '2', '3', '4'].includes(e.key)) {
+          e.preventDefault();
+          handleKanjiAnswer(parseInt(e.key, 10) - 1);
+        } else if (kAnswered && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          goKanjiNext();
+        }
+      } else if (activeSection === 'sprint' && sprintRunning && !sprintPaused) {
+        if (!sprintAnswered && ['1', '2', '3', '4'].includes(e.key)) {
+          e.preventDefault();
+          handleSprintAnswer(parseInt(e.key, 10) - 1);
+        } else if (sprintAnswered && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          goSprintNext();
+        }
+      }
+    });
+
+    // Init
+    loadProgress();
+    document.getElementById('bestStreakGlobal').textContent = String(progressStore.bestStreak);
+    renderTipsModal();
+    startRound();
+    updateKanjiCountsAndCats();
+    updateSprintPreviewTip();
+  </script>
+</body>
+</html>

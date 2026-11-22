@@ -1,0 +1,1393 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "先週",
+      "post": " デパートに かいものに いきました。",
+      "opts": [
+        "せんしゅ",
+        "せんしゅう",
+        "ぜんしゅ",
+        "ぜんしゅう"
+      ],
+      "ans": 1,
+      "es": "La semana pasada fui de compras a la tienda departamental.",
+      "tip": "Trampa clásica de Mondai 1: 週 siempre termina con vocal larga (しゅう) y 先 no lleva tenten (せん, no ぜん)."
+    },
+    {
+      "id": 2,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "ごはんの ",
+      "u": "後で",
+      "post": " さんぽします。",
+      "opts": [
+        "つぎ",
+        "うしろ",
+        "まえ",
+        "あと"
+      ],
+      "ans": 3,
+      "es": "Después de comer voy a dar un paseo.",
+      "tip": "¡Ojo al okurigana! Si tiene で (後で) se lee あとで (después). Si tiene ろ (後ろ) se lee うしろ (detrás)."
+    },
+    {
+      "id": 3,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "きのうの じゅぎょうで わたしの ",
+      "u": "後ろ",
+      "post": "に たなかさんが いました。",
+      "opts": [
+        "あとろ",
+        "うしろ",
+        "うしる",
+        "まえろ"
+      ],
+      "ans": 1,
+      "es": "En la clase de ayer Tanaka estaba detrás de mí.",
+      "tip": "後 + ろ (後ろ) siempre es うしろ (detrás). No confundir con 後で (あとで = después)."
+    },
+    {
+      "id": 4,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "今日",
+      "post": "は とても あついですね。",
+      "opts": [
+        "きょ",
+        "きょう",
+        "こんじつ",
+        "いまひ"
+      ],
+      "ans": 1,
+      "es": "Hoy hace mucho calor, ¿verdad?",
+      "tip": "今日 (hoy) tiene lectura especial con vocal larga: きょう (no きょ)."
+    },
+    {
+      "id": 5,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "今年",
+      "post": "の なつに にほんへ いきます。",
+      "opts": [
+        "こんねん",
+        "いまねん",
+        "ことし",
+        "きょうねん"
+      ],
+      "ans": 2,
+      "es": "Este verano voy a Japón.",
+      "tip": "¡Trampa fija! 今年 (este año) es irregular: siempre se lee ことし, NUNCA こんねん."
+    },
+    {
+      "id": 6,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "来週",
+      "post": "の げつようびに テストが あります。",
+      "opts": [
+        "らいしゅ",
+        "らいしゅう",
+        "きしゅう",
+        "くしゅう"
+      ],
+      "ans": 1,
+      "es": "El lunes de la semana que viene hay examen.",
+      "tip": "今週, 来週, 先週 y 毎週 SIEMPRE llevan vocal larga al final: しゅう."
+    },
+    {
+      "id": 7,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "あたらしい ",
+      "u": "時計",
+      "post": "を かいました。",
+      "opts": [
+        "じけい",
+        "ときけい",
+        "とけい",
+        "どけい"
+      ],
+      "ans": 2,
+      "es": "Compré un reloj nuevo.",
+      "tip": "時計 (reloj) es una lectura especial muy tomada en N5: とけい (sin tenten al inicio)."
+    },
+    {
+      "id": 8,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "えきまで 歩いて ",
+      "u": "十分",
+      "post": " かかります。",
+      "opts": [
+        "じゅうふん",
+        "じゅっぷん",
+        "じゅうぷん",
+        "じゅっふん"
+      ],
+      "ans": 1,
+      "es": "Caminando hasta la estación tarda 10 minutos.",
+      "tip": "Regla de 分: con 1, 3, 4, 6, 8 y 10 es ぷん (じゅっぷん con っ pequeño). Con 2, 5, 7 y 9 es ふん (ごふん)."
+    },
+    {
+      "id": 9,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "今朝",
+      "post": " パンと コーヒーを たべました。",
+      "opts": [
+        "こんあさ",
+        "いまあさ",
+        "けさ",
+        "げさ"
+      ],
+      "ans": 2,
+      "es": "Esta mañana desayuné pan y café.",
+      "tip": "今朝 (esta mañana) tiene lectura especial: けさ (no こんあさ ni いまあさ)."
+    },
+    {
+      "id": 10,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "きょうは ",
+      "u": "天気",
+      "post": "が いいから、こうえんへ いきましょう。",
+      "opts": [
+        "でんき",
+        "てんき",
+        "げんき",
+        "てんぎ"
+      ],
+      "ans": 1,
+      "es": "Hoy hace buen tiempo, así que vayamos al parque.",
+      "tip": "No confundas 天気 (てんき = clima, sin tenten) con 電気 (でんき = electricidad/luz, con tenten)."
+    },
+    {
+      "id": 11,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "おじいさんは まいにち ",
+      "u": "元気",
+      "post": "です。",
+      "opts": [
+        "けんき",
+        "てんき",
+        "げんき",
+        "げんぎ"
+      ],
+      "ans": 2,
+      "es": "Mi abuelo está con energía y sano todos los días.",
+      "tip": "元気 empieza con tenten (げんき) y 気 no lleva tenten."
+    },
+    {
+      "id": 12,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "ぎんこうと ゆうびんきょくの ",
+      "u": "間",
+      "post": "に カフェが あります。",
+      "opts": [
+        "あいた",
+        "あいだ",
+        "かん",
+        "ま"
+      ],
+      "ans": 1,
+      "es": "Entre el banco y la oficina de correos hay un café.",
+      "tip": "Cuando 間 significa 'entre dos cosas' lleva tenten: あいだ (no あいた)."
+    },
+    {
+      "id": 13,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "",
+      "u": "土曜日",
+      "post": "に ともだちと えいがを みます。",
+      "opts": [
+        "とようび",
+        "どようび",
+        "どよび",
+        "とよび"
+      ],
+      "ans": 1,
+      "es": "El sábado voy a ver una película con un amigo.",
+      "tip": "土曜日 empieza con tenten (ど) y lleva vocal larga en ようび."
+    },
+    {
+      "id": 14,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "あした ともだちは ",
+      "u": "来ない",
+      "post": "と いいました。",
+      "opts": [
+        "きない",
+        "くない",
+        "こない",
+        "らいない"
+      ],
+      "ans": 2,
+      "es": "Mi amigo dijo que mañana no viene.",
+      "tip": "来る es irregular: su raíz cambia según la conjugación: 来る (くる), 来ない (こない), 来ました (きました)."
+    },
+    {
+      "id": 15,
+      "m": 1,
+      "cat": "Tiempo y Clima",
+      "pre": "きょうは ",
+      "u": "空",
+      "post": "が とても あおいです。",
+      "opts": [
+        "そら",
+        "くう",
+        "あめ",
+        "かぜ"
+      ],
+      "ans": 0,
+      "es": "Hoy el cielo está muy azul.",
+      "tip": "空 solo significa 'cielo' y se lee そら. En palabras compuestas como 空港 (aeropuerto) es くう."
+    },
+    {
+      "id": 16,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "きょねんの じゅうがつ ",
+      "u": "一日",
+      "post": "に にほんへ きました。",
+      "opts": [
+        "いちにち",
+        "ついたち",
+        "ひとひ",
+        "いっぴ"
+      ],
+      "ans": 1,
+      "es": "Vine a Japón el 1 de octubre del año pasado.",
+      "tip": "¡Trampa clásica! Como fecha (día 1 del mes) 一日 se lee ついたち. Como duración ('durante 1 día') es いちにち."
+    },
+    {
+      "id": 17,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "この へやに ",
+      "u": "一人",
+      "post": "で すんでいます。",
+      "opts": [
+        "いちにん",
+        "いちじん",
+        "ひとり",
+        "ひとひと"
+      ],
+      "ans": 2,
+      "es": "Vivo solo en esta habitación.",
+      "tip": "1 persona es ひとり y 2 personas es ふたり. ¡NUNCA se dice いちにん ni ににん!"
+    },
+    {
+      "id": 18,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "りんごを ",
+      "u": "三つ",
+      "post": " ください。",
+      "opts": [
+        "みつ",
+        "みっつ",
+        "さんつ",
+        "みつつ"
+      ],
+      "ans": 1,
+      "es": "Deme tres manzanas, por favor.",
+      "tip": "三つ (みっつ) y 三日 (みっか) SIEMPRE llevan っ pequeño. El examen suele poner みつ como trampa."
+    },
+    {
+      "id": 19,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "わたしの かぞくは ",
+      "u": "四人",
+      "post": " です。",
+      "opts": [
+        "しにん",
+        "よんにん",
+        "よっにん",
+        "よにん"
+      ],
+      "ans": 3,
+      "es": "Mi familia es de cuatro personas.",
+      "tip": "¡Atención! 4 personas es よにん (sin っ pequeño, sin ん y sin し)."
+    },
+    {
+      "id": 20,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "この ケーキは ",
+      "u": "六百",
+      "post": "えん です。",
+      "opts": [
+        "ろくひゃく",
+        "ろっびゃく",
+        "ろっぴゃく",
+        "ろぴゃく"
+      ],
+      "ans": 2,
+      "es": "Esta torta cuesta 600 yenes.",
+      "tip": "600 lleva っ pequeño y maru (ぴゃ): ろっぴゃく. (300 lleva tenten: さんびゃく; 800: はっぴゃく)."
+    },
+    {
+      "id": 21,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "しがつ ",
+      "u": "八日",
+      "post": "は わたしの たんじょうびです。",
+      "opts": [
+        "よっか",
+        "ようか",
+        "はちにち",
+        "やっか"
+      ],
+      "ans": 1,
+      "es": "El 8 de abril es mi cumpleaños.",
+      "tip": "¡No los confundas! Día 8 es ようか (vocal larga). Día 4 es よっか (con っ pequeño)."
+    },
+    {
+      "id": 22,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "まいばん ",
+      "u": "九時",
+      "post": "に ねます。",
+      "opts": [
+        "きゅうじ",
+        "くじ",
+        "くうじ",
+        "ここのじ"
+      ],
+      "ans": 1,
+      "es": "Todas las noches me acuesto a las 9.",
+      "tip": "Las 9 en punto siempre es くじ (nunca きゅうじ). Y las 7 en el examen suele ser しちじ."
+    },
+    {
+      "id": 23,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "いもうとは ことし ",
+      "u": "二十歳",
+      "post": "に なります。",
+      "opts": [
+        "にじゅっさい",
+        "はつか",
+        "はたち",
+        "ふたつ"
+      ],
+      "ans": 2,
+      "es": "Mi hermana menor cumple 20 años este año.",
+      "tip": "20 años de edad es súper irregular: はたち. (No confundir con el día 20 del mes: はつか)."
+    },
+    {
+      "id": 24,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "この かばんは ",
+      "u": "三千",
+      "post": "えん でした。",
+      "opts": [
+        "さんせん",
+        "さんぜん",
+        "さんっせん",
+        "みせん"
+      ],
+      "ans": 1,
+      "es": "Este bolso costó 3.000 yenes.",
+      "tip": "3.000 lleva tenten: さんぜん (sanzen). Igual que 300 (さんびゃく)."
+    },
+    {
+      "id": 25,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "パンを ",
+      "u": "半分",
+      "post": " 食べました。",
+      "opts": [
+        "はんふん",
+        "はんぷん",
+        "はんぶん",
+        "ばんぶん"
+      ],
+      "ans": 2,
+      "es": "Comí la mitad del pan.",
+      "tip": "半分 (mitad) lleva tenten en la segunda parte: はんぶん (no はんぷん ni はんふん)."
+    },
+    {
+      "id": 26,
+      "m": 1,
+      "cat": "Números y Contadores",
+      "pre": "つくえの うえに みかんが ",
+      "u": "五つ",
+      "post": " あります。",
+      "opts": [
+        "いっつ",
+        "いつつ",
+        "ごつ",
+        "いつか"
+      ],
+      "ans": 1,
+      "es": "Hay cinco mandarinas sobre el escritorio.",
+      "tip": "En 五つ (いつつ) el つ del medio es GRANDE (i-tsu-tsu), a diferencia de 三つ (みっつ) o 四つ (よっつ)."
+    },
+    {
+      "id": 27,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "この えいがは ",
+      "u": "大人",
+      "post": "に にんきが あります。",
+      "opts": [
+        "だいじん",
+        "おおひと",
+        "おとな",
+        "たいにん"
+      ],
+      "ans": 2,
+      "es": "Esta película es popular entre los adultos.",
+      "tip": "大人 (adulto) es una lectura irregular clásica de JLPT N5: おとな."
+    },
+    {
+      "id": 28,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "あそこに ",
+      "u": "女の人",
+      "post": "が います。",
+      "opts": [
+        "おなのひと",
+        "おんなのひと",
+        "おとこのひと",
+        "おんのひと"
+      ],
+      "ans": 1,
+      "es": "Allá hay una mujer.",
+      "tip": "女 lleva doble 'n': おんな (onna). No caigas en la trampa de おな."
+    },
+    {
+      "id": 29,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "わたしの ",
+      "u": "お父さん",
+      "post": "は いしゃです。",
+      "opts": [
+        "おとさん",
+        "おとおさん",
+        "おとうさん",
+        "おちちさん"
+      ],
+      "ans": 2,
+      "es": "Mi papá es médico.",
+      "tip": "お父さん lleva vocal larga con う (おとうさん), mientras que お母さん lleva doble あ (おかあさん)."
+    },
+    {
+      "id": 30,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "えきの ",
+      "u": "入口",
+      "post": "で まって います。",
+      "opts": [
+        "いりくち",
+        "いりぐち",
+        "はいりぐち",
+        "でぐち"
+      ],
+      "ans": 1,
+      "es": "Te estoy esperando en la entrada de la estación.",
+      "tip": "En 入口 (いりぐち) y 出口 (でぐち), 口 se sonoriza con tenten a ぐち (guchi)."
+    },
+    {
+      "id": 31,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "マリアさんは りょうりが ",
+      "u": "上手",
+      "post": "ですね。",
+      "opts": [
+        "うえて",
+        "じょうて",
+        "じょうず",
+        "じょず"
+      ],
+      "ans": 2,
+      "es": "María es muy buena cocinando, ¿verdad?",
+      "tip": "上手 (じょうず = hábil) tiene lectura especial y vocal larga en じょう. Su opuesto es 下手 (へた = torpe)."
+    },
+    {
+      "id": 32,
+      "m": 1,
+      "cat": "Personas y Familia",
+      "pre": "ははに ",
+      "u": "手紙",
+      "post": "を かきました。",
+      "opts": [
+        "しゅがみ",
+        "てかみ",
+        "てがみ",
+        "でがみ"
+      ],
+      "ans": 2,
+      "es": "Le escribí una carta a mi mamá.",
+      "tip": "手紙 (carta) se lee てがみ (con tenten en がみ, nunca しゅがみ ni てかみ)."
+    },
+    {
+      "id": 33,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "ちかくに ",
+      "u": "山",
+      "post": "が あります。",
+      "opts": [
+        "かわ",
+        "やま",
+        "いけ",
+        "うみ"
+      ],
+      "ans": 1,
+      "es": "Hay una montaña cerca.",
+      "tip": "山 sola siempre es やま (montaña). En nombres como 富士山 (Monte Fuji) pasa a さん."
+    },
+    {
+      "id": 34,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "ともだちと いっしょに ",
+      "u": "学校",
+      "post": "に いきます。",
+      "opts": [
+        "がこう",
+        "がこお",
+        "がっこう",
+        "がっこお"
+      ],
+      "ans": 2,
+      "es": "Voy a la escuela junto con mi amigo.",
+      "tip": "Trampa doble del N5: 学校 lleva っ pequeño Y vocal larga con う (がっこう, nunca お)."
+    },
+    {
+      "id": 35,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "おとうとは ことし ",
+      "u": "高校",
+      "post": "に はいります。",
+      "opts": [
+        "ここう",
+        "こうこ",
+        "こうこう",
+        "ごうこう"
+      ],
+      "ans": 2,
+      "es": "Mi hermano menor entra a la escuela secundaria este año.",
+      "tip": "高校 (escuela secundaria) tiene DOS vocales largas con う: こうこう."
+    },
+    {
+      "id": 36,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "へやの ",
+      "u": "電気",
+      "post": "を けして ください。",
+      "opts": [
+        "てんき",
+        "でんき",
+        "てんぎ",
+        "でんぎ"
+      ],
+      "ans": 1,
+      "es": "Por favor, apagá la luz de la habitación.",
+      "tip": "電気 (でんき = luz/electricidad) lleva tenten al inicio. 天気 (てんき = clima) NO lleva."
+    },
+    {
+      "id": 37,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "らいげつ ",
+      "u": "東京",
+      "post": "へ りょこうします。",
+      "opts": [
+        "ときょう",
+        "とうきょ",
+        "とうきょう",
+        "ひがしきょう"
+      ],
+      "ans": 2,
+      "es": "El próximo mes viajo a Tokio.",
+      "tip": "東京 lleva DOS vocales largas: とうきょう (no ときょう ni とうきょ)."
+    },
+    {
+      "id": 38,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "あには おおきい ",
+      "u": "会社",
+      "post": "で はたらいて います。",
+      "opts": [
+        "かいしゃ",
+        "がいしゃ",
+        "かいさ",
+        "えしゃ"
+      ],
+      "ans": 0,
+      "es": "Mi hermano mayor trabaja en una empresa grande.",
+      "tip": "会社 se lee かいしゃ (sin tenten al inicio)."
+    },
+    {
+      "id": 39,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "ゆうびんきょくの となりに ",
+      "u": "銀行",
+      "post": "が あります。",
+      "opts": [
+        "きんこう",
+        "ぎんこ",
+        "ぎんこう",
+        "ぎんごう"
+      ],
+      "ans": 2,
+      "es": "Al lado de la oficina de correos hay un banco.",
+      "tip": "銀行 (banco) empieza con tenten (ぎん) y termina con vocal larga sin tenten (こう)."
+    },
+    {
+      "id": 40,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "つくえの ",
+      "u": "下",
+      "post": "に ねこが います。",
+      "opts": [
+        "うえ",
+        "しだ",
+        "した",
+        "なか"
+      ],
+      "ans": 2,
+      "es": "Hay un gato debajo del escritorio.",
+      "tip": "Como posición, 下 siempre es した (sin tenten, nunca しだ)."
+    },
+    {
+      "id": 41,
+      "m": 1,
+      "cat": "Lugares y Naturaleza",
+      "pre": "その かどを ",
+      "u": "右",
+      "post": "に まがって ください。",
+      "opts": [
+        "ひだり",
+        "みぎ",
+        "みき",
+        "まえ"
+      ],
+      "ans": 1,
+      "es": "Por favor, doblá a la derecha en esa esquina.",
+      "tip": "Truco visual: 右 (みぎ = derecha) tiene una boca (口) abajo, porque comés con la derecha. 左 (ひだり) tiene una escuadra (エ)."
+    },
+    {
+      "id": 42,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "もう いちど ",
+      "u": "言って",
+      "post": " ください。",
+      "opts": [
+        "いって",
+        "きって",
+        "まって",
+        "たって"
+      ],
+      "ans": 0,
+      "es": "Por favor, decilo una vez más.",
+      "tip": "言 tiene una boca (口) abajo de la que salen ondas de sonido -> 言う (decir). Su forma TE es いって."
+    },
+    {
+      "id": 43,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "まいあさ ",
+      "u": "新聞",
+      "post": "を よみます。",
+      "opts": [
+        "しんふん",
+        "しんぷん",
+        "しんぶん",
+        "じんぶん"
+      ],
+      "ans": 2,
+      "es": "Todas las mañanas leo el periódico.",
+      "tip": "新聞 (periódico) lleva tenten en ぶん: しんぶん (no しんぷん ni しんふん)."
+    },
+    {
+      "id": 44,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "コーヒーに さとうを ",
+      "u": "入れて",
+      "post": " ください。",
+      "opts": [
+        "はいて",
+        "はいって",
+        "いれて",
+        "いでて"
+      ],
+      "ans": 2,
+      "es": "Por favor, ponele azúcar al café.",
+      "tip": "¡Ojo al okurigana! 入る (sin れ) es はいる (entrar). 入れる (con れ afuera) es いれる (meter/poner dentro)."
+    },
+    {
+      "id": 45,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "へやに ",
+      "u": "入って",
+      "post": "も いいですか。",
+      "opts": [
+        "いれて",
+        "はいって",
+        "はいて",
+        "でて"
+      ],
+      "ans": 1,
+      "es": "¿Puedo entrar a la habitación?",
+      "tip": "入る -> forma TE: 入って (はいって). Recordá que 入 tiene el trazo derecho más alto, como alguien agachándose para entrar."
+    },
+    {
+      "id": 46,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "かばんから ほんを ",
+      "u": "出して",
+      "post": " ください。",
+      "opts": [
+        "でて",
+        "だして",
+        "でして",
+        "たして"
+      ],
+      "ans": 1,
+      "es": "Por favor, sacá el libro de la mochila.",
+      "tip": "出 + す (出す) se lee だす (sacar), forma TE: だして. 出 + る (出る) se lee でる (salir)."
+    },
+    {
+      "id": 47,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "きのう ともだちに ",
+      "u": "会いました",
+      "post": "。",
+      "opts": [
+        "かいました",
+        "あいました",
+        "いいました",
+        "みました"
+      ],
+      "ans": 1,
+      "es": "Ayer me encontré con un amigo.",
+      "tip": "会う (あう = encontrarse con alguien) siempre usa la partícula に con la persona."
+    },
+    {
+      "id": 48,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "かぜを ひいたので、きょうは がっこうを ",
+      "u": "休みます",
+      "post": "。",
+      "opts": [
+        "からだみます",
+        "やすみます",
+        "のみます",
+        "よみます"
+      ],
+      "ans": 1,
+      "es": "Como me resfrié, hoy falto a la escuela.",
+      "tip": "休 = persona (亻) apoyada en un árbol (木) -> 休む (やすむ = descansar / faltar). No confundir con 体 (からだ = cuerpo)."
+    },
+    {
+      "id": 49,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "ここで すこし ",
+      "u": "待って",
+      "post": " ください。",
+      "opts": [
+        "もって",
+        "まって",
+        "たって",
+        "いって"
+      ],
+      "ans": 1,
+      "es": "Por favor, esperá un poco acá.",
+      "tip": "待 vs 持 vs 時: los tres tienen 寺 a la derecha. 待 tiene dos pasos (彳) a la izquierda -> te detenés a esperar (まつ)."
+    },
+    {
+      "id": 50,
+      "m": 1,
+      "cat": "Verbos en Kanji",
+      "pre": "その おおきい かばんを ",
+      "u": "持って",
+      "post": " いきましょう。",
+      "opts": [
+        "まって",
+        "もって",
+        "とって",
+        "かって"
+      ],
+      "ans": 1,
+      "es": "Llevemos ese bolso grande.",
+      "tip": "持 tiene el radical de mano (扌) a la izquierda -> sostener / llevar con la mano (もつ -> もって)."
+    },
+    {
+      "id": 51,
+      "m": 1,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "この ホテルは へやが ",
+      "u": "多い",
+      "post": "です。",
+      "opts": [
+        "すくない",
+        "おおい",
+        "せまい",
+        "ひろい"
+      ],
+      "ans": 1,
+      "es": "Este hotel tiene muchas habitaciones.",
+      "tip": "多い (muchos) lleva doble お en hiragana: おおい (nunca おい)."
+    },
+    {
+      "id": 52,
+      "m": 1,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "あそこに ",
+      "u": "小さい",
+      "post": " いぬが います。",
+      "opts": [
+        "ちさい",
+        "ちいさい",
+        "じいさい",
+        "しいさい"
+      ],
+      "ans": 1,
+      "es": "Allá hay un perro pequeño.",
+      "tip": "Trampa fonética clásica: 小さい lleva doble い (ちいさい), nunca ちさい."
+    },
+    {
+      "id": 53,
+      "m": 1,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "とても ",
+      "u": "大きい",
+      "post": " こうえんへ いきました。",
+      "opts": [
+        "おきい",
+        "おおきい",
+        "おうきい",
+        "おおき"
+      ],
+      "ans": 1,
+      "es": "Fui a un parque muy grande.",
+      "tip": "大きい lleva doble お (おおきい, con お y NO con う)."
+    },
+    {
+      "id": 54,
+      "m": 1,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "この みせの くだものは ",
+      "u": "安い",
+      "post": "です。",
+      "opts": [
+        "たかい",
+        "やすい",
+        "あつい",
+        "さむい"
+      ],
+      "ans": 1,
+      "es": "La fruta de esta tienda es barata.",
+      "tip": "安 (やすい = barato) es una mujer (女) tranquila bajo un techo (宀)."
+    },
+    {
+      "id": 55,
+      "m": 1,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "その ",
+      "u": "古い",
+      "post": " ほんを よみましたか。",
+      "opts": [
+        "あたらしい",
+        "ふるい",
+        "ながい",
+        "しろい"
+      ],
+      "ans": 1,
+      "es": "¿Leíste ese libro viejo?",
+      "tip": "古 (ふるい = viejo para objetos) es un 10 (十) sobre una boca (口): una historia contada por 10 generaciones."
+    },
+    {
+      "id": 56,
+      "m": 2,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "きのう ",
+      "u": "あたらしい",
+      "post": " くつを かいました。",
+      "opts": [
+        "新い",
+        "新しい",
+        "親しい",
+        "新し"
+      ],
+      "ans": 1,
+      "es": "Ayer compré zapatos nuevos.",
+      "tip": "¡Trampa clásica de Okurigana! 新しい SIEMPRE lleva しい afuera del kanji (新い no existe). Y ojo con 親 (padres, tiene 見)."
+    },
+    {
+      "id": 57,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "へやに ",
+      "u": "はいる",
+      "post": " まえに ノックします。",
+      "opts": [
+        "人る",
+        "入る",
+        "八る",
+        "入いる"
+      ],
+      "ans": 1,
+      "es": "Antes de entrar a la habitación golpeo la puerta.",
+      "tip": "Trío de las 2 rayitas: 入 (entrar) tiene el trazo derecho más alto, como agachando la cabeza al entrar. 人 es persona y 八 no se toca."
+    },
+    {
+      "id": 58,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "スーパーで ぎゅうにゅうを ",
+      "u": "かいました",
+      "post": "。",
+      "opts": [
+        "見いました",
+        "貝いました",
+        "買いました",
+        "売いました"
+      ],
+      "ans": 2,
+      "es": "Compré leche en el supermercado.",
+      "tip": "Cuarteto del Ojo: 買 (comprar) tiene una red (罒) arriba atrapando al dinero/concha (貝) abajo. 見 es mirar y 売 es vender."
+    },
+    {
+      "id": 59,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "わたしは ほんを ",
+      "u": "よむ",
+      "post": " のが すきです。",
+      "opts": [
+        "売む",
+        "買む",
+        "読む",
+        "言うむ"
+      ],
+      "ans": 2,
+      "es": "Me gusta leer libros.",
+      "tip": "読 (leer) es 売 (vender) con el radical de palabras (言) a la izquierda. Si hay palabras, estás leyendo."
+    },
+    {
+      "id": 60,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "",
+      "u": "ごご",
+      "post": " さんじに かいぎが あります。",
+      "opts": [
+        "牛後",
+        "午後",
+        "午前",
+        "牛前"
+      ],
+      "ans": 1,
+      "es": "A las 3 de la tarde (PM) hay una reunión.",
+      "tip": "午 (mediodía) vs 牛 (vaca): en 牛 el trazo vertical atraviesa el techo como cuernos. En 午 NO atraviesa (午前 AM / 午後 PM)."
+    },
+    {
+      "id": 61,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "つぎの かどを ",
+      "u": "ひだり",
+      "post": "へ まがって ください。",
+      "opts": [
+        "右",
+        "左",
+        "石",
+        "古"
+      ],
+      "ans": 1,
+      "es": "Por favor, doblá a la izquierda en la próxima esquina.",
+      "tip": "左 (izquierda) tiene una escuadra (エ) abajo; 右 (derecha) tiene una boca (口) abajo."
+    },
+    {
+      "id": 62,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "まいにち うんどうして、",
+      "u": "からだ",
+      "post": "が じょうぶに なりました。",
+      "opts": [
+        "休",
+        "体",
+        "本",
+        "木"
+      ],
+      "ans": 1,
+      "es": "Al hacer ejercicio todos los días, mi cuerpo se volvió fuerte.",
+      "tip": "休 (descansar) es persona + árbol (木). 体 (cuerpo) es persona + origen/raíz (本, con la rayita abajo)."
+    },
+    {
+      "id": 63,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "わたしの ",
+      "u": "りょうしん",
+      "post": "は おおさかに すんでいます。",
+      "opts": [
+        "両新",
+        "両親",
+        "両見",
+        "両木"
+      ],
+      "ans": 1,
+      "es": "Mis padres viven en Osaka.",
+      "tip": "新 (nuevo) tiene un hacha (斤) a la derecha. 親 (padres) tiene mirar (見) a la derecha: los padres cuidan y miran a sus hijos."
+    },
+    {
+      "id": 64,
+      "m": 2,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "この へやは とても ",
+      "u": "おおきい",
+      "post": " です。",
+      "opts": [
+        "大い",
+        "大きい",
+        "太きい",
+        "大っきい"
+      ],
+      "ans": 1,
+      "es": "Esta habitación es muy grande.",
+      "tip": "Trampa de Okurigana: 大きい siempre lleva きい afuera (no 大い). Y ojo con 太 (grueso), que tiene un puntito abajo."
+    },
+    {
+      "id": 65,
+      "m": 2,
+      "cat": "Adjetivos y Okurigana",
+      "pre": "テーブルの うえに ",
+      "u": "ちいさい",
+      "post": " はこが あります。",
+      "opts": [
+        "小い",
+        "小いさい",
+        "小さい",
+        "少さい"
+      ],
+      "ans": 2,
+      "es": "Hay una caja pequeña sobre la mesa.",
+      "tip": "小さい lleva さい afuera del kanji (no 小い). No confundir 小 (pequeño) con 少 (poco, que tiene un trazo diagonal abajo)."
+    },
+    {
+      "id": 66,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "いすから ",
+      "u": "たって",
+      "post": " ください。",
+      "opts": [
+        "言って",
+        "立って",
+        "待って",
+        "持って"
+      ],
+      "ans": 1,
+      "es": "Por favor, ponete de pie de la silla.",
+      "tip": "立 (pararse) tiene el suelo plano abajo; 言 (decir) tiene una boca (口) abajo."
+    },
+    {
+      "id": 67,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "きのう ともだちと えいがを ",
+      "u": "みました",
+      "post": "。",
+      "opts": [
+        "目ました",
+        "貝ました",
+        "見ました",
+        "買ました"
+      ],
+      "ans": 2,
+      "es": "Ayer vi una película con un amigo.",
+      "tip": "見 (mirar) es un ojo (目) con piernas (儿) que camina para ir a ver."
+    },
+    {
+      "id": 68,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "この ペンは ",
+      "u": "せん",
+      "post": "えん です。",
+      "opts": [
+        "子",
+        "千",
+        "干",
+        "十"
+      ],
+      "ans": 1,
+      "es": "Este bolígrafo cuesta 1.000 yenes.",
+      "tip": "千 (mil) es una cruz con un sombrerito inclinado arriba. 子 (niño) tiene cabeza redonda y brazos abiertos."
+    },
+    {
+      "id": 69,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "きょうは そらが ",
+      "u": "あおい",
+      "post": " ですね。",
+      "opts": [
+        "晴い",
+        "青い",
+        "赤い",
+        "白い"
+      ],
+      "ans": 1,
+      "es": "Hoy el cielo está azul, ¿verdad?",
+      "tip": "No confundas 青 (azul) con 晴 (despejado), que tiene el sol (日) a la izquierda de 青."
+    },
+    {
+      "id": 70,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "あさ ごはんを ",
+      "u": "たべます",
+      "post": "。",
+      "opts": [
+        "良べます",
+        "食べます",
+        "飲みます",
+        "飼べます"
+      ],
+      "ans": 1,
+      "es": "Como el desayuno.",
+      "tip": "No confundas 食 (comer, que tiene un techo 人 arriba de todo) con 良 (bueno)."
+    },
+    {
+      "id": 71,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "かぞくで ",
+      "u": "にし",
+      "post": "の まちへ いきました。",
+      "opts": [
+        "四",
+        "西",
+        "東",
+        "南"
+      ],
+      "ans": 1,
+      "es": "Fui en familia a la ciudad del oeste.",
+      "tip": "No confundas 西 (oeste) con 四 (cuatro): 西 tiene una 'T' afuera arriba de la caja."
+    },
+    {
+      "id": 72,
+      "m": 2,
+      "cat": "Trampas Visuales",
+      "pre": "あそこに かわいい ",
+      "u": "いぬ",
+      "post": "が います。",
+      "opts": [
+        "大",
+        "太",
+        "犬",
+        "天"
+      ],
+      "ans": 2,
+      "es": "Allá hay un perro lindo.",
+      "tip": "犬 (perro) es 大 (grande) con una orejita/mancha arriba a la derecha. 太 (grueso) tiene el punto abajo."
+    }
+  ],
+  "tips": [
+    {
+      "id": "tip_1",
+      "tag": "Trampa Visual · Salón de la Fama",
+      "title": "El Trío de las Dos Rayitas: 人 vs. 入 vs. 八",
+      "compare": [
+        "人 (ひと · persona)",
+        "入 (はいる · entrar)",
+        "八 (はち · ocho)"
+      ],
+      "body": "En 人 el trazo izquierdo es más largo. En 入 el derecho es más alto y 'aplasta' al izquierdo (como agachar la cabeza para entrar). En 八 los dos trazos NO se tocan."
+    },
+    {
+      "id": "tip_2",
+      "tag": "Trampa Visual · Salón de la Fama",
+      "title": "El Cuarteto del Ojo: 目 vs. 見 vs. 貝 vs. 買",
+      "compare": [
+        "目 (ojo)",
+        "見 (mirar)",
+        "貝 (dinero/concha)",
+        "買 (comprar)"
+      ],
+      "body": "見 es un ojo con piernas (儿) que va a ver. 貝 tiene dos patitas separadas (ハ) y se usa como distractor. 買 tiene una red (罒) atrapando dinero (貝) arriba."
+    },
+    {
+      "id": "tip_3",
+      "tag": "Trampa Visual · Verbos",
+      "title": "Los Casi-Gemelos con 寺: 待 vs. 持 vs. 時",
+      "compare": [
+        "待 (まつ · esperar)",
+        "持 (もつ · sostener)",
+        "時 (じ/とき · hora)"
+      ],
+      "body": "Todos tienen 寺 a la derecha — ¡mirá siempre a la izquierda! 彳 (pasos) = esperar; 扌 (mano) = sostener; 日 (sol) = tiempo/hora."
+    },
+    {
+      "id": "tip_4",
+      "tag": "Trampa Visual · Verbos",
+      "title": "読 (Leer) vs. 売 (Vender) vs. 買 (Comprar)",
+      "compare": [
+        "売 (うる · vender)",
+        "読 (よむ · leer)",
+        "買 (かう · comprar)"
+      ],
+      "body": "読 es igual a 売 (vender), pero con el radical de palabras (言) a la izquierda. Si hay palabras, estás leyendo."
+    },
+    {
+      "id": "tip_5",
+      "tag": "Trampa Visual · Clásico N5",
+      "title": "午 (Mediodía) vs. 牛 (Vaca)",
+      "compare": [
+        "午 (午前 AM / 午後 PM)",
+        "牛 (うし · vaca)"
+      ],
+      "body": "En 牛 (vaca) el trazo vertical ATRAVIESA hacia arriba como un cuerno. En 午 (mediodía) NO atraviesa el techo."
+    },
+    {
+      "id": "tip_6",
+      "tag": "Trampa Visual · Direcciones",
+      "title": "右 (Derecha) vs. 左 (Izquierda)",
+      "compare": [
+        "右 (みぎ · boca 口 abajo)",
+        "左 (ひだり · escuadra エ abajo)"
+      ],
+      "body": "Recordalo fácil: con la mano derecha (右) te llevás la comida a la boca (口). La izquierda (左) tiene la escuadra de artesano (エ)."
+    },
+    {
+      "id": "tip_7",
+      "tag": "Trampa Visual · Clásico N5",
+      "title": "休 (Descansar) vs. 体 (Cuerpo)",
+      "compare": [
+        "休 (やすむ · persona + árbol 木)",
+        "体 (からだ · persona + raíz 本)"
+      ],
+      "body": "Persona (亻) apoyada en un árbol (木) = descansar (休). Persona + origen/raíz (本) = cuerpo (体)."
+    },
+    {
+      "id": "tip_8",
+      "tag": "Trampa Visual · Clásico N5",
+      "title": "新 (Nuevo) vs. 親 (Padres)",
+      "compare": [
+        "新 (あたらしい · hacha 斤)",
+        "親 (両親 · mirar 見)"
+      ],
+      "body": "新 tiene un hacha (斤) cortando leña fresca/nueva. 親 tiene mirar (見) a la derecha: los padres cuidan y miran a sus hijos."
+    },
+    {
+      "id": "tip_9",
+      "tag": "Regla de Oro · Mondai 1",
+      "title": "Las 3 Trampas Fonéticas del Mondai 1",
+      "compare": [
+        "Tenten / Maru (濁音・半濁音)",
+        "Vocal larga (う)",
+        "Tsu pequeño (っ) vs grande (つ)"
+      ],
+      "body": "9 de cada 10 veces la trampa en lecturas está en uno de estos 3 detalles: ej. はんぶん (no はんぷん), こうこう (no ここ), がっこう (っ + う), ちいさい (doble い)."
+    },
+    {
+      "id": "tip_10",
+      "tag": "Trampa de Okurigana · Mondai 2",
+      "title": "¡Cuidado con comerse letras afuera del Kanji!",
+      "compare": [
+        "新しい (NO 新い)",
+        "大きい (NO 大い)",
+        "小さい (NO 小い)"
+      ],
+      "body": "En Mondai 2 suelen poner el kanji correcto pero faltando hiragana afuera (okurigana). Memorizá: 新しい (しい), 大きい (きい), 小さい (さい)."
+    },
+    {
+      "id": "tip_11",
+      "tag": "Trampa de Contadores",
+      "title": "Regla de los Minutos (分): ¿ふん o ぷん?",
+      "compare": [
+        "2, 5, 7, 9 → ふん (ごふん)",
+        "1, 3, 4, 6, 8, 10 → ぷん (じゅっぷん)"
+      ],
+      "body": "Recordá los 4 números limpios (2, 5, 7, 9 = ふん). Todos los demás llevan ぷん (y 1, 6, 8, 10 además suman っ pequeño: いっぷん, ろっぷん, はっぷん, じゅっぷん)."
+    },
+    {
+      "id": "tip_12",
+      "tag": "Trampa de Fechas y Edad",
+      "title": "Las Lecturas Irregulares que SIEMPRE toman",
+      "compare": [
+        "一日: ついたち (día 1) vs いちにち (1 día)",
+        "四日 よっか vs 八日 ようか",
+        "二十歳 はたち vs 二十日 はつか"
+      ],
+      "body": "No mezcles よっか (día 4, con っ) con ようか (día 8, vocal larga), ni はたち (20 años) con はつか (día 20 del mes)."
+    },
+    {
+      "id": "tip_13",
+      "tag": "Lecturas Especiales · Tiempo",
+      "title": "El Cuarteto Irregular del Tiempo",
+      "compare": [
+        "今日 → きょう",
+        "今年 → ことし",
+        "今朝 → けさ",
+        "時計 → とけい"
+      ],
+      "body": "Ninguna sigue la lectura normal de sus kanjis: 今日 nunca es こんにち en N5, 今年 nunca es こんねん, 今朝 nunca es こんあさ, y 時計 nunca es じけい."
+    },
+    {
+      "id": "tip_14",
+      "tag": "Trampa de Okurigana · Verbos",
+      "title": "Mismo Kanji, distinta lectura según lo que siga",
+      "compare": [
+        "入る (はいる) vs 入れる (いれる)",
+        "出る (でる) vs 出す (だす)",
+        "後ろ (うしろ) vs 後で (あとで)"
+      ],
+      "body": "Antes de responder, mirá SIEMPRE la letra de hiragana pegada al kanji: cambia por completo la lectura y el significado."
+    },
+    {
+      "id": "tip_15",
+      "tag": "Trampa de Tenten · Clásico N5",
+      "title": "Palabras donde el Tenten (゛) define la respuesta",
+      "compare": [
+        "電気 (でんき) vs 天気 (てんき)",
+        "元気 (げんき)",
+        "新聞 (しんぶん)",
+        "入口・出口 (ぐち)"
+      ],
+      "body": "Fijate bien en el primer o segundo kanji: 電気 lleva tenten y 天気 no; 入口 y 出口 sonorizan 口 a ぐち; 新聞 lleva ぶん."
+    }
+  ]
+}
