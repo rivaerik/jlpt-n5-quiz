@@ -10,7 +10,8 @@
     "te": "浴びて (あびて)",
     "at": "",
     "es": "bañarse; ducharse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "浴びない (あびない)"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "peligroso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "te": "",
     "at": "",
     "es": "allá; por allá (informal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "te": "",
     "at": "",
     "es": "allá; por allá (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 5,
@@ -62,7 +66,8 @@
     "te": "上げて (あげて)",
     "at": "",
     "es": "subir; levantar; dar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "上げない (あげない)"
   },
   {
     "id": 6,
@@ -75,7 +80,8 @@
     "te": "",
     "at": "",
     "es": "rojo (color)",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 7,
@@ -88,7 +94,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "rojo",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "brillante; luminoso; alegre",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 9,
@@ -114,7 +122,8 @@
     "te": "開けて (あけて)",
     "at": "",
     "es": "abrir (puerta, paquete, etc.)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "開けない (あけない)"
   },
   {
     "id": 10,
@@ -127,7 +136,8 @@
     "te": "",
     "at": "",
     "es": "otoño",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 11,
@@ -140,7 +150,8 @@
     "te": "開いて (あいて)",
     "at": "",
     "es": "abrirse (puertas, negocio, etc.)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "開かない (あかない)"
   },
   {
     "id": 12,
@@ -153,7 +164,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "dulce; ingenuo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 13,
@@ -166,7 +178,8 @@
     "te": "",
     "at": "",
     "es": "lluvia",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 14,
@@ -179,7 +192,8 @@
     "te": "",
     "at": "",
     "es": "caramelo; dulce",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 15,
@@ -192,7 +206,8 @@
     "te": "",
     "at": "",
     "es": "tú; usted",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 16,
@@ -205,7 +220,8 @@
     "te": "",
     "at": "",
     "es": "hermana mayor (propia)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 17,
@@ -218,7 +234,8 @@
     "te": "",
     "at": "",
     "es": "hermano mayor (propio)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 18,
@@ -231,7 +248,8 @@
     "te": "",
     "at": "",
     "es": "aquel; aquella",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 19,
@@ -244,7 +262,8 @@
     "te": "",
     "at": "",
     "es": "azul (color)",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 20,
@@ -257,7 +276,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "azul",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 21,
@@ -270,7 +290,8 @@
     "te": "",
     "at": "",
     "es": "apartamento; departamento",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 22,
@@ -283,7 +304,8 @@
     "te": "洗って (あらって)",
     "at": "",
     "es": "lavar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "洗わない (あらわない)"
   },
   {
     "id": 23,
@@ -296,7 +318,8 @@
     "te": "",
     "at": "",
     "es": "aquello; ese/esa (lejos)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 24,
@@ -309,7 +332,8 @@
     "te": "あって",
     "at": "",
     "es": "haber; existir; tener (objetos)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "ない"
   },
   {
     "id": 25,
@@ -322,7 +346,8 @@
     "te": "歩いて (あるいて)",
     "at": "",
     "es": "caminar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "歩かない (あるかない)"
   },
   {
     "id": 26,
@@ -335,7 +360,8 @@
     "te": "",
     "at": "",
     "es": "mañana (parte del día)",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 27,
@@ -348,7 +374,8 @@
     "te": "",
     "at": "",
     "es": "desayuno",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 28,
@@ -361,7 +388,8 @@
     "te": "",
     "at": "",
     "es": "pasado mañana",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 29,
@@ -374,7 +402,8 @@
     "te": "",
     "at": "",
     "es": "pie; pierna; pata",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 30,
@@ -387,7 +416,8 @@
     "te": "",
     "at": "",
     "es": "mañana (día siguiente)",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 31,
@@ -400,7 +430,8 @@
     "te": "遊んで (あそんで)",
     "at": "",
     "es": "jugar; divertirse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "遊ばない (あそばない)"
   },
   {
     "id": 32,
@@ -413,7 +444,8 @@
     "te": "",
     "at": "",
     "es": "allá; aquel lugar",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 33,
@@ -426,7 +458,8 @@
     "te": "",
     "at": "",
     "es": "cabeza",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 34,
@@ -439,7 +472,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "nuevo; reciente",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 35,
@@ -452,7 +486,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "cálido; tibio",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 36,
@@ -465,7 +500,8 @@
     "te": "",
     "at": "",
     "es": "después; detrás; resto",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 37,
@@ -478,7 +514,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "caluroso (clima)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 38,
@@ -491,7 +528,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "grueso; espeso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 39,
@@ -504,7 +542,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "caliente (al tacto)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 40,
@@ -517,7 +556,8 @@
     "te": "会って (あって)",
     "at": "",
     "es": "encontrarse; reunirse; ver a alguien",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "会わない (あわない)"
   },
   {
     "id": 41,
@@ -530,7 +570,8 @@
     "te": "",
     "at": "",
     "es": "cena",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 42,
@@ -543,7 +584,8 @@
     "te": "",
     "at": "",
     "es": "número",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 43,
@@ -556,7 +598,8 @@
     "te": "",
     "at": "",
     "es": "autobús; colectivo",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 44,
@@ -569,7 +612,8 @@
     "te": "",
     "at": "",
     "es": "mantequilla; manteca",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 45,
@@ -582,7 +626,8 @@
     "te": "",
     "at": "",
     "es": "cama",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 46,
@@ -595,7 +640,8 @@
     "te": "勉強して (べんきょうして)",
     "at": "",
     "es": "estudio; estudiar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "勉強しない (べんきょうしない)"
   },
   {
     "id": 47,
@@ -608,7 +654,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "conveniente; práctico; útil",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 48,
@@ -621,7 +668,8 @@
     "te": "",
     "at": "",
     "es": "bolígrafo; lapicera",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 49,
@@ -634,7 +682,8 @@
     "te": "",
     "at": "",
     "es": "botón",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 50,
@@ -647,7 +696,8 @@
     "te": "",
     "at": "",
     "es": "sombrero; gorra",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 51,
@@ -660,7 +710,8 @@
     "te": "",
     "at": "",
     "es": "oración; frase; texto",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 52,
@@ -673,7 +724,8 @@
     "te": "",
     "at": "",
     "es": "carne de cerdo",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 53,
@@ -686,7 +738,8 @@
     "te": "",
     "at": "",
     "es": "hospital",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 54,
@@ -699,7 +752,8 @@
     "te": "",
     "at": "",
     "es": "enfermedad",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 55,
@@ -712,7 +766,8 @@
     "te": "",
     "at": "",
     "es": "marrón; café (color)",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 56,
@@ -725,7 +780,8 @@
     "te": "",
     "at": "",
     "es": "cuenco de arroz; taza de té",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 57,
@@ -738,7 +794,8 @@
     "te": "",
     "at": "",
     "es": "padre (propio)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 58,
@@ -751,7 +808,8 @@
     "te": "違って (ちがって)",
     "at": "",
     "es": "diferir; ser diferente; equivocarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "違わない (ちがわない)"
   },
   {
     "id": 59,
@@ -764,7 +822,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "pequeño; chico",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 60,
@@ -777,7 +836,8 @@
     "te": "",
     "at": "",
     "es": "pequeño (antes de sustantivo)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 61,
@@ -790,7 +850,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "cercano; cerca",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 62,
@@ -803,7 +864,8 @@
     "te": "",
     "at": "",
     "es": "metro; subterráneo",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 63,
@@ -816,7 +878,8 @@
     "te": "",
     "at": "",
     "es": "mapa",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 64,
@@ -829,7 +892,8 @@
     "te": "",
     "at": "",
     "es": "un poco",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 65,
@@ -842,7 +906,8 @@
     "te": "",
     "at": "",
     "es": "exactamente; justo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 66,
@@ -855,7 +920,8 @@
     "te": "",
     "at": "",
     "es": "cocina",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 67,
@@ -868,7 +934,8 @@
     "te": "",
     "at": "",
     "es": "universidad",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 68,
@@ -881,7 +948,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "bien; sin problema; de acuerdo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 69,
@@ -894,7 +962,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "encantar; gustar mucho",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 70,
@@ -907,7 +976,8 @@
     "te": "",
     "at": "",
     "es": "gradualmente; poco a poco",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 71,
@@ -920,7 +990,8 @@
     "te": "",
     "at": "",
     "es": "quién",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 72,
@@ -933,7 +1004,8 @@
     "te": "",
     "at": "",
     "es": "alguien",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 73,
@@ -946,7 +1018,8 @@
     "te": "出して (だして)",
     "at": "",
     "es": "sacar; entregar; enviar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "出さない (ださない)"
   },
   {
     "id": 74,
@@ -959,7 +1032,8 @@
     "te": "",
     "at": "",
     "es": "salida",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 75,
@@ -972,7 +1046,8 @@
     "te": "出かけて (でかけて)",
     "at": "",
     "es": "salir (de casa)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "出かけない (でかけない)"
   },
   {
     "id": 76,
@@ -985,7 +1060,8 @@
     "te": "",
     "at": "",
     "es": "electricidad; luz",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 77,
@@ -998,7 +1074,8 @@
     "te": "",
     "at": "",
     "es": "tren eléctrico; tren",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 78,
@@ -1011,7 +1088,8 @@
     "te": "電話して (でんわして)",
     "at": "",
     "es": "teléfono; llamada telefónica; llamar",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": "電話しない (でんわしない)"
   },
   {
     "id": 79,
@@ -1024,7 +1102,8 @@
     "te": "",
     "at": "",
     "es": "gran almacén; tienda departamental",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 80,
@@ -1037,7 +1116,8 @@
     "te": "出て (でて)",
     "at": "",
     "es": "salir; partir; aparecer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "出ない (でない)"
   },
   {
     "id": 81,
@@ -1050,7 +1130,8 @@
     "te": "",
     "at": "",
     "es": "puerta",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 82,
@@ -1063,7 +1144,8 @@
     "te": "",
     "at": "",
     "es": "cuál (entre dos, informal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 83,
@@ -1076,7 +1158,8 @@
     "te": "",
     "at": "",
     "es": "cuál (entre dos, formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 84,
@@ -1089,7 +1172,8 @@
     "te": "",
     "at": "",
     "es": "dónde",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 85,
@@ -1102,7 +1186,8 @@
     "te": "",
     "at": "",
     "es": "quién (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 86,
@@ -1115,7 +1200,8 @@
     "te": "",
     "at": "",
     "es": "cuál; qué (antes de sustantivo)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 87,
@@ -1128,7 +1214,8 @@
     "te": "",
     "at": "",
     "es": "cuál (entre tres o más)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 88,
@@ -1141,7 +1228,8 @@
     "te": "",
     "at": "",
     "es": "cómo; qué tal",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 89,
@@ -1154,7 +1242,8 @@
     "te": "",
     "at": "",
     "es": "animal",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 90,
@@ -1167,7 +1256,8 @@
     "te": "",
     "at": "",
     "es": "gracias; mucho",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 91,
@@ -1180,7 +1270,8 @@
     "te": "",
     "at": "",
     "es": "por favor; adelante",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 92,
@@ -1193,7 +1284,8 @@
     "te": "",
     "at": "",
     "es": "sábado",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 93,
@@ -1206,7 +1298,8 @@
     "te": "",
     "at": "",
     "es": "dibujo; pintura; cuadro",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 94,
@@ -1219,7 +1312,8 @@
     "te": "",
     "at": "",
     "es": "sí; así es",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 95,
@@ -1232,7 +1326,8 @@
     "te": "",
     "at": "",
     "es": "película",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 96,
@@ -1245,7 +1340,8 @@
     "te": "",
     "at": "",
     "es": "cine",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 97,
@@ -1258,7 +1354,8 @@
     "te": "",
     "at": "",
     "es": "idioma inglés",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 98,
@@ -1271,7 +1368,8 @@
     "te": "",
     "at": "",
     "es": "estación (de tren)",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 99,
@@ -1284,7 +1382,8 @@
     "te": "",
     "at": "",
     "es": "lápiz",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 100,
@@ -1297,7 +1396,8 @@
     "te": "",
     "at": "",
     "es": "ascensor; elevador",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 101,
@@ -1310,7 +1410,8 @@
     "te": "",
     "at": "",
     "es": "película (fotográfica); filme",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 102,
@@ -1323,7 +1424,8 @@
     "te": "",
     "at": "",
     "es": "tenedor",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 103,
@@ -1336,7 +1438,8 @@
     "te": "",
     "at": "",
     "es": "ropa",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 104,
@@ -1349,7 +1452,8 @@
     "te": "吹いて (ふいて)",
     "at": "",
     "es": "soplar (el viento)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "吹かない (ふかない)"
   },
   {
     "id": 105,
@@ -1362,7 +1466,8 @@
     "te": "降って (ふって)",
     "at": "",
     "es": "caer (lluvia, nieve)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "降らない (ふらない)"
   },
   {
     "id": 106,
@@ -1375,7 +1480,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "viejo; antiguo (para cosas)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 107,
@@ -1388,7 +1494,8 @@
     "te": "",
     "at": "",
     "es": "dos personas; pareja",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 108,
@@ -1401,7 +1508,8 @@
     "te": "",
     "at": "",
     "es": "dos (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 109,
@@ -1414,7 +1522,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "grueso; gordo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 110,
@@ -1427,7 +1536,8 @@
     "te": "",
     "at": "",
     "es": "día 2 del mes / 2 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 111,
@@ -1440,7 +1550,8 @@
     "te": "",
     "at": "",
     "es": "sobre (de carta)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 112,
@@ -1453,7 +1564,8 @@
     "te": "",
     "at": "",
     "es": "invierno",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 113,
@@ -1466,7 +1578,8 @@
     "te": "",
     "at": "",
     "es": "país extranjero",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 114,
@@ -1479,7 +1592,8 @@
     "te": "",
     "at": "",
     "es": "extranjero (persona)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 115,
@@ -1492,7 +1606,8 @@
     "te": "",
     "at": "",
     "es": "escuela; colegio",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 116,
@@ -1505,7 +1620,8 @@
     "te": "",
     "at": "",
     "es": "estudiante",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 117,
@@ -1518,7 +1634,8 @@
     "te": "",
     "at": "",
     "es": "entrada; recibidor (de casa)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 118,
@@ -1531,7 +1648,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "sano; con energía; animado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 119,
@@ -1544,7 +1662,8 @@
     "te": "",
     "at": "",
     "es": "lunes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 120,
@@ -1557,7 +1676,8 @@
     "te": "",
     "at": "",
     "es": "banco (entidad financiera)",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 121,
@@ -1570,7 +1690,8 @@
     "te": "",
     "at": "",
     "es": "guitarra",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 122,
@@ -1583,7 +1704,8 @@
     "te": "",
     "at": "",
     "es": "cinco; 5",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 123,
@@ -1596,7 +1718,8 @@
     "te": "",
     "at": "",
     "es": "tarde; p. m.",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 124,
@@ -1609,7 +1732,8 @@
     "te": "",
     "at": "",
     "es": "arroz cocido; comida",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 125,
@@ -1622,7 +1746,8 @@
     "te": "",
     "at": "",
     "es": "mañana; a. m.",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 126,
@@ -1635,7 +1760,8 @@
     "te": "",
     "at": "",
     "es": "gramo",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 127,
@@ -1648,7 +1774,8 @@
     "te": "",
     "at": "",
     "es": "carne de res / vacuna",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 128,
@@ -1661,7 +1788,8 @@
     "te": "",
     "at": "",
     "es": "leche (de vaca)",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 129,
@@ -1674,7 +1802,8 @@
     "te": "",
     "at": "",
     "es": "diente",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 130,
@@ -1687,7 +1816,8 @@
     "te": "",
     "at": "",
     "es": "ocho; 8",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 131,
@@ -1700,7 +1830,8 @@
     "te": "",
     "at": "",
     "es": "tarjeta postal",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 132,
@@ -1713,7 +1844,8 @@
     "te": "",
     "at": "",
     "es": "madre (propia)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 133,
@@ -1726,7 +1858,8 @@
     "te": "",
     "at": "",
     "es": "sí; correcto",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 134,
@@ -1739,7 +1872,8 @@
     "te": "入って (はいって)",
     "at": "",
     "es": "entrar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "入らない (はいらない)"
   },
   {
     "id": 135,
@@ -1752,7 +1886,8 @@
     "te": "",
     "at": "",
     "es": "cenicero",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 136,
@@ -1765,7 +1900,8 @@
     "te": "始まって (はじまって)",
     "at": "",
     "es": "comenzar; empezar (intransitivo)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "始まらない (はじまらない)"
   },
   {
     "id": 137,
@@ -1778,7 +1914,8 @@
     "te": "",
     "at": "",
     "es": "por primera vez",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 138,
@@ -1791,7 +1928,8 @@
     "te": "",
     "at": "",
     "es": "caja",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 139,
@@ -1804,7 +1942,8 @@
     "te": "履いて (はいて)",
     "at": "",
     "es": "ponerse / llevar (pantalones, calzado)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "履かない (はかない)"
   },
   {
     "id": 140,
@@ -1817,7 +1956,8 @@
     "te": "",
     "at": "",
     "es": "medio; mitad; y media",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 141,
@@ -1830,7 +1970,8 @@
     "te": "",
     "at": "",
     "es": "flor",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 142,
@@ -1843,7 +1984,8 @@
     "te": "",
     "at": "",
     "es": "nariz",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 143,
@@ -1856,7 +1998,8 @@
     "te": "",
     "at": "",
     "es": "charla; historia; conversación",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 144,
@@ -1869,7 +2012,8 @@
     "te": "話して (はなして)",
     "at": "",
     "es": "hablar; conversar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "話さない (はなさない)"
   },
   {
     "id": 145,
@@ -1882,7 +2026,8 @@
     "te": "",
     "at": "",
     "es": "mitad",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 146,
@@ -1895,7 +2040,8 @@
     "te": "",
     "at": "",
     "es": "pañuelo",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 147,
@@ -1908,7 +2054,8 @@
     "te": "",
     "at": "",
     "es": "tiempo despejado; soleado",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 148,
@@ -1921,7 +2068,8 @@
     "te": "晴れて (はれて)",
     "at": "",
     "es": "despejarse; hacer sol",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "晴れない (はれない)"
   },
   {
     "id": 149,
@@ -1934,7 +2082,8 @@
     "te": "",
     "at": "",
     "es": "primavera",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 150,
@@ -1947,7 +2096,8 @@
     "te": "貼って (はって)",
     "at": "",
     "es": "pegar; adherir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "貼らない (はらない)"
   },
   {
     "id": 151,
@@ -1960,7 +2110,8 @@
     "te": "",
     "at": "",
     "es": "palillos (para comer)",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 152,
@@ -1973,7 +2124,8 @@
     "te": "",
     "at": "",
     "es": "puente",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 153,
@@ -1986,7 +2138,8 @@
     "te": "走って (はしって)",
     "at": "",
     "es": "correr",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "走らない (はしらない)"
   },
   {
     "id": 154,
@@ -1999,7 +2152,8 @@
     "te": "",
     "at": "",
     "es": "20 años de edad",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 155,
@@ -2012,7 +2166,8 @@
     "te": "働いて (はたらいて)",
     "at": "",
     "es": "trabajar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "働かない (はたらかない)"
   },
   {
     "id": 156,
@@ -2025,7 +2180,8 @@
     "te": "",
     "at": "",
     "es": "día 20 del mes / 20 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 157,
@@ -2038,7 +2194,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "rápido; veloz",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 158,
@@ -2051,7 +2208,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "temprano; rápido",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 159,
@@ -2064,7 +2222,8 @@
     "te": "",
     "at": "",
     "es": "zona; área; alrededores",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 160,
@@ -2077,7 +2236,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "torpe; malo en algo; poco hábil",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 161,
@@ -2090,7 +2250,8 @@
     "te": "",
     "at": "",
     "es": "habitación; cuarto",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 162,
@@ -2103,7 +2264,8 @@
     "te": "",
     "at": "",
     "es": "izquierda",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 163,
@@ -2116,7 +2278,8 @@
     "te": "",
     "at": "",
     "es": "este (punto cardinal)",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 164,
@@ -2129,7 +2292,8 @@
     "te": "",
     "at": "",
     "es": "avión",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 165,
@@ -2142,7 +2306,8 @@
     "te": "引いて (ひいて)",
     "at": "",
     "es": "tirar; jalar; halar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "引かない (ひかない)"
   },
   {
     "id": 166,
@@ -2155,7 +2320,8 @@
     "te": "弾いて (ひいて)",
     "at": "",
     "es": "tocar (un instrumento de cuerda/teclado)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "弾かない (ひかない)"
   },
   {
     "id": 167,
@@ -2168,7 +2334,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "bajo (estatura, altura)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 168,
@@ -2181,7 +2348,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "tiempo libre; desocupado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 169,
@@ -2194,7 +2362,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "amplio; espacioso; ancho",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 170,
@@ -2207,7 +2376,8 @@
     "te": "",
     "at": "",
     "es": "mediodía; día; almuerzo",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 171,
@@ -2220,7 +2390,8 @@
     "te": "",
     "at": "",
     "es": "almuerzo",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 172,
@@ -2233,7 +2404,8 @@
     "te": "",
     "at": "",
     "es": "persona; ser humano",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 173,
@@ -2246,7 +2418,8 @@
     "te": "",
     "at": "",
     "es": "una persona; solo",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 174,
@@ -2259,7 +2432,8 @@
     "te": "",
     "at": "",
     "es": "uno (cosa); solamente",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 175,
@@ -2272,7 +2446,8 @@
     "te": "",
     "at": "",
     "es": "otro; el resto",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 176,
@@ -2285,7 +2460,8 @@
     "te": "",
     "at": "",
     "es": "libro",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 177,
@@ -2298,7 +2474,8 @@
     "te": "",
     "at": "",
     "es": "estantería; librero",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 178,
@@ -2311,7 +2488,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "verdad; realidad; verdadero",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 179,
@@ -2324,7 +2502,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "deseado; querer (algo)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 180,
@@ -2337,7 +2516,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "delgado; fino; estrecho",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 181,
@@ -2350,7 +2530,8 @@
     "te": "",
     "at": "",
     "es": "hotel",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 182,
@@ -2363,7 +2544,8 @@
     "te": "",
     "at": "",
     "es": "cien; 100",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 183,
@@ -2376,7 +2558,8 @@
     "te": "",
     "at": "",
     "es": "uno; 1; primero",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 184,
@@ -2389,7 +2572,8 @@
     "te": "",
     "at": "",
     "es": "número uno; el mejor; el más",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 185,
@@ -2402,7 +2586,8 @@
     "te": "",
     "at": "",
     "es": "un día; todo el día",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 186,
@@ -2415,7 +2600,8 @@
     "te": "",
     "at": "",
     "es": "casa; hogar; familia",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 187,
@@ -2428,7 +2614,8 @@
     "te": "",
     "at": "",
     "es": "cómo; qué tal (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 188,
@@ -2441,7 +2628,8 @@
     "te": "",
     "at": "",
     "es": "estanque",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 189,
@@ -2454,7 +2642,8 @@
     "te": "行って (いって)",
     "at": "",
     "es": "ir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "行かない (いかない)"
   },
   {
     "id": 190,
@@ -2467,7 +2656,8 @@
     "te": "",
     "at": "",
     "es": "¿cuánto? (precio)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 191,
@@ -2480,7 +2670,8 @@
     "te": "",
     "at": "",
     "es": "¿cuántos? / ¿cuántos años?",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 192,
@@ -2493,7 +2684,8 @@
     "te": "",
     "at": "",
     "es": "ahora",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 193,
@@ -2506,7 +2698,8 @@
     "te": "",
     "at": "",
     "es": "significado; sentido",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 194,
@@ -2519,7 +2712,8 @@
     "te": "",
     "at": "",
     "es": "hermana menor (propia)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 195,
@@ -2532,7 +2726,8 @@
     "te": "",
     "at": "",
     "es": "perro",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 196,
@@ -2545,7 +2740,8 @@
     "te": "入れて (いれて)",
     "at": "",
     "es": "meter; poner dentro; introducir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "入れない (いれない)"
   },
   {
     "id": 197,
@@ -2558,7 +2754,8 @@
     "te": "",
     "at": "",
     "es": "entrada; acceso",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 198,
@@ -2571,7 +2768,8 @@
     "te": "",
     "at": "",
     "es": "color",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 199,
@@ -2584,7 +2782,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "varios; diverso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 200,
@@ -2597,7 +2796,8 @@
     "te": "要って (いって)",
     "at": "",
     "es": "necesitar; hacer falta",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "要らない (いらない)"
   },
   {
     "id": 201,
@@ -2610,7 +2810,8 @@
     "te": "居て (いて)",
     "at": "",
     "es": "estar; haber; existir (seres vivos)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "居ない (いない)"
   },
   {
     "id": 202,
@@ -2623,7 +2824,8 @@
     "te": "",
     "at": "",
     "es": "médico; doctor",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 203,
@@ -2636,7 +2838,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "ocupado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 204,
@@ -2649,7 +2852,8 @@
     "te": "",
     "at": "",
     "es": "juntos; al mismo tiempo; igual",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 205,
@@ -2662,7 +2866,8 @@
     "te": "",
     "at": "",
     "es": "silla",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 206,
@@ -2675,7 +2880,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "doloroso; que duele",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 207,
@@ -2688,7 +2894,8 @@
     "te": "",
     "at": "",
     "es": "cuándo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 208,
@@ -2701,7 +2908,8 @@
     "te": "",
     "at": "",
     "es": "día 5 del mes / 5 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 209,
@@ -2714,7 +2922,8 @@
     "te": "",
     "at": "",
     "es": "cinco (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 210,
@@ -2727,7 +2936,8 @@
     "te": "言って (いって)",
     "at": "",
     "es": "decir; llamar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "言わない (いわない)"
   },
   {
     "id": 211,
@@ -2740,7 +2950,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "desagradable; no gustar",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 212,
@@ -2753,7 +2964,8 @@
     "te": "",
     "at": "",
     "es": "entonces; bueno; pues",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 213,
@@ -2766,7 +2978,8 @@
     "te": "",
     "at": "",
     "es": "diccionario",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 214,
@@ -2779,7 +2992,8 @@
     "te": "",
     "at": "",
     "es": "uno mismo; sí mismo; yo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 215,
@@ -2792,7 +3006,8 @@
     "te": "",
     "at": "",
     "es": "automóvil; coche; auto",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 216,
@@ -2805,7 +3020,8 @@
     "te": "",
     "at": "",
     "es": "tiempo; hora(s)",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 217,
@@ -2818,7 +3034,8 @@
     "te": "",
     "at": "",
     "es": "diccionario",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 218,
@@ -2831,7 +3048,8 @@
     "te": "",
     "at": "",
     "es": "bicicleta",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 219,
@@ -2844,7 +3062,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "fuerte; resistente; duradero",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 220,
@@ -2857,7 +3076,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "hábil; bueno en algo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 221,
@@ -2870,7 +3090,8 @@
     "te": "授業して (じゅぎょうして)",
     "at": "",
     "es": "clase; lección; dar clase",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "授業しない (じゅぎょうしない)"
   },
   {
     "id": 222,
@@ -2883,7 +3104,8 @@
     "te": "",
     "at": "",
     "es": "diez; 10",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 223,
@@ -2896,7 +3118,8 @@
     "te": "",
     "at": "",
     "es": "bolso; maletín; mochila",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 224,
@@ -2909,7 +3132,8 @@
     "te": "",
     "at": "",
     "es": "florero; jarrón",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 225,
@@ -2922,7 +3146,8 @@
     "te": "",
     "at": "",
     "es": "esquina; ángulo",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 226,
@@ -2935,7 +3160,8 @@
     "te": "帰って (かえって)",
     "at": "",
     "es": "regresar; volver (a casa)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "帰らない (かえらない)"
   },
   {
     "id": 227,
@@ -2948,7 +3174,8 @@
     "te": "返して (かえして)",
     "at": "",
     "es": "devolver (algo)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "返さない (かえさない)"
   },
   {
     "id": 228,
@@ -2961,7 +3188,8 @@
     "te": "",
     "at": "",
     "es": "llave",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 229,
@@ -2974,7 +3202,8 @@
     "te": "",
     "at": "",
     "es": "escaleras",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 230,
@@ -2987,7 +3216,8 @@
     "te": "",
     "at": "",
     "es": "compras",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 231,
@@ -3000,7 +3230,8 @@
     "te": "",
     "at": "",
     "es": "empresa; compañía",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 232,
@@ -3013,7 +3244,8 @@
     "te": "掛かって (かかって)",
     "at": "",
     "es": "tardar; costar (tiempo o dinero)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "掛からない (かからない)"
   },
   {
     "id": 233,
@@ -3026,7 +3258,8 @@
     "te": "掛けて (かけて)",
     "at": "",
     "es": "colgar; hacer (una llamada)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "掛けない (かけない)"
   },
   {
     "id": 234,
@@ -3039,7 +3272,8 @@
     "te": "書いて (かいて)",
     "at": "",
     "es": "escribir; dibujar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "書かない (かかない)"
   },
   {
     "id": 235,
@@ -3052,7 +3286,8 @@
     "te": "",
     "at": "",
     "es": "cámara (de fotos)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 236,
@@ -3065,7 +3300,8 @@
     "te": "",
     "at": "",
     "es": "papel",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 237,
@@ -3078,7 +3314,8 @@
     "te": "",
     "at": "",
     "es": "kanji",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 238,
@@ -3091,7 +3328,8 @@
     "te": "",
     "at": "",
     "es": "taza; vaso",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 239,
@@ -3104,7 +3342,8 @@
     "te": "",
     "at": "",
     "es": "cuerpo",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 240,
@@ -3117,7 +3356,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "picante",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 241,
@@ -3130,7 +3370,8 @@
     "te": "",
     "at": "",
     "es": "curry",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 242,
@@ -3143,7 +3384,8 @@
     "te": "",
     "at": "",
     "es": "calendario",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 243,
@@ -3156,7 +3398,8 @@
     "te": "借りて (かりて)",
     "at": "",
     "es": "pedir prestado; alquilar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "借りない (かりない)"
   },
   {
     "id": 244,
@@ -3169,7 +3412,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "ligero; liviano",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 245,
@@ -3182,7 +3426,8 @@
     "te": "",
     "at": "",
     "es": "paraguas",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 246,
@@ -3195,7 +3440,8 @@
     "te": "貸して (かして)",
     "at": "",
     "es": "prestar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "貸さない (かさない)"
   },
   {
     "id": 247,
@@ -3208,7 +3454,8 @@
     "te": "",
     "at": "",
     "es": "forma / manera de hacer algo; persona (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 248,
@@ -3221,7 +3468,8 @@
     "te": "",
     "at": "",
     "es": "hogar; familia",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 249,
@@ -3234,7 +3482,8 @@
     "te": "買って (かって)",
     "at": "",
     "es": "comprar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "買わない (かわない)"
   },
   {
     "id": 250,
@@ -3247,7 +3496,8 @@
     "te": "",
     "at": "",
     "es": "río; arroyo",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 251,
@@ -3260,7 +3510,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "lindo; tierno; adorable",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 252,
@@ -3273,7 +3524,8 @@
     "te": "",
     "at": "",
     "es": "martes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 253,
@@ -3286,7 +3538,8 @@
     "te": "",
     "at": "",
     "es": "viento",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 254,
@@ -3299,7 +3552,8 @@
     "te": "",
     "at": "",
     "es": "resfriado; gripe",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 255,
@@ -3312,7 +3566,8 @@
     "te": "",
     "at": "",
     "es": "familia",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 256,
@@ -3325,7 +3580,8 @@
     "te": "",
     "at": "",
     "es": "policía; oficial de policía",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 257,
@@ -3338,7 +3594,8 @@
     "te": "結婚して (けっこんして)",
     "at": "",
     "es": "matrimonio; casarse",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": "結婚しない (けっこんしない)"
   },
   {
     "id": 258,
@@ -3351,7 +3608,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "espléndido; suficiente; bastante",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 259,
@@ -3364,7 +3622,8 @@
     "te": "",
     "at": "",
     "es": "esta mañana",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 260,
@@ -3377,7 +3636,8 @@
     "te": "消して (けして)",
     "at": "",
     "es": "borrar; apagar (luz/aparato)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "消さない (けさない)"
   },
   {
     "id": 261,
@@ -3390,7 +3650,8 @@
     "te": "",
     "at": "",
     "es": "árbol; madera",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 262,
@@ -3403,7 +3664,8 @@
     "te": "消えて (きえて)",
     "at": "",
     "es": "desaparecer; apagarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "消えない (きえない)"
   },
   {
     "id": 263,
@@ -3416,7 +3678,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "amarillo",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 264,
@@ -3429,7 +3692,8 @@
     "te": "聞いて (きいて)",
     "at": "",
     "es": "oír; escuchar; preguntar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "聞かない (きかない)"
   },
   {
     "id": 265,
@@ -3442,7 +3706,8 @@
     "te": "",
     "at": "",
     "es": "ayer",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 266,
@@ -3455,7 +3720,8 @@
     "te": "",
     "at": "",
     "es": "viernes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 267,
@@ -3468,7 +3734,8 @@
     "te": "",
     "at": "",
     "es": "boleto; billete; entrada",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 268,
@@ -3481,7 +3748,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "odiar; detestar; desagradable",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 269,
@@ -3494,7 +3762,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "bonito; hermoso; limpio",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 270,
@@ -3507,7 +3776,8 @@
     "te": "",
     "at": "",
     "es": "kilogramo",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 271,
@@ -3520,7 +3790,8 @@
     "te": "",
     "at": "",
     "es": "kilómetro",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 272,
@@ -3533,7 +3804,8 @@
     "te": "切って (きって)",
     "at": "",
     "es": "cortar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "切らない (きらない)"
   },
   {
     "id": 273,
@@ -3546,7 +3818,8 @@
     "te": "着て (きて)",
     "at": "",
     "es": "vestir; ponerse (ropa superior)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "着ない (きない)"
   },
   {
     "id": 274,
@@ -3559,7 +3832,8 @@
     "te": "",
     "at": "",
     "es": "cafetería; salón de té",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 275,
@@ -3572,7 +3846,8 @@
     "te": "",
     "at": "",
     "es": "norte",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 276,
@@ -3585,7 +3860,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "sucio",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 277,
@@ -3598,7 +3874,8 @@
     "te": "",
     "at": "",
     "es": "estampilla; sello postal",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 278,
@@ -3611,7 +3888,8 @@
     "te": "",
     "at": "",
     "es": "por aquí; este lado (informal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 279,
@@ -3624,7 +3902,8 @@
     "te": "",
     "at": "",
     "es": "por aquí; esta dirección (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 280,
@@ -3637,7 +3916,8 @@
     "te": "",
     "at": "",
     "es": "niño; hijo",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 281,
@@ -3650,7 +3930,8 @@
     "te": "",
     "at": "",
     "es": "voz",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 282,
@@ -3663,7 +3944,8 @@
     "te": "",
     "at": "",
     "es": "aquí; este lugar",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 283,
@@ -3676,7 +3958,8 @@
     "te": "",
     "at": "",
     "es": "día 9 del mes / 9 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 284,
@@ -3689,7 +3972,8 @@
     "te": "",
     "at": "",
     "es": "nueve (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 285,
@@ -3702,7 +3986,8 @@
     "te": "困って (こまって)",
     "at": "",
     "es": "estar en problemas; preocuparse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "困らない (こまらない)"
   },
   {
     "id": 286,
@@ -3715,7 +4000,8 @@
     "te": "",
     "at": "",
     "es": "esta noche",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 287,
@@ -3728,7 +4014,8 @@
     "te": "",
     "at": "",
     "es": "este mes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 288,
@@ -3741,7 +4028,8 @@
     "te": "",
     "at": "",
     "es": "tal; así; de este tipo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 289,
@@ -3754,7 +4042,8 @@
     "te": "",
     "at": "",
     "es": "este; esta (antes de sustantivo)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 290,
@@ -3767,7 +4056,8 @@
     "te": "",
     "at": "",
     "es": "esta semana",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 291,
@@ -3780,7 +4070,8 @@
     "te": "",
     "at": "",
     "es": "café",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 292,
@@ -3793,7 +4084,8 @@
     "te": "",
     "at": "",
     "es": "abrigo; tapado",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 293,
@@ -3806,7 +4098,8 @@
     "te": "コピーして",
     "at": "",
     "es": "copia; fotocopia; fotocopiar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "コピーしない"
   },
   {
     "id": 294,
@@ -3819,7 +4112,8 @@
     "te": "",
     "at": "",
     "es": "vaso",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 295,
@@ -3832,7 +4126,8 @@
     "te": "",
     "at": "",
     "es": "esto; este/esta",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 296,
@@ -3845,7 +4140,8 @@
     "te": "答えて (こたえて)",
     "at": "",
     "es": "responder; contestar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "答えない (こたえない)"
   },
   {
     "id": 297,
@@ -3858,7 +4154,8 @@
     "te": "",
     "at": "",
     "es": "palabra; idioma",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 298,
@@ -3871,7 +4168,8 @@
     "te": "",
     "at": "",
     "es": "este año",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 299,
@@ -3884,7 +4182,8 @@
     "te": "",
     "at": "",
     "es": "comisaría pequeña; caseta de policía",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 300,
@@ -3897,7 +4196,8 @@
     "te": "",
     "at": "",
     "es": "té negro",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 301,
@@ -3910,7 +4210,8 @@
     "te": "",
     "at": "",
     "es": "parque",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 302,
@@ -3923,7 +4224,8 @@
     "te": "",
     "at": "",
     "es": "intersección; cruce",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 303,
@@ -3936,7 +4238,8 @@
     "te": "",
     "at": "",
     "es": "boca; abertura",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 304,
@@ -3949,7 +4252,8 @@
     "te": "",
     "at": "",
     "es": "fruta",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 305,
@@ -3962,7 +4266,8 @@
     "te": "",
     "at": "",
     "es": "por favor (dame / haga)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 306,
@@ -3975,7 +4280,8 @@
     "te": "",
     "at": "",
     "es": "nublado; tiempo nublado",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 307,
@@ -3988,7 +4294,8 @@
     "te": "曇って (くもって)",
     "at": "",
     "es": "nublarse; empañarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "曇らない (くもらない)"
   },
   {
     "id": 308,
@@ -4001,7 +4308,8 @@
     "te": "",
     "at": "",
     "es": "país; nación; región",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 309,
@@ -4014,7 +4322,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "oscuro; sombrío",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 310,
@@ -4027,7 +4336,8 @@
     "te": "",
     "at": "",
     "es": "clase; grupo escolar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 311,
@@ -4040,7 +4350,8 @@
     "te": "",
     "at": "",
     "es": "negro (color)",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 312,
@@ -4053,7 +4364,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "negro",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 313,
@@ -4066,7 +4378,8 @@
     "te": "来て (きて)",
     "at": "",
     "es": "venir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "来ない (こない)"
   },
   {
     "id": 314,
@@ -4079,7 +4392,8 @@
     "te": "",
     "at": "",
     "es": "coche; auto; vehículo",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 315,
@@ -4092,7 +4406,8 @@
     "te": "",
     "at": "",
     "es": "medicina; medicamento",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 316,
@@ -4105,7 +4420,8 @@
     "te": "",
     "at": "",
     "es": "zapatos",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 317,
@@ -4118,7 +4434,8 @@
     "te": "",
     "at": "",
     "es": "calcetines; medias",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 318,
@@ -4131,7 +4448,8 @@
     "te": "",
     "at": "",
     "es": "el año pasado",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 319,
@@ -4144,7 +4462,8 @@
     "te": "",
     "at": "",
     "es": "hoy",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 320,
@@ -4157,7 +4476,8 @@
     "te": "",
     "at": "",
     "es": "hermanos (y hermanas)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 321,
@@ -4170,7 +4490,8 @@
     "te": "",
     "at": "",
     "es": "aula; salón de clases",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 322,
@@ -4183,7 +4504,8 @@
     "te": "",
     "at": "",
     "es": "nueve; 9",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 323,
@@ -4196,7 +4518,8 @@
     "te": "",
     "at": "",
     "es": "fósforo; cerillo",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 324,
@@ -4209,7 +4532,8 @@
     "te": "",
     "at": "",
     "es": "pueblo; ciudad; barrio",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 325,
@@ -4222,7 +4546,8 @@
     "te": "",
     "at": "",
     "es": "ventana",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 326,
@@ -4235,7 +4560,8 @@
     "te": "",
     "at": "",
     "es": "delante; antes; hace (tiempo)",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 327,
@@ -4248,7 +4574,8 @@
     "te": "曲がって (まがって)",
     "at": "",
     "es": "girar; doblar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "曲がらない (まがらない)"
   },
   {
     "id": 328,
@@ -4261,7 +4588,8 @@
     "te": "",
     "at": "",
     "es": "todas las mañanas",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 329,
@@ -4274,7 +4602,8 @@
     "te": "",
     "at": "",
     "es": "todas las noches",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 330,
@@ -4287,7 +4616,8 @@
     "te": "",
     "at": "",
     "es": "todos los días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 331,
@@ -4300,7 +4630,8 @@
     "te": "",
     "at": "",
     "es": "todas las semanas",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 332,
@@ -4313,7 +4644,8 @@
     "te": "",
     "at": "",
     "es": "todos los años; anualmente",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 333,
@@ -4326,7 +4658,8 @@
     "te": "",
     "at": "",
     "es": "todos los meses; mensualmente",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 334,
@@ -4339,7 +4672,8 @@
     "te": "",
     "at": "",
     "es": "diez mil; 10.000",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 335,
@@ -4352,7 +4686,8 @@
     "te": "",
     "at": "",
     "es": "pluma estilográfica",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 336,
@@ -4365,7 +4700,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "redondo; circular",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 337,
@@ -4378,7 +4714,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "derecho; recto; directo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 338,
@@ -4391,7 +4728,8 @@
     "te": "待って (まって)",
     "at": "",
     "es": "esperar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "待たない (またない)"
   },
   {
     "id": 339,
@@ -4404,7 +4742,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "feo (de sabor); desagradable",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 340,
@@ -4417,7 +4756,8 @@
     "te": "",
     "at": "",
     "es": "ojo",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 341,
@@ -4430,7 +4770,8 @@
     "te": "",
     "at": "",
     "es": "metro (unidad de longitud)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 342,
@@ -4443,7 +4784,8 @@
     "te": "",
     "at": "",
     "es": "gafas; anteojos; lentes",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 343,
@@ -4456,7 +4798,8 @@
     "te": "",
     "at": "",
     "es": "camino; calle; carretera",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 344,
@@ -4469,7 +4812,8 @@
     "te": "",
     "at": "",
     "es": "verde",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 345,
@@ -4482,7 +4826,8 @@
     "te": "磨いて (みがいて)",
     "at": "",
     "es": "pulir; lustrar; cepillar (dientes)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "磨かない (みがかない)"
   },
   {
     "id": 346,
@@ -4495,7 +4840,8 @@
     "te": "",
     "at": "",
     "es": "derecha",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 347,
@@ -4508,7 +4854,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "corto",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 348,
@@ -4521,7 +4868,8 @@
     "te": "",
     "at": "",
     "es": "día 3 del mes / 3 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 349,
@@ -4534,7 +4882,8 @@
     "te": "",
     "at": "",
     "es": "oreja; oído",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 350,
@@ -4547,7 +4896,8 @@
     "te": "",
     "at": "",
     "es": "sur",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 351,
@@ -4560,7 +4910,8 @@
     "te": "",
     "at": "",
     "es": "todos (formal); señoras y señores",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 352,
@@ -4573,7 +4924,8 @@
     "te": "",
     "at": "",
     "es": "todos; todo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 353,
@@ -4586,7 +4938,8 @@
     "te": "見て (みて)",
     "at": "",
     "es": "ver; mirar; observar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "見ない (みない)"
   },
   {
     "id": 354,
@@ -4599,7 +4952,8 @@
     "te": "",
     "at": "",
     "es": "tienda; negocio; restaurante",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 355,
@@ -4612,7 +4966,8 @@
     "te": "見せて (みせて)",
     "at": "",
     "es": "mostrar; enseñar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "見せない (みせない)"
   },
   {
     "id": 356,
@@ -4625,7 +4980,8 @@
     "te": "",
     "at": "",
     "es": "tres (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 357,
@@ -4638,7 +4994,8 @@
     "te": "",
     "at": "",
     "es": "agua",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 358,
@@ -4651,7 +5008,8 @@
     "te": "",
     "at": "",
     "es": "jueves",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 359,
@@ -4664,7 +5022,8 @@
     "te": "",
     "at": "",
     "es": "portón; puerta principal",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 360,
@@ -4677,7 +5036,8 @@
     "te": "",
     "at": "",
     "es": "problema; pregunta (de examen)",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 361,
@@ -4690,7 +5050,8 @@
     "te": "",
     "at": "",
     "es": "cosa; objeto",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 362,
@@ -4703,7 +5064,8 @@
     "te": "持って (もって)",
     "at": "",
     "es": "sostener; llevar; tener",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "持たない (もたない)"
   },
   {
     "id": 363,
@@ -4716,7 +5078,8 @@
     "te": "",
     "at": "",
     "es": "más",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 364,
@@ -4729,7 +5092,8 @@
     "te": "",
     "at": "",
     "es": "una vez más; de nuevo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 365,
@@ -4742,7 +5106,8 @@
     "te": "",
     "at": "",
     "es": "día 6 del mes / 6 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 366,
@@ -4755,7 +5120,8 @@
     "te": "",
     "at": "",
     "es": "allá; al otro lado",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 367,
@@ -4768,7 +5134,8 @@
     "te": "",
     "at": "",
     "es": "pueblo; aldea",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 368,
@@ -4781,7 +5148,8 @@
     "te": "",
     "at": "",
     "es": "seis (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 369,
@@ -4794,7 +5162,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "difícil",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 370,
@@ -4807,7 +5176,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "largo (distancia o tiempo)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 371,
@@ -4820,7 +5190,8 @@
     "te": "",
     "at": "",
     "es": "cuchillo",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 372,
@@ -4833,7 +5204,8 @@
     "te": "",
     "at": "",
     "es": "dentro; interior; centro",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 373,
@@ -4846,7 +5218,8 @@
     "te": "鳴いて (ないて)",
     "at": "",
     "es": "cantar / emitir sonido (animales)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "鳴かない (なかない)"
   },
   {
     "id": 374,
@@ -4859,7 +5232,8 @@
     "te": "無くして (なくして)",
     "at": "",
     "es": "perder (algo)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "無くさない (なくさない)"
   },
   {
     "id": 375,
@@ -4872,7 +5246,8 @@
     "te": "",
     "at": "",
     "es": "nombre",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 376,
@@ -4885,7 +5260,8 @@
     "te": "",
     "at": "",
     "es": "siete (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 377,
@@ -4898,7 +5274,8 @@
     "te": "",
     "at": "",
     "es": "qué",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 378,
@@ -4911,7 +5288,8 @@
     "te": "",
     "at": "",
     "es": "día 7 del mes / 7 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 379,
@@ -4924,7 +5302,8 @@
     "te": "並べて (ならべて)",
     "at": "",
     "es": "alinear; poner en fila",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "並べない (ならべない)"
   },
   {
     "id": 380,
@@ -4937,7 +5316,8 @@
     "te": "並んで (ならんで)",
     "at": "",
     "es": "hacer fila; formarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "並ばない (ならばない)"
   },
   {
     "id": 381,
@@ -4950,7 +5330,8 @@
     "te": "習って (ならって)",
     "at": "",
     "es": "aprender (de un profesor)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "習わない (ならわない)"
   },
   {
     "id": 382,
@@ -4963,7 +5344,8 @@
     "te": "",
     "at": "",
     "es": "verano",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 383,
@@ -4976,7 +5358,8 @@
     "te": "",
     "at": "",
     "es": "vacaciones de verano",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 384,
@@ -4989,7 +5372,8 @@
     "te": "",
     "at": "",
     "es": "por qué",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 385,
@@ -5002,7 +5386,8 @@
     "te": "",
     "at": "",
     "es": "gato",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 386,
@@ -5015,7 +5400,8 @@
     "te": "",
     "at": "",
     "es": "corbata",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 387,
@@ -5028,7 +5414,8 @@
     "te": "寝て (ねて)",
     "at": "",
     "es": "dormir; acostarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "寝ない (ねない)"
   },
   {
     "id": 388,
@@ -5041,7 +5428,8 @@
     "te": "",
     "at": "",
     "es": "dos; 2",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 389,
@@ -5054,7 +5442,8 @@
     "te": "",
     "at": "",
     "es": "domingo",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 390,
@@ -5067,7 +5456,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "animado; bullicioso; concurrido",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 391,
@@ -5080,7 +5470,8 @@
     "te": "",
     "at": "",
     "es": "diario (personal)",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 392,
@@ -5093,7 +5484,8 @@
     "te": "",
     "at": "",
     "es": "carne",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 393,
@@ -5106,7 +5498,8 @@
     "te": "",
     "at": "",
     "es": "equipaje; paquete",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 394,
@@ -5119,7 +5512,8 @@
     "te": "",
     "at": "",
     "es": "oeste",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 395,
@@ -5132,7 +5526,8 @@
     "te": "",
     "at": "",
     "es": "jardín; patio",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 396,
@@ -5145,7 +5540,8 @@
     "te": "登って (のぼって)",
     "at": "",
     "es": "subir; escalar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "登らない (のぼらない)"
   },
   {
     "id": 397,
@@ -5158,7 +5554,8 @@
     "te": "",
     "at": "",
     "es": "bebida",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 398,
@@ -5171,7 +5568,8 @@
     "te": "飲んで (のんで)",
     "at": "",
     "es": "beber; tomar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "飲まない (のまない)"
   },
   {
     "id": 399,
@@ -5184,7 +5582,8 @@
     "te": "",
     "at": "",
     "es": "cuaderno; libreta",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 400,
@@ -5197,7 +5596,8 @@
     "te": "乗って (のって)",
     "at": "",
     "es": "subir a / tomar (transporte)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "乗らない (のらない)"
   },
   {
     "id": 401,
@@ -5210,7 +5610,8 @@
     "te": "脱いで (ぬいで)",
     "at": "",
     "es": "quitarse (la ropa)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "脱がない (ぬがない)"
   },
   {
     "id": 402,
@@ -5223,7 +5624,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "tibio; templado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 403,
@@ -5236,7 +5638,8 @@
     "te": "",
     "at": "",
     "es": "noticias",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 404,
@@ -5249,7 +5652,8 @@
     "te": "",
     "at": "",
     "es": "abuela",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 405,
@@ -5262,7 +5666,8 @@
     "te": "",
     "at": "",
     "es": "tía; señora mayor",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 406,
@@ -5275,7 +5680,8 @@
     "te": "",
     "at": "",
     "es": "vianda; lonchera japonesa (bentō)",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 407,
@@ -5288,7 +5694,8 @@
     "te": "覚えて (おぼえて)",
     "at": "",
     "es": "recordar; memorizar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "覚えない (おぼえない)"
   },
   {
     "id": 408,
@@ -5301,7 +5708,8 @@
     "te": "",
     "at": "",
     "es": "té (verde)",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 409,
@@ -5314,7 +5722,8 @@
     "te": "",
     "at": "",
     "es": "baño; bañera",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 410,
@@ -5327,7 +5736,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "delicioso; rico",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 411,
@@ -5340,7 +5750,8 @@
     "te": "",
     "at": "",
     "es": "tío; señor mayor",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 412,
@@ -5353,7 +5764,8 @@
     "te": "",
     "at": "",
     "es": "madre; mamá",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 413,
@@ -5366,7 +5778,8 @@
     "te": "",
     "at": "",
     "es": "dinero",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 414,
@@ -5379,7 +5792,8 @@
     "te": "",
     "at": "",
     "es": "dulces; golosinas; snacks",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 415,
@@ -5392,7 +5806,8 @@
     "te": "起きて (おきて)",
     "at": "",
     "es": "despertarse; levantarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "起きない (おきない)"
   },
   {
     "id": 416,
@@ -5405,7 +5820,8 @@
     "te": "置いて (おいて)",
     "at": "",
     "es": "poner; colocar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "置かない (おかない)"
   },
   {
     "id": 417,
@@ -5418,7 +5834,8 @@
     "te": "",
     "at": "",
     "es": "esposa (de otra persona)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 418,
@@ -5431,7 +5848,8 @@
     "te": "",
     "at": "",
     "es": "policía (término amigable)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 419,
@@ -5444,7 +5862,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "pesado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 420,
@@ -5457,7 +5876,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "interesante; divertido",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 421,
@@ -5470,7 +5890,8 @@
     "te": "",
     "at": "",
     "es": "igual; el mismo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 422,
@@ -5483,7 +5904,8 @@
     "te": "",
     "at": "",
     "es": "estómago; panza; barriga",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 423,
@@ -5496,7 +5918,8 @@
     "te": "",
     "at": "",
     "es": "hermana mayor; señorita",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 424,
@@ -5509,7 +5932,8 @@
     "te": "",
     "at": "",
     "es": "música",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 425,
@@ -5522,7 +5946,8 @@
     "te": "",
     "at": "",
     "es": "hermano mayor; joven",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 426,
@@ -5535,7 +5960,8 @@
     "te": "",
     "at": "",
     "es": "mujer; femenino",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 427,
@@ -5548,7 +5974,8 @@
     "te": "",
     "at": "",
     "es": "niña; chica",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 428,
@@ -5561,7 +5988,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "muchos; numeroso; abundante",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 429,
@@ -5574,7 +6002,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "grande",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 430,
@@ -5587,7 +6016,8 @@
     "te": "",
     "at": "",
     "es": "grande (antes de sustantivo)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 431,
@@ -5600,7 +6030,8 @@
     "te": "",
     "at": "",
     "es": "multitud; mucha gente",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 432,
@@ -5613,7 +6044,8 @@
     "te": "降りて (おりて)",
     "at": "",
     "es": "bajar (de un transporte o lugar)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "降りない (おりない)"
   },
   {
     "id": 433,
@@ -5626,7 +6058,8 @@
     "te": "",
     "at": "",
     "es": "alcohol; sake",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 434,
@@ -5639,7 +6072,8 @@
     "te": "",
     "at": "",
     "es": "plato",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 435,
@@ -5652,7 +6086,8 @@
     "te": "教えて (おしえて)",
     "at": "",
     "es": "enseñar; decir (una dirección/dato)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "教えない (おしえない)"
   },
   {
     "id": 436,
@@ -5665,7 +6100,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "lento; tarde",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 437,
@@ -5678,7 +6114,8 @@
     "te": "押して (おして)",
     "at": "",
     "es": "empujar; presionar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "押さない (おさない)"
   },
   {
     "id": 438,
@@ -5691,7 +6128,8 @@
     "te": "",
     "at": "",
     "es": "baño; aseo; sanitario",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 439,
@@ -5704,7 +6142,8 @@
     "te": "",
     "at": "",
     "es": "hombre; varón",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 440,
@@ -5717,7 +6156,8 @@
     "te": "",
     "at": "",
     "es": "niño; chico",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 441,
@@ -5730,7 +6170,8 @@
     "te": "",
     "at": "",
     "es": "adulto",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 442,
@@ -5743,7 +6184,8 @@
     "te": "",
     "at": "",
     "es": "anteayer",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 443,
@@ -5756,7 +6198,8 @@
     "te": "",
     "at": "",
     "es": "el año antepasado",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 444,
@@ -5769,7 +6212,8 @@
     "te": "",
     "at": "",
     "es": "padre; papá",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 445,
@@ -5782,7 +6226,8 @@
     "te": "",
     "at": "",
     "es": "hermano menor (propio)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 446,
@@ -5795,7 +6240,8 @@
     "te": "終わって (おわって)",
     "at": "",
     "es": "terminar; finalizar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "終わらない (おわらない)"
   },
   {
     "id": 447,
@@ -5808,7 +6254,8 @@
     "te": "泳いで (およいで)",
     "at": "",
     "es": "nadar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "泳がない (およがない)"
   },
   {
     "id": 448,
@@ -5821,7 +6268,8 @@
     "te": "",
     "at": "",
     "es": "fiesta",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 449,
@@ -5834,7 +6282,8 @@
     "te": "",
     "at": "",
     "es": "pan",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 450,
@@ -5847,7 +6296,8 @@
     "te": "",
     "at": "",
     "es": "página",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 451,
@@ -5860,7 +6310,8 @@
     "te": "",
     "at": "",
     "es": "bolígrafo; pluma",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 452,
@@ -5873,7 +6324,8 @@
     "te": "",
     "at": "",
     "es": "mascota",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 453,
@@ -5886,7 +6338,8 @@
     "te": "",
     "at": "",
     "es": "bolsillo",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 454,
@@ -5899,7 +6352,8 @@
     "te": "",
     "at": "",
     "es": "buzón de correo",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 455,
@@ -5912,7 +6366,8 @@
     "te": "",
     "at": "",
     "es": "piscina; pileta",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 456,
@@ -5925,7 +6380,8 @@
     "te": "",
     "at": "",
     "es": "el mes que viene; próximo mes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 457,
@@ -5938,7 +6394,8 @@
     "te": "",
     "at": "",
     "es": "el año que viene; próximo año",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 458,
@@ -5951,7 +6408,8 @@
     "te": "",
     "at": "",
     "es": "la semana que viene; próxima semana",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 459,
@@ -5964,7 +6422,8 @@
     "te": "",
     "at": "",
     "es": "radio",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 460,
@@ -5977,7 +6436,8 @@
     "te": "",
     "at": "",
     "es": "cero",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 461,
@@ -5990,7 +6450,8 @@
     "te": "",
     "at": "",
     "es": "refrigerador; heladera",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 462,
@@ -6003,7 +6464,8 @@
     "te": "",
     "at": "",
     "es": "disco (de vinilo); grabación",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 463,
@@ -6016,7 +6478,8 @@
     "te": "練習して (れんしゅうして)",
     "at": "",
     "es": "práctica; practicar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "練習しない (れんしゅうしない)"
   },
   {
     "id": 464,
@@ -6029,7 +6492,8 @@
     "te": "",
     "at": "",
     "es": "restaurante",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 465,
@@ -6042,7 +6506,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "espléndido; magnífico",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 466,
@@ -6055,7 +6520,8 @@
     "te": "",
     "at": "",
     "es": "seis; 6",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 467,
@@ -6068,7 +6534,8 @@
     "te": "",
     "at": "",
     "es": "pasillo; corredor",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 468,
@@ -6081,7 +6548,8 @@
     "te": "旅行して (りょこうして)",
     "at": "",
     "es": "viaje; viajar",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": "旅行しない (りょこうしない)"
   },
   {
     "id": 469,
@@ -6094,7 +6562,8 @@
     "te": "料理して (りょうりして)",
     "at": "",
     "es": "cocina; gastronomía; cocinar",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": "料理しない (りょうりしない)"
   },
   {
     "id": 470,
@@ -6107,7 +6576,8 @@
     "te": "",
     "at": "",
     "es": "padres (ambos)",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 471,
@@ -6120,7 +6590,8 @@
     "te": "",
     "at": "",
     "es": "estudiante extranjero / de intercambio",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 472,
@@ -6133,7 +6604,8 @@
     "te": "",
     "at": "",
     "es": "bueno...; vamos...",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 473,
@@ -6146,7 +6618,8 @@
     "te": "",
     "at": "",
     "es": "billetera; cartera",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 474,
@@ -6159,7 +6632,8 @@
     "te": "",
     "at": "",
     "es": "pescado; pez",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 475,
@@ -6172,7 +6646,8 @@
     "te": "",
     "at": "",
     "es": "antes; adelante; previo",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 476,
@@ -6185,7 +6660,8 @@
     "te": "咲いて (さいて)",
     "at": "",
     "es": "florecer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "咲かない (さかない)"
   },
   {
     "id": 477,
@@ -6198,7 +6674,8 @@
     "te": "",
     "at": "",
     "es": "redacción; composición",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 478,
@@ -6211,7 +6688,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "frío (clima)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 479,
@@ -6224,7 +6702,8 @@
     "te": "",
     "at": "",
     "es": "tres; 3",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 480,
@@ -6237,7 +6716,8 @@
     "te": "散歩して (さんぽして)",
     "at": "",
     "es": "paseo; pasear; caminar",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": "散歩しない (さんぽしない)"
   },
   {
     "id": 481,
@@ -6250,7 +6730,8 @@
     "te": "",
     "at": "",
     "es": "dentro de dos años",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 482,
@@ -6263,7 +6744,8 @@
     "te": "差して (さして)",
     "at": "",
     "es": "extender la mano; abrir un paraguas",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "差さない (ささない)"
   },
   {
     "id": 483,
@@ -6276,7 +6758,8 @@
     "te": "",
     "at": "",
     "es": "azúcar",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 484,
@@ -6289,7 +6772,8 @@
     "te": "",
     "at": "",
     "es": "estatura; espalda",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 485,
@@ -6302,7 +6786,8 @@
     "te": "",
     "at": "",
     "es": "traje (de negocios)",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 486,
@@ -6315,7 +6800,8 @@
     "te": "",
     "at": "",
     "es": "suéter; pulóver",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 487,
@@ -6328,7 +6814,8 @@
     "te": "",
     "at": "",
     "es": "alumno; estudiante",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 488,
@@ -6341,7 +6828,8 @@
     "te": "",
     "at": "",
     "es": "jabón",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 489,
@@ -6354,7 +6842,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "estrecho; angosto",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 490,
@@ -6367,7 +6856,8 @@
     "te": "",
     "at": "",
     "es": "mil; 1.000",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 491,
@@ -6380,7 +6870,8 @@
     "te": "",
     "at": "",
     "es": "el mes pasado",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 492,
@@ -6393,7 +6884,8 @@
     "te": "",
     "at": "",
     "es": "profesor; maestro; doctor",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 493,
@@ -6406,7 +6898,8 @@
     "te": "",
     "at": "",
     "es": "la semana pasada",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 494,
@@ -6419,7 +6912,8 @@
     "te": "洗濯して (せんたくして)",
     "at": "",
     "es": "lavado de ropa; lavar la ropa",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": "洗濯しない (せんたくしない)"
   },
   {
     "id": 495,
@@ -6432,7 +6926,8 @@
     "te": "",
     "at": "",
     "es": "fotografía; foto",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 496,
@@ -6445,7 +6940,8 @@
     "te": "",
     "at": "",
     "es": "camisa",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 497,
@@ -6458,7 +6954,8 @@
     "te": "",
     "at": "",
     "es": "ducha",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 498,
@@ -6471,7 +6968,8 @@
     "te": "",
     "at": "",
     "es": "cuatro; 4",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 499,
@@ -6484,7 +6982,8 @@
     "te": "",
     "at": "",
     "es": "siete; 7",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 500,
@@ -6497,7 +6996,8 @@
     "te": "仕事して (しごとして)",
     "at": "",
     "es": "trabajo; empleo; trabajar",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": "仕事しない (しごとしない)"
   },
   {
     "id": 501,
@@ -6510,7 +7010,8 @@
     "te": "閉まって (しまって)",
     "at": "",
     "es": "cerrarse; estar cerrado",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "閉まらない (しまらない)"
   },
   {
     "id": 502,
@@ -6523,7 +7024,8 @@
     "te": "閉めて (しめて)",
     "at": "",
     "es": "cerrar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "閉めない (しめない)"
   },
   {
     "id": 503,
@@ -6536,7 +7038,8 @@
     "te": "締めて (しめて)",
     "at": "",
     "es": "atar; abrochar; ajustar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "締めない (しめない)"
   },
   {
     "id": 504,
@@ -6549,7 +7052,8 @@
     "te": "",
     "at": "",
     "es": "periódico; diario",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 505,
@@ -6562,7 +7066,8 @@
     "te": "死んで (しんで)",
     "at": "",
     "es": "morir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "死なない (しなない)"
   },
   {
     "id": 506,
@@ -6575,7 +7080,8 @@
     "te": "",
     "at": "",
     "es": "sal",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 507,
@@ -6588,7 +7094,8 @@
     "te": "",
     "at": "",
     "es": "blanco (color)",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 508,
@@ -6601,7 +7108,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "blanco",
-    "tp": "Colores"
+    "tp": "Colores",
+    "nai": ""
   },
   {
     "id": 509,
@@ -6614,7 +7122,8 @@
     "te": "知って (しって)",
     "at": "",
     "es": "saber; conocer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "知らない (しらない)"
   },
   {
     "id": 510,
@@ -6627,7 +7136,8 @@
     "te": "",
     "at": "",
     "es": "abajo; debajo",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 511,
@@ -6640,7 +7150,8 @@
     "te": "質問して (しつもんして)",
     "at": "",
     "es": "pregunta; preguntar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "質問しない (しつもんしない)"
   },
   {
     "id": 512,
@@ -6653,7 +7164,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "tranquilo; silencioso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 513,
@@ -6666,7 +7178,8 @@
     "te": "",
     "at": "",
     "es": "comedor; cafetería",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 514,
@@ -6679,7 +7192,8 @@
     "te": "",
     "at": "",
     "es": "salsa de soja / soya",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 515,
@@ -6692,7 +7206,8 @@
     "te": "",
     "at": "",
     "es": "tarea; deberes escolares",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 516,
@@ -6705,7 +7220,8 @@
     "te": "",
     "at": "",
     "es": "cerca; al lado",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 517,
@@ -6718,7 +7234,8 @@
     "te": "",
     "at": "",
     "es": "ese lado; por allá (informal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 518,
@@ -6731,7 +7248,8 @@
     "te": "",
     "at": "",
     "es": "ese lado; usted (formal)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 519,
@@ -6744,7 +7262,8 @@
     "te": "",
     "at": "",
     "es": "ahí; ese lugar",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 520,
@@ -6757,7 +7276,8 @@
     "te": "",
     "at": "",
     "es": "ese; esa (antes de sustantivo)",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 521,
@@ -6770,7 +7290,8 @@
     "te": "",
     "at": "",
     "es": "cielo; aire",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 522,
@@ -6783,7 +7304,8 @@
     "te": "",
     "at": "",
     "es": "eso; ese/esa",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 523,
@@ -6796,7 +7318,8 @@
     "te": "",
     "at": "",
     "es": "entonces; en ese caso; bueno pues",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 524,
@@ -6809,7 +7332,8 @@
     "te": "",
     "at": "",
     "es": "afuera; exterior",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 525,
@@ -6822,7 +7346,8 @@
     "te": "掃除して (そうじして)",
     "at": "",
     "es": "limpieza; limpiar; barrer",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": "掃除しない (そうじしない)"
   },
   {
     "id": 526,
@@ -6835,7 +7360,8 @@
     "te": "",
     "at": "",
     "es": "inmediatamente; enseguida",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 527,
@@ -6848,7 +7374,8 @@
     "te": "",
     "at": "",
     "es": "miércoles",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 528,
@@ -6861,7 +7388,8 @@
     "te": "",
     "at": "",
     "es": "falda; pollera",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 529,
@@ -6874,7 +7402,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "gustar; favorito",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 530,
@@ -6887,7 +7416,8 @@
     "te": "",
     "at": "",
     "es": "un poco; pequeña cantidad",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 531,
@@ -6900,7 +7430,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "poco; escaso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 532,
@@ -6913,7 +7444,8 @@
     "te": "住んで (すんで)",
     "at": "",
     "es": "vivir; residir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "住まない (すまない)"
   },
   {
     "id": 533,
@@ -6926,7 +7458,8 @@
     "te": "",
     "at": "",
     "es": "deporte; deportes",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 534,
@@ -6939,7 +7472,8 @@
     "te": "",
     "at": "",
     "es": "cuchara",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 535,
@@ -6952,7 +7486,8 @@
     "te": "",
     "at": "",
     "es": "pantuflas; zapatillas de casa",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 536,
@@ -6965,7 +7500,8 @@
     "te": "",
     "at": "",
     "es": "estufa; calefactor",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 537,
@@ -6978,7 +7514,8 @@
     "te": "吸って (すって)",
     "at": "",
     "es": "fumar; inhalar; chupar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "吸わない (すわない)"
   },
   {
     "id": 538,
@@ -6991,7 +7528,8 @@
     "te": "座って (すわって)",
     "at": "",
     "es": "sentarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "座らない (すわらない)"
   },
   {
     "id": 539,
@@ -7004,7 +7542,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "fresco (clima)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 540,
@@ -7017,7 +7556,8 @@
     "te": "",
     "at": "",
     "es": "tabaco; cigarrillo",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 541,
@@ -7030,7 +7570,8 @@
     "te": "",
     "at": "",
     "es": "comida; alimento",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 542,
@@ -7043,7 +7584,8 @@
     "te": "食べて (たべて)",
     "at": "",
     "es": "comer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "食べない (たべない)"
   },
   {
     "id": 543,
@@ -7056,7 +7598,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "quizás; probablemente",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 544,
@@ -7069,7 +7612,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "muy; terrible; difícil; grave",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 545,
@@ -7082,7 +7626,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "importante; valioso; preciado",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 546,
@@ -7095,7 +7640,8 @@
     "te": "",
     "at": "",
     "es": "embajada",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 547,
@@ -7108,7 +7654,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "alto; caro",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 548,
@@ -7121,7 +7668,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "mucho; muchos",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 549,
@@ -7134,7 +7682,8 @@
     "te": "",
     "at": "",
     "es": "taxi",
-    "tp": "Transporte y Viajes"
+    "tp": "Transporte y Viajes",
+    "nai": ""
   },
   {
     "id": 550,
@@ -7147,7 +7696,8 @@
     "te": "",
     "at": "",
     "es": "huevo(s)",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 551,
@@ -7160,7 +7710,8 @@
     "te": "",
     "at": "",
     "es": "cumpleaños",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 552,
@@ -7173,7 +7724,8 @@
     "te": "頼んで (たのんで)",
     "at": "",
     "es": "pedir (un favor); solicitar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "頼まない (たのまない)"
   },
   {
     "id": 553,
@@ -7186,7 +7738,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "divertido; agradable",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 554,
@@ -7199,7 +7752,8 @@
     "te": "",
     "at": "",
     "es": "largo; vertical; altura",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 555,
@@ -7212,7 +7766,8 @@
     "te": "",
     "at": "",
     "es": "edificio",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 556,
@@ -7225,7 +7780,8 @@
     "te": "立って (たって)",
     "at": "",
     "es": "ponerse de pie; pararse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "立たない (たたない)"
   },
   {
     "id": 557,
@@ -7238,7 +7794,8 @@
     "te": "",
     "at": "",
     "es": "mano; brazo",
-    "tp": "Cuerpo y Salud"
+    "tp": "Cuerpo y Salud",
+    "nai": ""
   },
   {
     "id": 558,
@@ -7251,7 +7808,8 @@
     "te": "",
     "at": "",
     "es": "mesa",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 559,
@@ -7264,7 +7822,8 @@
     "te": "",
     "at": "",
     "es": "cinta (adhesiva o de audio)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 560,
@@ -7277,7 +7836,8 @@
     "te": "",
     "at": "",
     "es": "grabadora de cinta",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 561,
@@ -7290,7 +7850,8 @@
     "te": "",
     "at": "",
     "es": "carta (mensaje)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 562,
@@ -7303,7 +7864,8 @@
     "te": "",
     "at": "",
     "es": "clima; tiempo atmosférico",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 563,
@@ -7316,7 +7878,8 @@
     "te": "",
     "at": "",
     "es": "televisión; televisor",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 564,
@@ -7329,7 +7892,8 @@
     "te": "テストして",
     "at": "",
     "es": "examen; prueba; evaluar",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": "テストしない"
   },
   {
     "id": 565,
@@ -7342,7 +7906,8 @@
     "te": "",
     "at": "",
     "es": "puerta (estilo japonés)",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 566,
@@ -7355,7 +7920,8 @@
     "te": "飛んで (とんで)",
     "at": "",
     "es": "volar; saltar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "飛ばない (とばない)"
   },
   {
     "id": 567,
@@ -7368,7 +7934,8 @@
     "te": "",
     "at": "",
     "es": "baño; inodoro",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 568,
@@ -7381,7 +7948,8 @@
     "te": "",
     "at": "",
     "es": "reloj",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 569,
@@ -7394,7 +7962,8 @@
     "te": "",
     "at": "",
     "es": "tiempo; momento; ocasión",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 570,
@@ -7407,7 +7976,8 @@
     "te": "",
     "at": "",
     "es": "a veces; de vez en cuando",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 571,
@@ -7420,7 +7990,8 @@
     "te": "",
     "at": "",
     "es": "lugar; sitio",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 572,
@@ -7433,7 +8004,8 @@
     "te": "止まって (とまって)",
     "at": "",
     "es": "detenerse; parar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "止まらない (とまらない)"
   },
   {
     "id": 573,
@@ -7446,7 +8018,8 @@
     "te": "",
     "at": "",
     "es": "amigo; compañero",
-    "tp": "Familia y Personas"
+    "tp": "Familia y Personas",
+    "nai": ""
   },
   {
     "id": 574,
@@ -7459,7 +8032,8 @@
     "te": "",
     "at": "",
     "es": "al lado; vecino",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 575,
@@ -7472,7 +8046,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "lejano; lejos",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 576,
@@ -7485,7 +8060,8 @@
     "te": "",
     "at": "",
     "es": "día 10 del mes / 10 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 577,
@@ -7498,7 +8074,8 @@
     "te": "",
     "at": "",
     "es": "pájaro; ave",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 578,
@@ -7511,7 +8088,8 @@
     "te": "",
     "at": "",
     "es": "carne de pollo",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 579,
@@ -7524,7 +8102,8 @@
     "te": "取って (とって)",
     "at": "",
     "es": "tomar; agarrar; elegir",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "取らない (とらない)"
   },
   {
     "id": 580,
@@ -7537,7 +8116,8 @@
     "te": "撮って (とって)",
     "at": "",
     "es": "tomar (una foto); grabar (video)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "撮らない (とらない)"
   },
   {
     "id": 581,
@@ -7550,7 +8130,8 @@
     "te": "",
     "at": "",
     "es": "año; edad",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 582,
@@ -7563,7 +8144,8 @@
     "te": "",
     "at": "",
     "es": "biblioteca",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 583,
@@ -7576,7 +8158,8 @@
     "te": "",
     "at": "",
     "es": "siguiente; próximo",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 584,
@@ -7589,7 +8172,8 @@
     "te": "",
     "at": "",
     "es": "día 1 del mes",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 585,
@@ -7602,7 +8186,8 @@
     "te": "疲れて (つかれて)",
     "at": "",
     "es": "cansarse",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "疲れない (つかれない)"
   },
   {
     "id": 586,
@@ -7615,7 +8200,8 @@
     "te": "使って (つかって)",
     "at": "",
     "es": "usar; utilizar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "使わない (つかわない)"
   },
   {
     "id": 587,
@@ -7628,7 +8214,8 @@
     "te": "つけて",
     "at": "",
     "es": "encender; prender",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "つけない"
   },
   {
     "id": 588,
@@ -7641,7 +8228,8 @@
     "te": "付けて (つけて)",
     "at": "",
     "es": "pegar; adjuntar; añadir; aplicar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "付けない (つけない)"
   },
   {
     "id": 589,
@@ -7654,7 +8242,8 @@
     "te": "着いて (ついて)",
     "at": "",
     "es": "llegar (a un lugar)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "着かない (つかない)"
   },
   {
     "id": 590,
@@ -7667,7 +8256,8 @@
     "te": "",
     "at": "",
     "es": "escritorio",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 591,
@@ -7680,7 +8270,8 @@
     "te": "作って (つくって)",
     "at": "",
     "es": "hacer; fabricar; crear",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "作らない (つくらない)"
   },
   {
     "id": 592,
@@ -7693,7 +8284,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "aburrido",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 593,
@@ -7706,7 +8298,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "frío (al tacto)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 594,
@@ -7719,7 +8312,8 @@
     "te": "勤めて (つとめて)",
     "at": "",
     "es": "trabajar para una empresa / empleado",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "勤めない (つとめない)"
   },
   {
     "id": 595,
@@ -7732,7 +8326,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "fuerte; poderoso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 596,
@@ -7745,7 +8340,8 @@
     "te": "",
     "at": "",
     "es": "arriba; encima; sobre",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 597,
@@ -7758,7 +8354,8 @@
     "te": "生まれて (うまれて)",
     "at": "",
     "es": "nacer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "生まれない (うまれない)"
   },
   {
     "id": 598,
@@ -7771,7 +8368,8 @@
     "te": "",
     "at": "",
     "es": "mar",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 599,
@@ -7784,7 +8382,8 @@
     "te": "売って (うって)",
     "at": "",
     "es": "vender",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "売らない (うらない)"
   },
   {
     "id": 600,
@@ -7797,7 +8396,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "ruidoso; molesto",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 601,
@@ -7810,7 +8410,8 @@
     "te": "",
     "at": "",
     "es": "detrás; atrás",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 602,
@@ -7823,7 +8424,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "delgado; fino; débil (sabor/color)",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 603,
@@ -7836,7 +8438,8 @@
     "te": "",
     "at": "",
     "es": "canción",
-    "tp": "Casa y Objetos"
+    "tp": "Casa y Objetos",
+    "nai": ""
   },
   {
     "id": 604,
@@ -7849,7 +8452,8 @@
     "te": "歌って (うたって)",
     "at": "",
     "es": "cantar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "歌わない (うたわない)"
   },
   {
     "id": 605,
@@ -7862,7 +8466,8 @@
     "te": "",
     "at": "",
     "es": "abrigo; chaqueta; campera",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 606,
@@ -7875,7 +8480,8 @@
     "te": "",
     "at": "",
     "es": "camisa de vestir",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 607,
@@ -7888,7 +8494,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "joven",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 608,
@@ -7901,7 +8508,8 @@
     "te": "分かって (わかって)",
     "at": "",
     "es": "entender; comprender",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "分からない (わからない)"
   },
   {
     "id": 609,
@@ -7914,7 +8522,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "malo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 610,
@@ -7927,7 +8536,8 @@
     "te": "忘れて (わすれて)",
     "at": "",
     "es": "olvidar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "忘れない (わすれない)"
   },
   {
     "id": 611,
@@ -7940,7 +8550,8 @@
     "te": "渡って (わたって)",
     "at": "",
     "es": "cruzar (calle, puente)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "渡らない (わたらない)"
   },
   {
     "id": 612,
@@ -7953,7 +8564,8 @@
     "te": "",
     "at": "",
     "es": "yo",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 613,
@@ -7966,7 +8578,8 @@
     "te": "渡して (わたして)",
     "at": "",
     "es": "entregar; pasar (algo a alguien)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "渡さない (わたさない)"
   },
   {
     "id": 614,
@@ -7979,7 +8592,8 @@
     "te": "",
     "at": "",
     "es": "montaña; colina",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 615,
@@ -7992,7 +8606,8 @@
     "te": "",
     "at": "",
     "es": "verdulería; frutería",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 616,
@@ -8005,7 +8620,8 @@
     "te": "やって",
     "at": "",
     "es": "hacer (informal)",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "やらない"
   },
   {
     "id": 617,
@@ -8018,7 +8634,8 @@
     "te": "",
     "at": "",
     "es": "verdura; vegetal",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 618,
@@ -8031,7 +8648,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "fácil; sencillo",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 619,
@@ -8044,7 +8662,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "barato; económico",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 620,
@@ -8057,7 +8676,8 @@
     "te": "",
     "at": "",
     "es": "descanso; vacaciones; día libre",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 621,
@@ -8070,7 +8690,8 @@
     "te": "休んで (やすんで)",
     "at": "",
     "es": "descansar; ausentarse; tomarse el día",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "休まない (やすまない)"
   },
   {
     "id": 622,
@@ -8083,7 +8704,8 @@
     "te": "",
     "at": "",
     "es": "ocho (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 623,
@@ -8096,7 +8718,8 @@
     "te": "呼んで (よんで)",
     "at": "",
     "es": "llamar; invitar",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "呼ばない (よばない)"
   },
   {
     "id": 624,
@@ -8109,7 +8732,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "bueno; bien",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 625,
@@ -8122,7 +8746,8 @@
     "te": "",
     "at": "",
     "es": "día 4 del mes / 4 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 626,
@@ -8135,7 +8760,8 @@
     "te": "",
     "at": "",
     "es": "al lado; costado; ancho",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 627,
@@ -8148,7 +8774,8 @@
     "te": "",
     "at": "",
     "es": "a menudo; frecuentemente; bien",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 628,
@@ -8161,7 +8788,8 @@
     "te": "読んで (よんで)",
     "at": "",
     "es": "leer",
-    "tp": "Acciones y Verbos"
+    "tp": "Acciones y Verbos",
+    "nai": "読まない (よまない)"
   },
   {
     "id": 629,
@@ -8174,7 +8802,8 @@
     "te": "",
     "at": "",
     "es": "noche; tarde-noche",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 630,
@@ -8187,7 +8816,8 @@
     "te": "",
     "at": "",
     "es": "cuatro (cosas)",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 631,
@@ -8200,7 +8830,8 @@
     "te": "",
     "at": "",
     "es": "ropa occidental",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   },
   {
     "id": 632,
@@ -8213,7 +8844,8 @@
     "te": "",
     "at": "",
     "es": "día 8 del mes / 8 días",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 633,
@@ -8226,7 +8858,8 @@
     "te": "",
     "at": "い-adjetivo",
     "es": "débil",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 634,
@@ -8239,7 +8872,8 @@
     "te": "",
     "at": "",
     "es": "nieve",
-    "tp": "Naturaleza, Animales y Clima"
+    "tp": "Naturaleza, Animales y Clima",
+    "nai": ""
   },
   {
     "id": 635,
@@ -8252,7 +8886,8 @@
     "te": "",
     "at": "",
     "es": "despacio; lentamente",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 636,
@@ -8265,7 +8900,8 @@
     "te": "",
     "at": "",
     "es": "anoche",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 637,
@@ -8278,7 +8914,8 @@
     "te": "",
     "at": "",
     "es": "oficina de correos",
-    "tp": "Lugares y Ciudad"
+    "tp": "Lugares y Ciudad",
+    "nai": ""
   },
   {
     "id": 638,
@@ -8291,7 +8928,8 @@
     "te": "",
     "at": "",
     "es": "atardecer; tarde",
-    "tp": "Tiempo y Fechas"
+    "tp": "Tiempo y Fechas",
+    "nai": ""
   },
   {
     "id": 639,
@@ -8304,7 +8942,8 @@
     "te": "",
     "at": "",
     "es": "cena",
-    "tp": "Comida y Bebida"
+    "tp": "Comida y Bebida",
+    "nai": ""
   },
   {
     "id": 640,
@@ -8317,7 +8956,8 @@
     "te": "",
     "at": "な-adjetivo",
     "es": "famoso",
-    "tp": "Cualidades y Adjetivos"
+    "tp": "Cualidades y Adjetivos",
+    "nai": ""
   },
   {
     "id": 641,
@@ -8330,7 +8970,8 @@
     "te": "",
     "at": "",
     "es": "revista",
-    "tp": "Escuela y Estudio"
+    "tp": "Escuela y Estudio",
+    "nai": ""
   },
   {
     "id": 642,
@@ -8343,7 +8984,8 @@
     "te": "",
     "at": "",
     "es": "todo; entero",
-    "tp": "Pronombres, Adverbios y Expresiones"
+    "tp": "Pronombres, Adverbios y Expresiones",
+    "nai": ""
   },
   {
     "id": 643,
@@ -8356,7 +8998,8 @@
     "te": "",
     "at": "",
     "es": "cero",
-    "tp": "Números y Medidas"
+    "tp": "Números y Medidas",
+    "nai": ""
   },
   {
     "id": 644,
@@ -8369,6 +9012,7 @@
     "te": "",
     "at": "",
     "es": "pantalones",
-    "tp": "Ropa y Accesorios"
+    "tp": "Ropa y Accesorios",
+    "nai": ""
   }
 ]

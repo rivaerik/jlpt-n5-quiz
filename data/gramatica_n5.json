@@ -1,0 +1,1042 @@
+[
+  {
+    "id": 1,
+    "cat": "Partículas",
+    "pre": "まいあさ バス",
+    "u": "（　）",
+    "post": " のって がっこうへ いきます。",
+    "opts": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "ans": 0,
+    "es": "Todas las mañanas me subo al autobús y voy a la escuela.",
+    "tip": "¡Trampa clásica de transporte! Con el verbo 乗る (subir a un transporte) SIEMPRE va に (バスに乗る). Con 行く (ir en) va で (バスで行く)."
+  },
+  {
+    "id": 2,
+    "cat": "Partículas",
+    "pre": "つぎの えきで でんしゃ",
+    "u": "（　）",
+    "post": " おります。",
+    "opts": [
+      "に",
+      "で",
+      "を",
+      "から"
+    ],
+    "ans": 2,
+    "es": "Me bajo del tren en la próxima estación.",
+    "tip": "¡Súper trampa N5! Bajar de un transporte (降りる) y salir de un lugar (出る) SIEMPRE usan を (電車を降りる / 家を出る), nunca から ni に."
+  },
+  {
+    "id": 3,
+    "cat": "Partículas",
+    "pre": "なつやすみに プール",
+    "u": "（　）",
+    "post": " まいにち およぎました。",
+    "opts": [
+      "に",
+      "で",
+      "を",
+      "へ"
+    ],
+    "ans": 1,
+    "es": "En las vacaciones de verano nadé todos los días en la piscina.",
+    "tip": "El lugar donde realizás una ACCIÓN activa (nadar, estudiar, comprar) siempre lleva で (プールで泳ぐ)."
+  },
+  {
+    "id": 4,
+    "cat": "Partículas",
+    "pre": "ナイフ",
+    "u": "（　）",
+    "post": " りんごを きりました。",
+    "opts": [
+      "に",
+      "を",
+      "で",
+      "と"
+    ],
+    "ans": 2,
+    "es": "Corté la manzana con un cuchillo.",
+    "tip": "La partícula で marca el instrumento, medio o idioma con el que hacés algo (ナイフで切る, 日本語で話す)."
+  },
+  {
+    "id": 5,
+    "cat": "Partículas",
+    "pre": "へや",
+    "u": "（　）",
+    "post": " はいる まえに ノックします。",
+    "opts": [
+      "を",
+      "で",
+      "に",
+      "が"
+    ],
+    "ans": 2,
+    "es": "Golpeo antes de entrar a la habitación.",
+    "tip": "Entrar a un lugar (入る) y llegar a un destino (着く) SIEMPRE llevan に (部屋に入る / 駅に着く)."
+  },
+  {
+    "id": 6,
+    "cat": "Partículas",
+    "pre": "まいにち",
+    "u": "（　）",
+    "post": " ７じに おきます。",
+    "opts": [
+      "に",
+      "で",
+      "を",
+      "× (nada)"
+    ],
+    "ans": 3,
+    "es": "Todos los días me levanto a las 7.",
+    "tip": "Regla de oro del tiempo: palabras relativas o de frecuencia (まいにち, きょう, きのう, あした, らいげつ) NUNCA llevan に."
+  },
+  {
+    "id": 7,
+    "cat": "Partículas",
+    "pre": "つくえの うえに ほん",
+    "u": "（　）",
+    "post": " あります。",
+    "opts": [
+      "を",
+      "が",
+      "で",
+      "に"
+    ],
+    "ans": 1,
+    "es": "Hay un libro sobre el escritorio.",
+    "tip": "Uno de los 5 casos obligatorios de が: existencia con あります / います (本があります)."
+  },
+  {
+    "id": 8,
+    "cat": "Partículas",
+    "pre": "とけいを わすれたから、じかん",
+    "u": "（　）",
+    "post": " わかりません。",
+    "opts": [
+      "を",
+      "に",
+      "が",
+      "で"
+    ],
+    "ans": 2,
+    "es": "Como olvidé el reloj, no sé la hora.",
+    "tip": "Gustos (好き), habilidades (上手/下手), deseos (ほしい) y comprensión (わかります) SIEMPRE llevan が."
+  },
+  {
+    "id": 9,
+    "cat": "Partículas",
+    "pre": "きのうの パーティーに だれ",
+    "u": "（　）",
+    "post": " きましたか。",
+    "opts": [
+      "は",
+      "が",
+      "を",
+      "に"
+    ],
+    "ans": 1,
+    "es": "¿Quién vino a la fiesta de ayer?",
+    "tip": "Cuando la palabra interrogativa (だれ, なに, どれ) es el sujeto, NUNCA puede llevar は: es obligatorio usar が (だれが来ましたか)."
+  },
+  {
+    "id": 10,
+    "cat": "Partículas",
+    "pre": "そとは つよい かぜ",
+    "u": "（　）",
+    "post": " ふいています。",
+    "opts": [
+      "を",
+      "で",
+      "が",
+      "に"
+    ],
+    "ans": 2,
+    "es": "Afuera está soplando un viento fuerte.",
+    "tip": "Fenómenos naturales (雨が降っています, 風が吹いています) siempre llevan が."
+  },
+  {
+    "id": 11,
+    "cat": "Partículas",
+    "pre": "かばんの なかに ペン",
+    "u": "（　）",
+    "post": " ノートなどが あります。",
+    "opts": [
+      "と",
+      "や",
+      "か",
+      "も"
+    ],
+    "ans": 1,
+    "es": "Dentro de la mochila hay lapiceras, cuadernos, entre otras cosas.",
+    "tip": "Pista de examen: cuando ves など al final de una lista abierta, la partícula obligatoria es や (no と)."
+  },
+  {
+    "id": 12,
+    "cat": "Partículas",
+    "pre": "へやに だれ",
+    "u": "（　）",
+    "post": " いませんでした。",
+    "opts": [
+      "が",
+      "は",
+      "も",
+      "を"
+    ],
+    "ans": 2,
+    "es": "No había nadie en la habitación.",
+    "tip": "Trampa de nulidad total: Interrogativo + も + verbo NEGATIVO = nadie/nada/ningún lado (だれもいません, なにも食べませんでした)."
+  },
+  {
+    "id": 13,
+    "cat": "Partículas",
+    "pre": "この りんごは あかいのを ください。あおい",
+    "u": "（　）",
+    "post": " は いりません。",
+    "opts": [
+      "の",
+      "こと",
+      "もの",
+      "が"
+    ],
+    "ans": 0,
+    "es": "Deme la manzana roja, por favor. La azul no la necesito.",
+    "tip": "の funciona como pronombre para reemplazar un sustantivo y no repetirlo (赤いの = la roja; わたしのです = es el mío)."
+  },
+  {
+    "id": 14,
+    "cat": "Partículas",
+    "pre": "あさごはんは パン",
+    "u": "（　）",
+    "post": " ごはんを たべます。",
+    "opts": [
+      "と",
+      "か",
+      "に",
+      "で"
+    ],
+    "ans": 1,
+    "es": "Para el desayuno como pan o arroz.",
+    "tip": "Entre dos sustantivos, か significa 'o' (コーヒーか紅茶 = café o té)."
+  },
+  {
+    "id": 15,
+    "cat": "Partículas",
+    "pre": "すみません、この でんしゃは とうきょうへ いきません",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "ね",
+      "か",
+      "よ",
+      "の"
+    ],
+    "ans": 2,
+    "es": "Disculpe, ¡le aviso que este tren no va a Tokio!",
+    "tip": "よ al final da información nueva o advierte al oyente. ね busca confirmación o acuerdo ('¿verdad?')."
+  },
+  {
+    "id": 16,
+    "cat": "Partículas",
+    "pre": "ゾウは はな",
+    "u": "（　）",
+    "post": " ながいです。",
+    "opts": [
+      "は",
+      "が",
+      "を",
+      "で"
+    ],
+    "ans": 1,
+    "es": "En cuanto al elefante, su trompa es larga.",
+    "tip": "Estructura clásica [Tema] は [característica/parte del cuerpo] が [adjetivo]: ゾウは はなが 長いです."
+  },
+  {
+    "id": 17,
+    "cat": "Partículas",
+    "pre": "まいあさ こうえん",
+    "u": "（　）",
+    "post": " さんぽします。",
+    "opts": [
+      "に",
+      "を",
+      "へ",
+      "が"
+    ],
+    "ans": 1,
+    "es": "Todas las mañanas paseo por el parque.",
+    "tip": "Atravesar o recorrer un espacio (公園を散歩する, 橋を渡る, 道を歩く) usa la partícula を."
+  },
+  {
+    "id": 18,
+    "cat": "Negación y Verbos",
+    "pre": "たかいから、その かばんは ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "かあない",
+      "かわない",
+      "かいない",
+      "かうない"
+    ],
+    "ans": 1,
+    "es": "Como es caro, no voy a comprar ese bolso.",
+    "tip": "¡Trampa de la う en Grupo 1! Los verbos terminados en う pura (買う, 言う, 洗う, もらう) cambian a わ + ない (かわない, いわない)."
+  },
+  {
+    "id": 19,
+    "cat": "Negación y Verbos",
+    "pre": "まだ ともだちに ",
+    "u": "（　）",
+    "post": " ください。",
+    "opts": [
+      "いあないで",
+      "いないで",
+      "いわないで",
+      "いってないで"
+    ],
+    "ans": 2,
+    "es": "Por favor, todavía no se lo digas a tu amigo.",
+    "tip": "言う (Grupo 1 en う) -> Forma Nai: いわない -> Petición negativa: いわないでください."
+  },
+  {
+    "id": 20,
+    "cat": "Negación y Verbos",
+    "pre": "あぶないですから、ここに ",
+    "u": "（　）",
+    "post": " ください。",
+    "opts": [
+      "はいらないで",
+      "はいないで",
+      "はいれないで",
+      "はいてないで"
+    ],
+    "ans": 0,
+    "es": "Como es peligroso, por favor no entres acá.",
+    "tip": "¡Falso Grupo 2! 入る (entrar), 切る (cortar), 知る (saber) y 走る (correr) terminan en -iru pero son Grupo 1: はいらない."
+  },
+  {
+    "id": 21,
+    "cat": "Negación y Verbos",
+    "pre": "その ひとの なまえを ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "しりません",
+      "しっていません",
+      "しらないません",
+      "しりませんでした"
+    ],
+    "ans": 0,
+    "es": "No sé el nombre de esa persona.",
+    "tip": "¡Trampa clásica N5! En afirmativo es 知っています ('lo conozco'), pero el negativo SIEMPRE es 知りません / 知らない (NO 知っていません)."
+  },
+  {
+    "id": 22,
+    "cat": "Negación y Verbos",
+    "pre": "あしたは やすみですから、がっこうへ ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "いかなくてもいいです",
+      "いかなければなりません",
+      "いってはいけません",
+      "いかないください"
+    ],
+    "ans": 0,
+    "es": "Como mañana es feriado, no hace falta que vayas a la escuela.",
+    "tip": "〜なくてもいいです = falta de obligación ('no hace falta que...'). Se forma quitando い de ない + くてもいいです."
+  },
+  {
+    "id": 23,
+    "cat": "Negación y Verbos",
+    "pre": "まいにち くすりを ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "のまなくてもいいです",
+      "のまなければなりません",
+      "のんでもいいです",
+      "のまないでください"
+    ],
+    "ans": 1,
+    "es": "Tengo que tomar la medicina todos los días.",
+    "tip": "〜なければなりません = obligación ('tener que...'). Se forma quitando い de ない (のまない) + ければなりません."
+  },
+  {
+    "id": 24,
+    "cat": "Negación y Verbos",
+    "pre": "ここで タバコを ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "すってもいいです",
+      "すってはいけません",
+      "すわなければなりません",
+      "すいたいのです"
+    ],
+    "ans": 1,
+    "es": "No debes / Está prohibido fumar aquí.",
+    "tip": "〜てはいけません expresa prohibición. Su opuesto de permiso es 〜てもいいです."
+  },
+  {
+    "id": 25,
+    "cat": "Negación y Verbos",
+    "pre": "ここで しゃしんを ",
+    "u": "（　）",
+    "post": " か。",
+    "opts": [
+      "とってもいいです",
+      "とってはいいです",
+      "とらなくてもいいです",
+      "とるもいいです"
+    ],
+    "ans": 0,
+    "es": "¿Puedo sacar fotos aquí?",
+    "tip": "Permiso = Forma TE + もいいですか (撮ってもいいですか)."
+  },
+  {
+    "id": 26,
+    "cat": "Negación y Verbos",
+    "pre": "おなかが いっぱいですから、なにも ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "たべたいじゃないです",
+      "たべたくないです",
+      "たべませんたいです",
+      "たべないたいです"
+    ],
+    "ans": 1,
+    "es": "Como estoy lleno, no quiero comer nada.",
+    "tip": "¡Trampa gramatical! Los verbos en 〜たい se conjugan exactamente como adjetivos-い: negativo 〜たくないです, pasado 〜たかったです."
+  },
+  {
+    "id": 27,
+    "cat": "Negación y Verbos",
+    "pre": "おんがくを ",
+    "u": "（　）",
+    "post": " べんきょうします。",
+    "opts": [
+      "きいてながら",
+      "ききながら",
+      "きくながら",
+      "ききって"
+    ],
+    "ans": 1,
+    "es": "Estudio mientras escucho música.",
+    "tip": "〜ながら (hacer dos acciones a la vez) siempre va con la Raíz Masu: 聞きます -> 聞きながら."
+  },
+  {
+    "id": 28,
+    "cat": "Negación y Verbos",
+    "pre": "デパートへ くつを ",
+    "u": "（　）",
+    "post": " いきます。",
+    "opts": [
+      "かうに",
+      "かってに",
+      "かいに",
+      "かいましたに"
+    ],
+    "ans": 2,
+    "es": "Voy a la tienda departamental a comprar zapatos.",
+    "tip": "Propósito de movimiento: Raíz Masu + に + 行く/来る/帰る (買います -> 買いに行きます)."
+  },
+  {
+    "id": 29,
+    "cat": "Negación y Verbos",
+    "pre": "きのう ",
+    "u": "（　）",
+    "post": " まえに、ほんを よみました。",
+    "opts": [
+      "ねた",
+      "ねる",
+      "ねて",
+      "ねます"
+    ],
+    "ans": 1,
+    "es": "Ayer antes de dormir leí un libro.",
+    "tip": "¡Trampa de tiempo! Delante de まえに el verbo SIEMPRE va en Forma Diccionario (presente), aunque la oración sea en pasado."
+  },
+  {
+    "id": 30,
+    "cat": "Negación y Verbos",
+    "pre": "しごとを ",
+    "u": "（　）",
+    "post": " あとで、のみに いきます。",
+    "opts": [
+      "する",
+      "して",
+      "した",
+      "します"
+    ],
+    "ans": 2,
+    "es": "Después de trabajar, voy a tomar algo.",
+    "tip": "Delante de あとで (después de) el verbo SIEMPRE va en Forma TA (pasado informal): したあとで."
+  },
+  {
+    "id": 31,
+    "cat": "Negación y Verbos",
+    "pre": "にほんへ ",
+    "u": "（　）",
+    "post": " ことが あります。",
+    "opts": [
+      "いく",
+      "いって",
+      "いった",
+      "いきます"
+    ],
+    "ans": 2,
+    "es": "He ido a Japón alguna vez.",
+    "tip": "Experiencia pasada ('alguna vez he...'): Forma TA + ことがあります (行ったことがあります)."
+  },
+  {
+    "id": 32,
+    "cat": "Negación y Verbos",
+    "pre": "わたしは かんじを ",
+    "u": "（　）",
+    "post": " ことが できます。",
+    "opts": [
+      "よむ",
+      "よんだ",
+      "よんで",
+      "よみ"
+    ],
+    "ans": 0,
+    "es": "Puedo leer kanjis.",
+    "tip": "Habilidad ('poder hacer algo'): Forma Diccionario + ことができます (読むことができます)."
+  },
+  {
+    "id": 33,
+    "cat": "Negación y Verbos",
+    "pre": "にちようびは へやを そうじしたり、せんたく",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "したり します",
+      "して します",
+      "した します",
+      "します"
+    ],
+    "ans": 0,
+    "es": "Los domingos limpio el cuarto, lavo la ropa, entre otras cosas.",
+    "tip": "Fórmula fija: 〜たり、〜たり します (o しました en pasado). Si ves un たり, buscá otro たり + します."
+  },
+  {
+    "id": 34,
+    "cat": "Negación y Verbos",
+    "pre": "あついから、エアコンを ",
+    "u": "（　）",
+    "post": " ください。",
+    "opts": [
+      "あけて",
+      "つけて",
+      "いれて",
+      "ひらいて"
+    ],
+    "ans": 1,
+    "es": "Como hace calor, por favor encendé el aire acondicionado.",
+    "tip": "¡Regla de oro! Los aparatos eléctricos (エアコン, テレビ, 電気) se encienden con つける, NUNCA con 開ける (abrir cosas físicas)."
+  },
+  {
+    "id": 35,
+    "cat": "Negación y Verbos",
+    "pre": "じかんが ",
+    "u": "（　）",
+    "post": " から、いそぎましょう。",
+    "opts": [
+      "あらない",
+      "ない",
+      "いない",
+      "あるない"
+    ],
+    "ans": 1,
+    "es": "Como no hay tiempo, apurémonos.",
+    "tip": "¡Súper irregular! La forma Nai de ある (haber/tener cosas) es simplemente ない (nunca あらない)."
+  },
+  {
+    "id": 36,
+    "cat": "Negación y Verbos",
+    "pre": "きのうの パーティーは とても ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "いかったです",
+      "よかったです",
+      "いいでした",
+      "よくかったです"
+    ],
+    "ans": 1,
+    "es": "La fiesta de ayer estuvo muy buena.",
+    "tip": "¡Excepción obligatoria de いい! En pasado, negativo y forma TE cambia a よ: よかったです, よくないです, よくて."
+  },
+  {
+    "id": 37,
+    "cat": "Negación y Verbos",
+    "pre": "この まちは ",
+    "u": "（　）",
+    "post": "、きれいな まちです。",
+    "opts": [
+      "しずかくて",
+      "しずかで",
+      "しずかに",
+      "しずかて"
+    ],
+    "ans": 1,
+    "es": "Esta ciudad es tranquila y linda.",
+    "tip": "Para unir dos descripciones: Adjetivo-い cambia a 〜くて (高くて); Adjetivo-な y Sustantivos usan 〜で (静かで)."
+  },
+  {
+    "id": 38,
+    "cat": "Negación y Verbos",
+    "pre": "この へやは ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "きれいじゃないです",
+      "きれくないです",
+      "きれいなくないです",
+      "きれじゃありません"
+    ],
+    "ans": 0,
+    "es": "Esta habitación no está limpia.",
+    "tip": "¡Trampa clásica! きれい termina en い pero es un Adjetivo-NA. Su negativo es きれいじゃないです / きれいじゃありません."
+  },
+  {
+    "id": 39,
+    "cat": "Negación y Verbos",
+    "pre": "シャツを ",
+    "u": "（　）",
+    "post": " ください。（着る = ponerse ropa superior）",
+    "opts": [
+      "きって",
+      "きて",
+      "きいて",
+      "はいて"
+    ],
+    "ans": 1,
+    "es": "Por favor, ponete la camisa.",
+    "tip": "着る (vestir torso) es Grupo 2 -> forma TE: きて, negativo: きない. 切る (cortar) es Grupo 1 -> きって / きらない. 履く es de la cintura para abajo."
+  },
+  {
+    "id": 40,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "「この へやは くらいです。」 ¿Qué oración significa lo mismo?",
+    "u": "（Mondai 4）",
+    "post": "",
+    "opts": [
+      "この へやは あかるくないです。",
+      "この へやは あかるいです。",
+      "この へやは せまいです。",
+      "この へやは さむくないです。"
+    ],
+    "ans": 0,
+    "es": "«Esta habitación es oscura» = «Esta habitación no es luminosa».",
+    "tip": "Técnica favorita del Mondai 4: adjetivo afirmativo = adjetivo opuesto en negativo (暗い = 明るくない)."
+  },
+  {
+    "id": 41,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "「これは りょうしんの しゃしんです。」 ¿Qué significa りょうしん?",
+    "u": "（Mondai 4）",
+    "post": "",
+    "opts": [
+      "ちち と はは",
+      "そふ と そぼ",
+      "あに と あね",
+      "おとうと と いもうと"
+    ],
+    "ans": 0,
+    "es": "«Esta es una foto de mis padres» = «mi padre y mi madre».",
+    "tip": "Clásico de paráfrasis del examen: 両親 (りょうしん) siempre equivale a ちち と はは."
+  },
+  {
+    "id": 42,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "「ゆうべ たくさん べんきょうしました。」 ¿Qué equivale a ゆうべ?",
+    "u": "（Mondai 4）",
+    "post": "",
+    "opts": [
+      "おととい",
+      "きのうの よる",
+      "けさ",
+      "きょうの よる"
+    ],
+    "ans": 1,
+    "es": "«Anoche estudié mucho» = «Ayer a la noche».",
+    "tip": "Sinónimo obligatorio de examen: ゆうべ = きのうのよる (anoche). No confundir con おととい (anteayer)."
+  },
+  {
+    "id": 43,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "「ふくを せんたくします。」 ¿Cuál es su sinónimo exacto?",
+    "u": "（Mondai 4）",
+    "post": "",
+    "opts": [
+      "ふくを あらいます",
+      "ふくを かいます",
+      "ふくを きます",
+      "ふくを ぬぎます"
+    ],
+    "ans": 0,
+    "es": "«Lavo la ropa (colada)» = «Lavo la ropa».",
+    "tip": "Sinónimo de examen: 服を洗濯する (hacer la colada) = 服を洗う (lavar la ropa)."
+  },
+  {
+    "id": 44,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "みちが わかりませんから、",
+    "u": "（　）",
+    "post": " を みます。",
+    "opts": [
+      "じしょ",
+      "ちず",
+      "とけい",
+      "さいふ"
+    ],
+    "ans": 1,
+    "es": "Como no sé el camino, miro el mapa.",
+    "tip": "Asociación Problema -> Objeto con 〜から: camino -> 地図 (mapa), palabra -> 辞書, hora -> 時計, dinero -> 財布."
+  },
+  {
+    "id": 45,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "ひこうきは でんしゃ",
+    "u": "（　）",
+    "post": " はやいです。",
+    "opts": [
+      "から",
+      "より",
+      "ほど",
+      "のほうが"
+    ],
+    "ans": 1,
+    "es": "El avión es más rápido que el tren.",
+    "tip": "Fórmula de comparación de 2 cosas: A は B より [Adjetivo] です. より ('más que') siempre se pega al elemento MENOR."
+  },
+  {
+    "id": 46,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "コーヒーと こうちゃと ",
+    "u": "（　）",
+    "post": " が すきですか。",
+    "opts": [
+      "どれ",
+      "なに",
+      "どちら",
+      "どの"
+    ],
+    "ans": 2,
+    "es": "Entre café y té negro, ¿cuál te gusta más?",
+    "tip": "Para elegir entre 2 opciones SIEMPRE se usa どちら (A と B と どちらが...ですか), y se responde con A のほうが..."
+  },
+  {
+    "id": 47,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "スポーツ",
+    "u": "（　）",
+    "post": " サッカーが いちばん すきです。",
+    "opts": [
+      "に",
+      "で",
+      "を",
+      "から"
+    ],
+    "ans": 1,
+    "es": "De los deportes, el fútbol es el que más me gusta.",
+    "tip": "En el superlativo (いちばん), el grupo o categoría SIEMPRE lleva で (スポーツで / 家族で / 日本で)."
+  },
+  {
+    "id": 48,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "",
+    "u": "（　）",
+    "post": " ほんは とても おもしろいです。",
+    "opts": [
+      "これ",
+      "この",
+      "ここ",
+      "どれ"
+    ],
+    "ans": 1,
+    "es": "Este libro es muy interesante.",
+    "tip": "Regla KOSOADO: この/その/あの/どの SIEMPRE van seguidos de un sustantivo (この本). これ/それ/あれ/どれ SIEMPRE van seguidos de partícula (これは)."
+  },
+  {
+    "id": 49,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "この レストランは おいしいです。",
+    "u": "（　）",
+    "post": "、すこし たかいです。",
+    "opts": [
+      "そして",
+      "だから",
+      "でも",
+      "それから"
+    ],
+    "ans": 2,
+    "es": "Este restaurante es rico. Pero es un poco caro.",
+    "tip": "Contraste positivo + negativo: al inicio de oración nueva va でも ('pero'); en el medio antes de la coma va が."
+  },
+  {
+    "id": 50,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "あしたは テストが あります。",
+    "u": "（　）",
+    "post": "、こんばん べんきょうします。",
+    "opts": [
+      "でも",
+      "だから",
+      "そして",
+      "しかし"
+    ],
+    "ans": 1,
+    "es": "Mañana hay examen. Por eso, esta noche estudio.",
+    "tip": "だから ('por eso / por lo tanto') abre la segunda oración para introducir la consecuencia lógica."
+  },
+  {
+    "id": 51,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "この えいがは あまり ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "おもしろいです",
+      "おもしろくないです",
+      "おもしろかったです",
+      "おもしろい"
+    ],
+    "ans": 1,
+    "es": "Esta película no es muy interesante.",
+    "tip": "¡Atajo de velocidad! あまり, ぜんぜん y まだ SIEMPRE piden un verbo o adjetivo en NEGATIVO al final."
+  },
+  {
+    "id": 52,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "おかねが ",
+    "u": "（　）",
+    "post": " ありません。",
+    "opts": [
+      "とても",
+      "たくさん",
+      "ぜんぜん",
+      "よく"
+    ],
+    "ans": 2,
+    "es": "No tengo nada de dinero.",
+    "tip": "ぜんぜん + negativo = 'absolutamente nada / para nada'. Los otros tres van con afirmativo."
+  },
+  {
+    "id": 53,
+    "cat": "Paráfrasis y Lógica",
+    "pre": "まだ ひるごはんを ",
+    "u": "（　）",
+    "post": "。",
+    "opts": [
+      "たべました",
+      "たべています",
+      "たべていません",
+      "たべます"
+    ],
+    "ans": 2,
+    "es": "Todavía no he almorzado.",
+    "tip": "まだ ('todavía no') en el N5 suele cerrar con 〜ていません."
+  },
+  {
+    "id": 54,
+    "cat": "Calendario y Contadores",
+    "pre": "たんじょうびは ",
+    "u": "4月",
+    "post": " です。",
+    "opts": [
+      "よんがつ",
+      "しがつ",
+      "よがつ",
+      "しいがつ"
+    ],
+    "ans": 1,
+    "es": "Mi cumpleaños es en abril.",
+    "tip": "Los 3 meses trampa del N5: 4月 = しがつ (NO よんがつ), 7月 = しちがつ (NO なながつ), 9月 = くがつ (NO きゅうがつ)."
+  },
+  {
+    "id": 55,
+    "cat": "Calendario y Contadores",
+    "pre": "なつやすみは ",
+    "u": "7月",
+    "post": " から はじまります。",
+    "opts": [
+      "なながつ",
+      "しちがつ",
+      "ななげつ",
+      "しちげつ"
+    ],
+    "ans": 1,
+    "es": "Las vacaciones de verano empiezan en julio.",
+    "tip": "Julio SIEMPRE es しちがつ (nunca なながつ). Y septiembre SIEMPRE es くがつ."
+  },
+  {
+    "id": 56,
+    "cat": "Calendario y Contadores",
+    "pre": "ごご ",
+    "u": "4時",
+    "post": " に えきで あいましょう。",
+    "opts": [
+      "よんじ",
+      "しじ",
+      "よじ",
+      "よっじ"
+    ],
+    "ans": 2,
+    "es": "Encontrémonos en la estación a las 4 de la tarde.",
+    "tip": "Las 3 horas trampa: 4時 = よじ (pierde la ん, nunca しじ), 7時 = しちじ, 9時 = くじ."
+  },
+  {
+    "id": 57,
+    "cat": "Calendario y Contadores",
+    "pre": "しけんは ごがつ ",
+    "u": "十四日",
+    "post": " です。",
+    "opts": [
+      "じゅうよんにち",
+      "じゅうよっか",
+      "じゅうしにち",
+      "じゅうようか"
+    ],
+    "ans": 1,
+    "es": "El examen es el 14 de mayo.",
+    "tip": "Día 14 = じゅうよっか y Día 24 = にじゅうよっか (combinan 10/20 + el irregular del día 4: よっか)."
+  },
+  {
+    "id": 58,
+    "cat": "Calendario y Contadores",
+    "pre": "はちがつ ",
+    "u": "二十日",
+    "post": " に くにへ かえります。",
+    "opts": [
+      "にじゅうにち",
+      "はたち",
+      "はつか",
+      "ふつか"
+    ],
+    "ans": 2,
+    "es": "El 20 de agosto vuelvo a mi país.",
+    "tip": "Día 20 del mes = はつか (hatsuka). No confundir con 20 años de edad = はたち (hatachi)."
+  },
+  {
+    "id": 59,
+    "cat": "Calendario y Contadores",
+    "pre": "えんぴつを ",
+    "u": "三本",
+    "post": " かいました。",
+    "opts": [
+      "さんほん",
+      "さんぽん",
+      "さんぼん",
+      "みほん"
+    ],
+    "ans": 2,
+    "es": "Compré tres lápices.",
+    "tip": "Contador 〜本 (objetos largos): 1=いっぽん, 3=さんぼん, 6=ろっぽん, 8=はっぽん, 10=じゅっぽん, ¿cuántos?=なんぼん."
+  },
+  {
+    "id": 60,
+    "cat": "Calendario y Contadores",
+    "pre": "コーヒーを ",
+    "u": "一杯",
+    "post": " ください。",
+    "opts": [
+      "いちはい",
+      "いっぱい",
+      "いちばい",
+      "いっばい"
+    ],
+    "ans": 1,
+    "es": "Un café (una taza), por favor.",
+    "tip": "Contador 〜杯 (vasos/tazas) sonoriza igual que 〜本: 1=いっぱい, 3=さんばい, 6=ろっぱい."
+  },
+  {
+    "id": 61,
+    "cat": "Calendario y Contadores",
+    "pre": "くつ うりばは ",
+    "u": "三階",
+    "post": " です。",
+    "opts": [
+      "さんかい",
+      "さんがい",
+      "みかい",
+      "さっかい"
+    ],
+    "ans": 1,
+    "es": "La sección de zapatos está en el tercer piso.",
+    "tip": "¡Trampa clásica! 3er piso (三階) es さんがい (y ¿qué piso? なんがい). En cambio 3 veces (三回) es さんかい limpio."
+  },
+  {
+    "id": 62,
+    "cat": "Calendario y Contadores",
+    "pre": "いぬが ",
+    "u": "三匹",
+    "post": " います。",
+    "opts": [
+      "さんひき",
+      "さんぴき",
+      "さんびき",
+      "みひき"
+    ],
+    "ans": 2,
+    "es": "Hay tres perros.",
+    "tip": "Contador 〜匹 (animales pequeños): 1=いっぴき, 3=さんびき, 6=ろっぴき, 8=はっぴき."
+  },
+  {
+    "id": 63,
+    "cat": "Calendario y Contadores",
+    "pre": "ワイシャツを ",
+    "u": "（　）",
+    "post": " かいました。（2 camisas）",
+    "opts": [
+      "にほん",
+      "にさつ",
+      "にまい",
+      "にだい"
+    ],
+    "ans": 2,
+    "es": "Compré dos camisas de vestir.",
+    "tip": "Cosas planas (papel, camisas, platos, boletos, fotos) siempre usan 〜枚 (まい, sin excepciones fonéticas)."
+  },
+  {
+    "id": 64,
+    "cat": "Calendario y Contadores",
+    "pre": "としょかんで ほんを ",
+    "u": "（　）",
+    "post": " かりました。（3 libros）",
+    "opts": [
+      "さんぼん",
+      "さんさつ",
+      "さんまい",
+      "さんだい"
+    ],
+    "ans": 1,
+    "es": "Pedí prestados tres libros en la biblioteca.",
+    "tip": "Libros, revistas y cuadernos usan 〜冊 (さつ). Máquinas/autos usan 〜台 (だい)."
+  },
+  {
+    "id": 65,
+    "cat": "Calendario y Contadores",
+    "pre": "Trampa Katakana: ¿Cuál es la escritura correcta de «camisa de vestir» (waishatsu)?",
+    "u": "（Katakana）",
+    "post": "",
+    "opts": [
+      "ワイシヤツ",
+      "ワイシャツ",
+      "ワインャツ",
+      "ワイシャシ"
+    ],
+    "ans": 1,
+    "es": "ワイシャツ (waishatsu = camisa de vestir).",
+    "tip": "Truco visual de gotas: ツ (tsu) y ソ (so) caen de arriba hacia abajo; シ (shi) y ン (n) suben de abajo como una sonrisa."
+  }
+]

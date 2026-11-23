@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>JLPT N5 Studio — Vocabulario, Kanji Examen y Sprint 5 min</title>
+  <title>JLPT N5 Studio v2.0 — Todo lo que entra en el examen N5</title>
   <style>
     :root {
       --bg: #F5F3EC;
@@ -477,7 +477,7 @@
       padding: 13px 16px;
       margin-bottom: 16px;
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(4, 1fr);
       gap: 10px;
     }
     @media (max-width: 560px) {
@@ -809,6 +809,89 @@
       to { opacity: 1; transform: translateY(0); }
     }
     .pop { animation: popIn 0.2s ease-out; }
+    /* Biblioteca N5 */
+    .search-input {
+      width: 100%;
+      padding: 10px 14px;
+      border-radius: 11px;
+      border: 1.5px solid var(--border);
+      background: var(--surface-soft);
+      color: var(--text);
+      font-size: 14px;
+      font-family: inherit;
+      outline: none;
+    }
+    .search-input:focus { border-color: var(--primary); }
+    .lib-details {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+    }
+    .lib-summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 14.5px;
+      background: var(--surface);
+      transition: background 0.15s ease;
+    }
+    .lib-summary::-webkit-details-marker { display: none; }
+    .lib-summary:hover { background: var(--surface-soft); }
+    .lib-body {
+      padding: 4px 16px 16px;
+      border-top: 1px solid var(--border);
+      font-size: 13.5px;
+      line-height: 1.6;
+    }
+    .lib-h3 { font-size: 15px; font-weight: 800; color: var(--primary); margin: 16px 0 8px; }
+    .lib-h4 { font-size: 13.5px; font-weight: 800; color: var(--amber); margin: 12px 0 6px; }
+    .lib-p { margin: 8px 0; color: var(--text); }
+    .lib-list { margin: 8px 0; padding-left: 20px; }
+    .lib-list li { margin: 5px 0; }
+    .lib-code {
+      background: var(--bg-subtle);
+      padding: 1px 5px;
+      border-radius: 5px;
+      font-size: 12.5px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    }
+    .lib-table-wrap { overflow-x: auto; margin: 10px 0; border-radius: 10px; border: 1px solid var(--border); }
+    .lib-table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    .lib-table th {
+      background: var(--primary);
+      color: #FFF;
+      text-align: left;
+      padding: 8px 10px;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .lib-table td {
+      padding: 7px 10px;
+      border-top: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .lib-table tbody tr:nth-child(even) { background: var(--surface-soft); }
+    .gmode-tab {
+      border: 1px solid var(--border);
+      background: var(--surface-soft);
+      color: var(--text-muted);
+      border-radius: 10px;
+      padding: 6px 12px;
+      font-size: 12.5px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .gmode-tab:hover { border-color: var(--border-strong); color: var(--text); }
+    .gmode-tab.active { background: var(--primary); border-color: var(--primary); color: #FFF; }
+
   </style>
 </head>
 <body>
@@ -821,7 +904,7 @@
         <span class="brand-seal jp">五</span>
         <div>
           <h1 class="brand-title">JLPT N5 Studio</h1>
-          <p id="sourceSubtitle" class="brand-sub">644 palabras · 72 Kanji Examen · 100% portable y offline</p>
+          <p id="sourceSubtitle" class="brand-sub">v2.0 · 644 palabras · 72 Kanji · 65 Gramática · 3 Guías completas</p>
         </div>
       </div>
 
@@ -853,8 +936,14 @@
         <button id="btnSectionKanji" type="button" class="sec-btn">
           漢 Kanji Examen <span id="kanjiTotalBadge" class="cnt">(72)</span>
         </button>
+        <button id="btnSectionGrammar" type="button" class="sec-btn">
+          🧩 Gramática <span id="grammarTotalBadge" class="cnt">(65)</span>
+        </button>
         <button id="btnSectionSprint" type="button" class="sec-btn">
           ⏱️ Sprint 5 min
+        </button>
+        <button id="btnSectionLibrary" type="button" class="sec-btn">
+          📖 Biblioteca N5
         </button>
       </div>
 
@@ -926,6 +1015,10 @@
         <div class="prog-row">
           <div class="prog-head"><span>Kanji Examen (Mondai 1 y 2)</span><span id="pKanjiTxt">0 / 72 (0%)</span></div>
           <div class="pbar-track"><div id="pKanjiBar" class="pbar-fill" style="width:0%"></div></div>
+        </div>
+        <div class="prog-row">
+          <div class="prog-head"><span>Gramática, Partículas y Negación</span><span id="pGrammarTxt">0 / 65 (0%)</span></div>
+          <div class="pbar-track"><div id="pGrammarBar" class="pbar-fill" style="width:0%"></div></div>
         </div>
 
         <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding-top:4px;">
@@ -1012,6 +1105,10 @@
         <div>
           <div class="verb-k">Forma TE (て)</div>
           <div id="verbTeVal" class="verb-v jp"></div>
+        </div>
+        <div>
+          <div class="verb-k">Forma NAI (ない)</div>
+          <div id="verbNaiVal" class="verb-v jp"></div>
         </div>
       </div>
 
@@ -1192,10 +1289,11 @@
       <div style="margin-top:16px;">
         <div class="ctrl-label" style="margin-bottom:8px;">2. ¿Qué querés practicar?</div>
         <div class="tab-row">
-          <button data-sfocus="mixed" type="button" class="sprint-chip active">Mixto (Vocab + Kanji)</button>
+          <button data-sfocus="mixed" type="button" class="sprint-chip active">Mixto Total (Vocab + Kanji + Gramática)</button>
           <button data-sfocus="vocab" type="button" class="sprint-chip">Solo Vocabulario</button>
           <button data-sfocus="verbs_adjs" type="button" class="sprint-chip">Verbos y Adjetivos</button>
           <button data-sfocus="kanji" type="button" class="sprint-chip">Solo Kanji Examen</button>
+          <button data-sfocus="grammar" type="button" class="sprint-chip">Solo Gramática</button>
         </div>
       </div>
 
@@ -1259,6 +1357,7 @@
           <div><div class="verb-k">Grupo</div><div id="sVerbGroup" class="verb-v"></div></div>
           <div><div class="verb-k">Diccionario</div><div id="sVerbDict" class="verb-v jp"></div></div>
           <div><div class="verb-k">Forma TE</div><div id="sVerbTe" class="verb-v jp"></div></div>
+          <div><div class="verb-k">Forma NAI</div><div id="sVerbNai" class="verb-v jp"></div></div>
         </div>
 
         <div id="sKanjiDisplay" class="sentence-stage hidden">
@@ -1303,8 +1402,134 @@
     </section>
   </main>
 
+
+  <!-- =================================================================== -->
+  <!-- SECTION 4: GRAMÁTICA, PARTÍCULAS, NEGACIÓN Y CONTADORES (65)        -->
+  <!-- =================================================================== -->
+  <main id="sectionGrammar" class="container stack hidden">
+    <section class="card">
+      <div class="tab-row" role="tablist" aria-label="Categoría de Gramática">
+        <button data-gmode="all" type="button" class="gmode-tab active">Todo <span id="gCountAll">(65)</span></button>
+        <button data-gmode="Partículas" type="button" class="gmode-tab">Partículas <span id="gCountPart">(17)</span></button>
+        <button data-gmode="Negación y Verbos" type="button" class="gmode-tab">Negación y Verbos <span id="gCountNeg">(22)</span></button>
+        <button data-gmode="Paráfrasis y Lógica" type="button" class="gmode-tab">Paráfrasis y Lógica <span id="gCountPara">(14)</span></button>
+        <button data-gmode="Calendario y Contadores" type="button" class="gmode-tab">Calendario y Contadores <span id="gCountCal">(12)</span></button>
+        <button data-gmode="mistakes" type="button" class="gmode-tab">Errores <span id="gCountMistakes">(0)</span></button>
+      </div>
+      <div class="controls-row">
+        <div class="ctrl-group">
+          <span class="ctrl-label">Estilo examen JLPT N5 · Partículas, 〜ない, Mondai 4 y Contadores</span>
+        </div>
+        <div class="ctrl-group">
+          <label for="selectGrammarRound" class="ctrl-label">Ronda:</label>
+          <select id="selectGrammarRound">
+            <option value="10">10</option>
+            <option value="15" selected>15</option>
+            <option value="30">30</option>
+            <option value="0">Infinito</option>
+          </select>
+          <button id="btnGrammarRestart" type="button" class="btn btn-ghost">↻ Reiniciar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats-grid">
+      <div class="stat-box"><div class="stat-lbl">Pregunta</div><div id="gStatProgress" class="stat-val primary">1 / 15</div></div>
+      <div class="stat-box"><div class="stat-lbl">Aciertos</div><div id="gStatScore" class="stat-val ok">0</div></div>
+      <div class="stat-box"><div class="stat-lbl">Racha</div><div id="gStatStreak" class="stat-val amber">0 🔥</div></div>
+      <div class="stat-box"><div class="stat-lbl">Precisión</div><div id="gStatAccuracy" class="stat-val">—</div></div>
+    </section>
+
+    <div class="pbar-track"><div id="gProgressBar" class="pbar-fill" style="width:6%"></div></div>
+
+    <section id="grammarCard" class="card card-lg pop">
+      <div class="meta-row">
+        <div class="badge-group">
+          <span id="gBoxNum" class="exam-box-num">1</span>
+          <span id="gCatBadge" class="badge badge-blue">Partículas</span>
+        </div>
+        <span class="badge">JLPT N5 Gramática</span>
+      </div>
+
+      <div class="sentence-stage">
+        <p id="gSentence" class="sentence-jp jp"></p>
+        <p id="gSentenceEs" class="sentence-es hidden"></p>
+      </div>
+
+      <div id="gOptionsGrid" class="options-grid"></div>
+
+      <div id="gFeedbackArea" class="hidden pop">
+        <div class="feedback-bar">
+          <div id="gFeedbackText"></div>
+          <button id="btnGrammarNext" type="button" class="btn btn-primary">Siguiente →</button>
+        </div>
+        <div class="tip-box jp">
+          <strong>💡 Regla de examen: </strong><span id="gTipText"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="gEmptyCard" class="card card-lg hidden" style="text-align:center;">
+      <div style="font-size:34px;">✨</div>
+      <h2 id="gEmptyTitle" style="margin:8px 0 6px;">¡Sin errores de Gramática todavía!</h2>
+      <p id="gEmptyMsg" style="color:var(--text-muted);font-size:14px;margin:0 0 16px;">Cada regla o partícula que falles va a quedar guardada acá para repasarla.</p>
+      <button id="btnGrammarBackAll" type="button" class="btn btn-primary">Volver a Toda la Gramática</button>
+    </section>
+
+    <section id="gSummaryCard" class="card card-lg hidden pop">
+      <div style="text-align:center;">
+        <div id="gSumEmoji" style="font-size:40px;">🧩</div>
+        <h2 style="margin:6px 0 4px;">¡Ronda de Gramática completada!</h2>
+        <p id="gSumSubtitle" style="margin:0;color:var(--text-muted);font-size:14px;"></p>
+      </div>
+      <div class="sum-grid">
+        <div class="sum-card"><div class="stat-lbl">Aciertos</div><div id="gSumCorrect" class="sum-num" style="color:var(--ok);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Errores</div><div id="gSumWrong" class="sum-num" style="color:var(--bad);">0</div></div>
+        <div class="sum-card"><div class="stat-lbl">Mejor racha</div><div id="gSumBestStreak" class="sum-num" style="color:var(--amber);">0</div></div>
+      </div>
+      <div id="gSumMistakesWrap" class="hidden" style="margin-bottom:16px;">
+        <div class="stat-lbl" style="margin-bottom:8px;">Reglas para repasar</div>
+        <div id="gSumMistakesList" class="mistakes-list"></div>
+      </div>
+      <div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;">
+        <button id="btnGrammarPracticeMistakes" type="button" class="btn btn-amber hidden">Repasar errores</button>
+        <button id="btnGrammarNewRound" type="button" class="btn btn-primary">Nueva ronda</button>
+      </div>
+    </section>
+
+    <footer class="footer-hint">Gramática y Partículas JLPT N5 · Teclas <kbd>1</kbd>–<kbd>4</kbd> y <kbd>Enter</kbd></footer>
+  </main>
+
+  <!-- =================================================================== -->
+  <!-- SECTION 5: BIBLIOTECA N5 (Las 3 guías completas + buscador)         -->
+  <!-- =================================================================== -->
+  <main id="sectionLibrary" class="container stack hidden">
+    <section class="card stack" style="gap:12px;">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;">
+        <div>
+          <h2 style="margin:0;font-size:18px;">📖 Biblioteca Completa JLPT N5</h2>
+          <p style="margin:2px 0 0;font-size:12.5px;color:var(--text-muted);">Las 3 guías maestras íntegras sin omisiones (verbos, kanjis, partículas, calendario y trampas).</p>
+        </div>
+        <button id="btnToggleAllLib" type="button" class="btn btn-ghost">Expandir / Contraer todo</button>
+      </div>
+
+      <input id="libSearchInput" type="search" class="search-input jp" placeholder="Buscar cualquier kanji, partícula o regla (ej: に, はたち, あまり, 買, 切る, 両親)..." />
+
+      <div class="tab-row">
+        <button data-libguide="ALL" type="button" class="sprint-chip active">Todas las guías (3)</button>
+        <button data-libguide="vocab" type="button" class="sprint-chip">1. Vocabulario y Verbos</button>
+        <button data-libguide="kanji" type="button" class="sprint-chip">2. Kanji y Trucos</button>
+        <button data-libguide="gramatica" type="button" class="sprint-chip">3. Gramática y Partículas</button>
+      </div>
+    </section>
+
+    <div id="libContainer" class="stack"></div>
+  </main>
+
   <script>
     const DEFAULT_VOCAB = __VOCAB_JSON__;
+    const GRAMMAR_BANK = __GRAMMAR_JSON__;
+    const LIBRARY_SECTIONS = __LIBRARY_JSON__;
     const KANJI_BANK = __KANJI_JSON__;
     const EXAM_TIPS = __TIPS_JSON__;
 
@@ -1319,6 +1544,7 @@
     let progressStore = {
       masteredVocab: [],
       masteredKanji: [],
+      masteredGrammar: [],
       bestStreak: 0,
       totalCorrect: 0,
       totalWrong: 0,
@@ -1365,6 +1591,8 @@
           progressStore.masteredVocab.push(itemId);
         } else if (kind === 'kanji' && !progressStore.masteredKanji.includes(itemId)) {
           progressStore.masteredKanji.push(itemId);
+        } else if (kind === 'grammar' && !progressStore.masteredGrammar.includes(itemId)) {
+          progressStore.masteredGrammar.push(itemId);
         }
         if (currentStreakVal > progressStore.bestStreak) {
           progressStore.bestStreak = currentStreakVal;
@@ -1502,15 +1730,20 @@
       const map = {
         vocab: ['sectionVocab', 'btnSectionVocab'],
         kanji: ['sectionKanji', 'btnSectionKanji'],
-        sprint: ['sectionSprint', 'btnSectionSprint']
+        grammar: ['sectionGrammar', 'btnSectionGrammar'],
+        sprint: ['sectionSprint', 'btnSectionSprint'],
+        library: ['sectionLibrary', 'btnSectionLibrary']
       };
       for (const [key, [mId, bId]] of Object.entries(map)) {
         document.getElementById(mId).classList.toggle('hidden', key !== sec);
         document.getElementById(bId).classList.toggle('active', key === sec);
       }
-      document.getElementById('btnToggleReading').classList.toggle('hidden', sec === 'kanji');
+      document.getElementById('btnToggleReading').classList.toggle('hidden', sec !== 'vocab' && sec !== 'sprint');
       if (sec === 'kanji' && kQueue.length === 0 && !kCurrent) startKanjiRound();
-      if (sec === 'sprint' && !sprintRunning) updateSprintPreviewTip();
+      if (sec === 'grammar' && gQueue.length === 0 && !gCurrent) startGrammarRound();
+      if (sec === 'sprint' && !sprintRunning) updateGrammarCounts();
+    renderLibrary();
+    updateSprintPreviewTip();
     }
 
     function renderTipsModal() {
@@ -1561,6 +1794,7 @@
       setBar('pVerbsTxt', 'pVerbsBar', mVerbs, allVerbs.length);
       setBar('pAdjsTxt', 'pAdjsBar', mAdjs, allAdjs.length);
       setBar('pKanjiTxt', 'pKanjiBar', mK, totK);
+      setBar('pGrammarTxt', 'pGrammarBar', (progressStore.masteredGrammar || []).length, GRAMMAR_BANK.length);
 
       document.getElementById('btnAskResetProgress').classList.remove('hidden');
       document.getElementById('btnConfirmResetProgress').classList.add('hidden');
@@ -1753,6 +1987,7 @@
         document.getElementById('verbGroupVal').textContent = currentWord.vg || currentWord.t;
         document.getElementById('verbDictVal').textContent = currentWord.df;
         document.getElementById('verbTeVal').textContent = currentWord.te;
+        document.getElementById('verbNaiVal').textContent = currentWord.nai || '—';
       } else {
         verbBox.classList.add('hidden');
       }
@@ -2189,6 +2424,9 @@
       if (sprintFocus === 'mixed' || sprintFocus === 'kanji') {
         for (const q of KANJI_BANK) items.push({ kind: 'kanji', data: q });
       }
+      if (sprintFocus === 'mixed' || sprintFocus === 'grammar') {
+        for (const q of GRAMMAR_BANK) items.push({ kind: 'grammar', data: q });
+      }
       return shuffle(items);
     }
 
@@ -2286,6 +2524,7 @@
           document.getElementById('sVerbGroup').textContent = w.vg || w.t;
           document.getElementById('sVerbDict').textContent = w.df;
           document.getElementById('sVerbTe').textContent = w.te;
+          document.getElementById('sVerbNai').textContent = w.nai || '—';
         } else {
           vBox.classList.add('hidden');
         }
@@ -2306,8 +2545,13 @@
         vBox.classList.add('hidden');
         kDisp.classList.remove('hidden');
         extraBadge.className = 'badge hidden';
-        document.getElementById('sTypeBadge').className = q.m === 1 ? 'badge badge-blue' : 'badge badge-purple';
-        document.getElementById('sTypeBadge').textContent = q.m === 1 ? 'Kanji · Mondai 1' : 'Kanji · Mondai 2';
+        if (sprintCurrent.kind === 'grammar') {
+          document.getElementById('sTypeBadge').className = 'badge badge-ok';
+          document.getElementById('sTypeBadge').textContent = 'Gramática N5';
+        } else {
+          document.getElementById('sTypeBadge').className = q.m === 1 ? 'badge badge-blue' : 'badge badge-purple';
+          document.getElementById('sTypeBadge').textContent = q.m === 1 ? 'Kanji · Mondai 1' : 'Kanji · Mondai 2';
+        }
         document.getElementById('sSubBadge').textContent = q.cat;
 
         document.getElementById('sSentenceJp').innerHTML =
@@ -2348,7 +2592,7 @@
       const fbTxt = document.getElementById('sFeedbackText');
       fbBar.classList.remove('hidden');
 
-      if (sprintCurrent.kind === 'kanji') {
+      if (sprintCurrent.kind === 'kanji' || sprintCurrent.kind === 'grammar') {
         document.getElementById('sSentenceEs').classList.remove('hidden');
       }
 
@@ -2555,7 +2799,8 @@
       document.getElementById('btnCancelResetProgress').classList.add('hidden');
     });
     document.getElementById('btnConfirmResetProgress').addEventListener('click', () => {
-      progressStore = { masteredVocab: [], masteredKanji: [], bestStreak: 0, totalCorrect: 0, totalWrong: 0, dailyStreak: 0, lastPracticeDate: '' };
+      progressStore = { masteredVocab: [], masteredKanji: [],
+      masteredGrammar: [], bestStreak: 0, totalCorrect: 0, totalWrong: 0, dailyStreak: 0, lastPracticeDate: '' };
       saveProgress();
       renderProgressModal();
       showToast('Progreso reiniciado.');
@@ -2612,7 +2857,9 @@
     document.getElementById('btnSprintAgain').addEventListener('click', () => {
       document.getElementById('sprintSummaryCard').classList.add('hidden');
       document.getElementById('sprintSetupCard').classList.remove('hidden');
-      updateSprintPreviewTip();
+      updateGrammarCounts();
+    renderLibrary();
+    updateSprintPreviewTip();
     });
 
     // Keyboard shortcuts
@@ -2650,6 +2897,15 @@
           e.preventDefault();
           goKanjiNext();
         }
+      } else if (activeSection === 'grammar') {
+        if (document.getElementById('grammarCard').classList.contains('hidden')) return;
+        if (!gAnswered && ['1', '2', '3', '4'].includes(e.key)) {
+          e.preventDefault();
+          handleGrammarAnswer(parseInt(e.key, 10) - 1);
+        } else if (gAnswered && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          goGrammarNext();
+        }
       } else if (activeSection === 'sprint' && sprintRunning && !sprintPaused) {
         if (!sprintAnswered && ['1', '2', '3', '4'].includes(e.key)) {
           e.preventDefault();
@@ -2661,12 +2917,286 @@
       }
     });
 
+
+    // =========================================================================
+    // SECTION 4: GRAMÁTICA & PARTÍCULAS QUIZ
+    // =========================================================================
+    let gMode = 'all';
+    let gRoundSize = 15;
+    let gQueue = [];
+    let gIndex = 0;
+    let gCurrent = null;
+    let gShuffledOpts = [];
+    let gCorrectOptIdx = 0;
+    let gAnswered = false;
+    let gCorrect = 0;
+    let gWrong = 0;
+    let gStreak = 0;
+    let gRoundBestStreak = 0;
+    let gSessionMistakes = new Map();
+    let gRoundMistakes = [];
+
+    function getGrammarPool() {
+      if (gMode === 'mistakes') return Array.from(gSessionMistakes.values());
+      if (gMode === 'all') return GRAMMAR_BANK;
+      return GRAMMAR_BANK.filter(q => q.cat === gMode);
+    }
+
+    function updateGrammarCounts() {
+      document.getElementById('grammarTotalBadge').textContent = `(${GRAMMAR_BANK.length})`;
+      document.getElementById('gCountAll').textContent = `(${GRAMMAR_BANK.length})`;
+      document.getElementById('gCountPart').textContent = `(${GRAMMAR_BANK.filter(q => q.cat === 'Partículas').length})`;
+      document.getElementById('gCountNeg').textContent = `(${GRAMMAR_BANK.filter(q => q.cat === 'Negación y Verbos').length})`;
+      document.getElementById('gCountPara').textContent = `(${GRAMMAR_BANK.filter(q => q.cat === 'Paráfrasis y Lógica').length})`;
+      document.getElementById('gCountCal').textContent = `(${GRAMMAR_BANK.filter(q => q.cat === 'Calendario y Contadores').length})`;
+      document.getElementById('gCountMistakes').textContent = `(${gSessionMistakes.size})`;
+    }
+
+    function startGrammarRound() {
+      document.querySelectorAll('.gmode-tab').forEach(b => b.classList.toggle('active', b.dataset.gmode === gMode));
+      updateGrammarCounts();
+      const pool = getGrammarPool();
+      gCorrect = 0; gWrong = 0; gStreak = 0; gRoundBestStreak = 0; gRoundMistakes = []; gIndex = 0;
+      document.getElementById('gSummaryCard').classList.add('hidden');
+      if (pool.length === 0) {
+        document.getElementById('grammarCard').classList.add('hidden');
+        document.getElementById('gEmptyCard').classList.remove('hidden');
+        updateGrammarStatsUI();
+        return;
+      }
+      document.getElementById('gEmptyCard').classList.add('hidden');
+      document.getElementById('grammarCard').classList.remove('hidden');
+      const shuffled = shuffle(pool);
+      gQueue = gRoundSize > 0 ? shuffled.slice(0, Math.min(gRoundSize, shuffled.length)) : shuffled;
+      renderGrammarQuestion();
+    }
+
+    function updateGrammarStatsUI() {
+      const totalAns = gCorrect + gWrong;
+      const totalInRound = gRoundSize > 0 ? gQueue.length : 0;
+      if (gQueue.length === 0) {
+        document.getElementById('gStatProgress').textContent = '0 / 0';
+        document.getElementById('gProgressBar').style.width = '0%';
+      } else if (gRoundSize > 0) {
+        document.getElementById('gStatProgress').textContent = `${Math.min(gIndex + 1, totalInRound)} / ${totalInRound}`;
+        const pct = Math.round(((gAnswered ? gIndex + 1 : gIndex) / totalInRound) * 100);
+        document.getElementById('gProgressBar').style.width = `${Math.max(5, pct)}%`;
+      } else {
+        document.getElementById('gStatProgress').textContent = `#${totalAns + 1} · ∞`;
+        document.getElementById('gProgressBar').style.width = '100%';
+      }
+      document.getElementById('gStatScore').textContent = String(gCorrect);
+      document.getElementById('gStatStreak').textContent = `${gStreak} 🔥`;
+      document.getElementById('gStatAccuracy').textContent = totalAns > 0 ? `${Math.round((gCorrect / totalAns) * 100)}%` : '—';
+      document.getElementById('gCountMistakes').textContent = `(${gSessionMistakes.size})`;
+    }
+
+    function renderGrammarQuestion() {
+      if (gIndex >= gQueue.length) {
+        if (gRoundSize === 0) {
+          gQueue = shuffle(getGrammarPool());
+          gIndex = 0;
+        } else {
+          showGrammarSummary();
+          return;
+        }
+      }
+      gAnswered = false;
+      gCurrent = gQueue[gIndex];
+      const correctText = gCurrent.opts[gCurrent.ans];
+      gShuffledOpts = shuffle(gCurrent.opts);
+      gCorrectOptIdx = gShuffledOpts.indexOf(correctText);
+
+      document.getElementById('gBoxNum').textContent = String(gIndex + 1);
+      document.getElementById('gCatBadge').textContent = gCurrent.cat;
+      document.getElementById('gSentence').innerHTML =
+        `${escapeHtml(gCurrent.pre)}<span class="kanji-underline">${escapeHtml(gCurrent.u)}</span>${escapeHtml(gCurrent.post)}`;
+      const esEl = document.getElementById('gSentenceEs');
+      esEl.textContent = `«${gCurrent.es}»`;
+      esEl.classList.add('hidden');
+
+      const grid = document.getElementById('gOptionsGrid');
+      grid.innerHTML = '';
+      gShuffledOpts.forEach((optText, idx) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'option-btn';
+        btn.innerHTML = `<span class="opt-key">${idx + 1}</span><span class="opt-txt-jp jp">${escapeHtml(optText)}</span>`;
+        btn.addEventListener('click', () => handleGrammarAnswer(idx));
+        grid.appendChild(btn);
+      });
+      document.getElementById('gFeedbackArea').classList.add('hidden');
+      updateGrammarStatsUI();
+    }
+
+    function handleGrammarAnswer(selectedIdx) {
+      if (gAnswered || !gCurrent) return;
+      gAnswered = true;
+      const isCorrect = selectedIdx === gCorrectOptIdx;
+      const buttons = document.querySelectorAll('#gOptionsGrid button');
+      buttons.forEach((btn, idx) => {
+        btn.disabled = true;
+        if (idx === gCorrectOptIdx) btn.classList.add('correct');
+        else if (idx === selectedIdx && !isCorrect) btn.classList.add('wrong');
+        else btn.classList.add('dimmed');
+      });
+
+      document.getElementById('gSentenceEs').classList.remove('hidden');
+      document.getElementById('gFeedbackArea').classList.remove('hidden');
+      document.getElementById('gTipText').textContent = gCurrent.tip;
+      const fbText = document.getElementById('gFeedbackText');
+
+      if (isCorrect) {
+        gCorrect++;
+        gStreak++;
+        if (gStreak > gRoundBestStreak) gRoundBestStreak = gStreak;
+        if (gMode === 'mistakes') gSessionMistakes.delete(gCurrent.id);
+        playTone(true);
+        fbText.className = 'fb-ok';
+        fbText.textContent = gStreak >= 3 ? `¡Exacto! Racha de ${gStreak} 🔥` : '¡Correcto!';
+      } else {
+        gWrong++;
+        gStreak = 0;
+        gSessionMistakes.set(gCurrent.id, gCurrent);
+        gRoundMistakes.push(gCurrent);
+        playTone(false);
+        fbText.className = 'fb-bad jp';
+        fbText.textContent = `Regla clave — Correcta: ${gShuffledOpts[gCorrectOptIdx]}`;
+      }
+      recordPracticeOutcome('grammar', gCurrent.id, isCorrect, gStreak);
+      updateGrammarStatsUI();
+    }
+
+    function goGrammarNext() {
+      if (!gAnswered) return;
+      gIndex++;
+      renderGrammarQuestion();
+    }
+
+    function showGrammarSummary() {
+      document.getElementById('grammarCard').classList.add('hidden');
+      document.getElementById('gSummaryCard').classList.remove('hidden');
+      const total = gCorrect + gWrong;
+      const pct = total > 0 ? Math.round((gCorrect / total) * 100) : 0;
+      if (pct >= 80 && total >= 5) launchConfetti();
+
+      document.getElementById('gSumEmoji').textContent = pct >= 90 ? '🏆' : pct >= 70 ? '🧩' : '💪';
+      document.getElementById('gSumSubtitle').textContent = `Precisión del ${pct}% (${gCorrect} de ${total} correctas)`;
+      document.getElementById('gSumCorrect').textContent = String(gCorrect);
+      document.getElementById('gSumWrong').textContent = String(gWrong);
+      document.getElementById('gSumBestStreak').textContent = String(gRoundBestStreak);
+
+      const wrap = document.getElementById('gSumMistakesWrap');
+      const list = document.getElementById('gSumMistakesList');
+      const btnM = document.getElementById('btnGrammarPracticeMistakes');
+      if (gRoundMistakes.length > 0) {
+        wrap.classList.remove('hidden');
+        btnM.classList.remove('hidden');
+        btnM.textContent = `Repasar errores (${gSessionMistakes.size})`;
+        list.innerHTML = '';
+        for (const m of gRoundMistakes) {
+          const row = document.createElement('div');
+          row.className = 'mistake-item';
+          row.style.flexDirection = 'column';
+          row.style.alignItems = 'flex-start';
+          row.innerHTML = `
+            <div class="jp"><strong>${escapeHtml(m.pre + m.opts[m.ans] + m.post)}</strong></div>
+            <div style="font-size:12px;color:var(--text-muted);">${escapeHtml(m.es)}</div>
+            <div class="jp" style="font-size:12px;color:var(--amber);">💡 ${escapeHtml(m.tip)}</div>
+          `;
+          list.appendChild(row);
+        }
+      } else {
+        wrap.classList.add('hidden');
+        btnM.classList.add('hidden');
+      }
+      updateGrammarStatsUI();
+    }
+
+    // =========================================================================
+    // SECTION 5: BIBLIOTECA N5 (3 Guías completas con buscador instantáneo)
+    // =========================================================================
+    let libGuideFilter = 'ALL';
+    let libSearchQuery = '';
+    let libAllExpanded = false;
+
+    function renderLibrary() {
+      const container = document.getElementById('libContainer');
+      container.innerHTML = '';
+      const q = libSearchQuery.trim().toLowerCase();
+      const filtered = LIBRARY_SECTIONS.filter(s => {
+        if (libGuideFilter !== 'ALL' && s.guide !== libGuideFilter) return false;
+        if (q && !s.search.includes(q)) return false;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = '<div class="card" style="text-align:center;color:var(--text-muted);">No se encontraron secciones con ese término. Probá otra palabra (ej: に, はたち, 買, あまり).</div>';
+        return;
+      }
+
+      for (const sec of filtered) {
+        const det = document.createElement('details');
+        det.className = 'lib-details';
+        if (q || libAllExpanded || sec.id.endsWith('_2')) det.open = true;
+        det.innerHTML = `
+          <summary class="lib-summary">
+            <span><span class="badge" style="margin-right:8px;">${escapeHtml(sec.guideTitle.split('·')[0].trim())}</span><span class="jp">${escapeHtml(sec.title)}</span></span>
+            <span style="color:var(--text-soft);font-size:12px;">▾</span>
+          </summary>
+          <div class="lib-body">${sec.html}</div>
+        `;
+        container.appendChild(det);
+      }
+    }
+
+    // Grammar & Library Event Wiring
+    document.getElementById('btnSectionGrammar').addEventListener('click', () => switchSection('grammar'));
+    document.getElementById('btnSectionLibrary').addEventListener('click', () => switchSection('library'));
+
+    document.querySelectorAll('.gmode-tab').forEach(btn => {
+      btn.addEventListener('click', () => { gMode = btn.dataset.gmode; startGrammarRound(); });
+    });
+    document.getElementById('selectGrammarRound').addEventListener('change', (e) => {
+      gRoundSize = parseInt(e.target.value, 10);
+      startGrammarRound();
+    });
+    document.getElementById('btnGrammarRestart').addEventListener('click', startGrammarRound);
+    document.getElementById('btnGrammarNext').addEventListener('click', goGrammarNext);
+    document.getElementById('btnGrammarNewRound').addEventListener('click', startGrammarRound);
+    document.getElementById('btnGrammarPracticeMistakes').addEventListener('click', () => {
+      gMode = 'mistakes';
+      startGrammarRound();
+    });
+    document.getElementById('btnGrammarBackAll').addEventListener('click', () => {
+      gMode = 'all';
+      startGrammarRound();
+    });
+
+    document.querySelectorAll('[data-libguide]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        libGuideFilter = btn.dataset.libguide;
+        document.querySelectorAll('[data-libguide]').forEach(b => b.classList.toggle('active', b === btn));
+        renderLibrary();
+      });
+    });
+    document.getElementById('libSearchInput').addEventListener('input', (e) => {
+      libSearchQuery = e.target.value;
+      renderLibrary();
+    });
+    document.getElementById('btnToggleAllLib').addEventListener('click', () => {
+      libAllExpanded = !libAllExpanded;
+      document.querySelectorAll('#libContainer details').forEach(d => { d.open = libAllExpanded; });
+    });
+
     // Init
     loadProgress();
     document.getElementById('bestStreakGlobal').textContent = String(progressStore.bestStreak);
     renderTipsModal();
     startRound();
     updateKanjiCountsAndCats();
+    updateGrammarCounts();
+    renderLibrary();
     updateSprintPreviewTip();
   </script>
 </body>
